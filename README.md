@@ -1,1 +1,274 @@
-# netlas-dorks
+# Netlas dorks
+## About
+In this document, you will find dorks for the [Netlas.io](https://netlas.io/) search engine. They are divided into several categories, each dork also has a link by which you can immediately go to the query results. The [dork list from RedTeamGuide](https://redteamguides.com/tips_and_tricks.html) was taken as a basis, and processed in accordance with our syntax.
+If you find any inaccuracies, please feel free to send pull requests or write Issues.    
+
+*Note*: In some places, you will see two dorks. As a rule, this is done in order to duplicate the request made using the tag. In Netlas, the use of tags is possible starting with a Business subscription, so users of the Community, Community II, and Freelancer levels should take a closer look at the duplicate dorks.
+***
+## Contents
+- [General Searches](#general-searches)
+- [Iot, Routers and Security](#iot-routers-and-security);
+- [Communication](#communication);
+- [Remote Access](#remote-access);
+- [Storages and Databases](#storages-and-databases);
+- [Web Services](#web-services);
+- [Developing and Monitoring](#developing-and-monitoring);
+- [Other](#other).
+***
+## Dorks
+### General Searches
+- AMQP [[Search]](https://app.netlas.io/responses/?q=amqp%3A*&page=1&indices=)     
+ `amqp:*`
+- ASN [[Search]](https://app.netlas.io/whois/ip/?q=asn.name%3ACERN&page=1) [[Search]](https://app.netlas.io/whois/ip/?q=asn.number%3A513&page=1&indices=)    
+  In IP Whois Search:    
+ `asn.name:"asnName"`    
+ `asn.number:asnNumber`    
+- City [[Search]](https://app.netlas.io/responses/?q=geo.city%3ALondon&page=1&indices=)     
+ `geo.city:cityName`
+- Country [[Search]](https://app.netlas.io/responses/?q=geo.country%3AGB&page=1&indices=)     
+ `geo.country:countryName`
+- Directory Listings [[Search]](https://app.netlas.io/responses/?q=http.title%3A%22%2Findex%20of%2F%22&page=1&indices=)    
+ `http.title:"/index of/"`
+- DNS [[Search]](https://app.netlas.io/domains/?q=domain%3A*.netlas.io&page=1)    
+ In Domain Search tool:    
+ `domain:domainName`
+- FTP [[Search]](https://app.netlas.io/responses/?q=prot7%3Aftp&page=1&indices=)    
+ `prot7:ftp`
+- FTP Banner [[Search]](https://app.netlas.io/responses/?q=ftp.banner%3A%22ProFTPD%22&page=1&indices=)     
+ `ftp.banner:"bannerText"`
+- Modbus [[Search]](https://app.netlas.io/responses/?q=protocol%3Amodbus&page=1&indices=)    
+ `protocol:modbus`
+- Netbios [[Search]](https://app.netlas.io/responses/?q=protocol%3Anetbios&page=1&indices=)    
+ `protocol:netbios`
+- Redis [[Search]](https://app.netlas.io/responses/?q=protocol%3Aredis&page=1&indices=)    
+ `protocol:redis`
+- SMB [[Search]](https://app.netlas.io/responses/?q=prot7%3Asmb&page=1&indices=)    
+ `prot7:smb`
+- SMTP [[Search]](https://app.netlas.io/responses/?q=prot7%3Asmtp&page=1&indices=)    
+ `prot7:smtp`
+- SOCKS [[Search]](https://app.netlas.io/responses/?q=prot7%3Asocks&page=1&indices=)    
+ `prot7:socks`
+- SSH [[Search]](https://app.netlas.io/responses/?q=protocol%3Assh&page=1&indices=)    
+ `protocol:ssh`
+---
+### IoT, Routers and Security
+- All IoT [[Search]](https://app.netlas.io/responses/?q=tag.category%3A%22IoT%22&page=1&indices=)     
+ `tag.category:"IoT"`
+- Cisco [[Search]](https://app.netlas.io/responses/?q=tag.name:%22Cisco%22&indices=&page=1) [[Search]](https://app.netlas.io/responses/?q=tag.name:%22Cisco%22&indices=&page=1)    
+ `tag.name:"Cisco"`    
+ `http.favicon.hash_sha256:62a8461e328d5bace3780ff738d0b58f6502592c04afa564e0a8a792583a7bfb`    
+- DefectDojo [[Search]](https://app.netlas.io/responses/?q=http.title%3A%22DefectDojo%22&page=1&indices=)    
+ `http.title:"DefectDojo"`
+- DLink [[Search]](https://app.netlas.io/responses/?q=tag.name%3A%22dlink%22&page=1&indices=) [[Search]](https://app.netlas.io/responses/?indices=&page=1&q=http.favicon.hash_sha256%3A81adccffbd70a76e9662977e7b55938e7eec597ac8b58e5a564959e6d465deec)    
+ `tag.name:"dlink"`    
+ `http.favicon.hash_sha256:81adccffbd70a76e9662977e7b55938e7eec597ac8b58e5a564959e6d465deec`    
+- Epson Linux [[Search]](https://app.netlas.io/responses/?q=http.headers.server%3A%22EPSON_Linux%20UpnP%22%20http.status_code%3A200&page=1&indices=)       
+ `http.headers.server:"EPSON_Linux UpnP" http.status_code:200`
+- FortiNet [[Search]](https://app.netlas.io/responses/?q=tag.name%3A%22fortinet%22&page=1) [[Search]](https://app.netlas.io/responses/?indices=&page=1&q=http.favicon.hash_sha256%3Ad18b3c9feb76c3c1cfdcc51c732f113327e3c33fb3f63b479951f7da6ed1216f)    
+ `tag.name:"fortinet"`    
+ `http.favicon.hash_sha256:d18b3c9feb76c3c1cfdcc51c732f113327e3c33fb3f63b479951f7da6ed1216f`
+- Home Assistant [[Search]](https://app.netlas.io/responses/?q=http.favicon.hash_sha256%3A892d336ba0b3ce7f94ebbcbe2fa5c3fcfdc79f25efcdc7a7e17918e85daaf9f0&page=1&indices=)     
+ `http.favicon.hash_sha256:892d336ba0b3ce7f94ebbcbe2fa5c3fcfdc79f25efcdc7a7e17918e85daaf9f0`
+- HP iLO [[Search]](https://app.netlas.io/responses/?q=tag.name%3A%22hp_ilo%22&page=1&indices=) [[Search]](http.favicon.hash_sha256:0c16db2ccec266761010fa53ad69e2f6aafbf6b3134730e1fa72f19daf93ed04)    
+ `tag.name:"hp_ilo"`    
+ `http.favicon.hash_sha256:0c16db2ccec266761010fa53ad69e2f6aafbf6b3134730e1fa72f19daf93ed04`
+- HP Printers [[Search]](https://app.netlas.io/responses/?q=http.headers.server%3A(%22HP%20HTTP%22%20%22Serial%20Number%22%20%22Built%22)&page=1&indices=)     
+- `http.headers.server:("HP HTTP" "Serial Number" "Built")`
+- IPSec [[Search]](https://app.netlas.io/responses/?q=(port%3A500%20OR%20port%3A4500%20OR%20port%3A1701)&page=1&indices=)    
+ `port:500 OR port:4500 OR port:1701`
+- Lexmark printers - [[Search]](https://app.netlas.io/responses/?q=http.headers.server%3A%22Lexmark%22&page=1&indices=)  
+ `http.headers.server:"Lexmark"`
+- Media servers [[Search]](https://app.netlas.io/responses/?q=tag.category%3A%22Media%20servers%22&page=1&indices=)     
+ `tag.category:"Media servers"`
+- Netgear [[Search]](https://app.netlas.io/responses/?q=tag.name%3A%22netgear%22&page=1&indices=) [[Search]](https://app.netlas.io/responses/?indices=&page=1&q=http.favicon.hash_sha256%3A3bfc11a176b9c8a39870478951fc177a3bc53c9fb689cdf5f80bff6a0c4c3c6b)    
+ `tag.name:"netgear"`     
+  `http.favicon.hash_sha256:3bfc11a176b9c8a39870478951fc177a3bc53c9fb689cdf5f80bff6a0c4c3c6b`
+- Nexus [[Search]](https://app.netlas.io/responses/?q=http.favicon.hash_sha256%3A9337dace49934010c4fdbb5c2c778c16f9e42bdb3da2ac476744dcc8705025c2&page=1&indices=)   
+ `http.favicon.hash_sha256:9337dace49934010c4fdbb5c2c778c16f9e42bdb3da2ac476744dcc8705025c2`
+- OpenCTI [[Search]](https://app.netlas.io/responses/?q=http.title%3A%22OpenCTI%22&page=1&indices=)    
+ `http.title:"OpenCTI"`
+- PRTG [[Search]](https://app.netlas.io/responses/?q=(http.body%3A%22PRTG%20Network%20Monitor%22)%20AND%20(http.headers.server%3A%22prtg%22)&page=1&indices=)    
+ `(http.body:"PRTG Network Monitor") AND (http.headers.server:"prtg")`
+- SecurePoint [[Search]](https://app.netlas.io/responses/?q=tag.name%3A%22securepoint%22&page=1) [[Search]](https://app.netlas.io/responses/?indices=&page=1&q=http.favicon.hash_sha256%3Aebaaed8ab7c21856f888117edaf342f6bc10335106ed907f95787b69878d9d9e)     
+ `tag.name:"securepoint"`     
+ `http.favicon.hash_sha256:ebaaed8ab7c21856f888117edaf342f6bc10335106ed907f95787b69878d9d9e`
+- Siemens [[Search]](https://app.netlas.io/responses/?q=http.favicon.hash_sha256%3A4f81d8e8df852d2ef27c4b1d9f211a505346ae12840a83db033db329750e7fdb&page=1&indices=)   
+ `http.favicon.hash_sha256:4f81d8e8df852d2ef27c4b1d9f211a505346ae12840a83db033db329750e7fdb`
+- SQ-WEBCAM [[Search]](https://app.netlas.io/responses/?q=http.headers.server%3A%22SQ-WEBCAM%22&page=1&indices=)     
+ `http.headers.server:"SQ-WEBCAM"`
+- TPLink [[Search]](https://app.netlas.io/responses/?q=tag.name%3A%22tplink%22&page=1&indices=) [[Search]](https://app.netlas.io/responses/?indices=&page=1&q=http.favicon.hash_sha256%3A9e803d05d8907cca1f7730f187707c25b0fb60f9e286e2957ab1e21cffdefde2)    
+ `tag.name:"tplink"`    
+ `http.favicon.hash_sha256:9e803d05d8907cca1f7730f187707c25b0fb60f9e286e2957ab1e21cffdefde2`   
+- YawCam [[Search]](https://app.netlas.io/responses/?q=http.headers.server%3A%22yawcam%22%20http.unknown_headers.key%3A%22mime_type%22%20http.unknown_headers.value%3A%22text%2Fhtml%22&page=1&indices=)    
+ `http.headers.server:"yawcam" http.unknown_headers.key:"mime_type" http.unknown_headers.value:"text/html"`
+- Wazuh [[Search]](https://app.netlas.io/responses/?q=http.title%3A%22Wazuh%22&page=1&indices=)    
+ `http.title:"Wazuh"`
+- Web cameras [[Search]](https://app.netlas.io/responses/?q=tag.category%3A%22Web%20cameras%22&page=1&indices=)     
+ `tag.category:"Web cameras"`
+- XEROX WorkCentre [[Search]]()     
+ `certificate.issuer.common_name:"Xerox Generic Root"`
+- XZERES Wind [[Search]](https://app.netlas.io/responses/?q=http.body%3A%22xzeres%20wind%22&page=1&indices=)     
+ `http.body:"xzeres wind"`
+***
+### Communication
+- Adobe Connect [[Search]](https://app.netlas.io/responses/?q=http.favicon.hash_sha256%3A65576e8c7a144d8f4530ee1f87f6157d3fc680a029409d874f529d05e60b9fa1&page=1&indices=)   
+ `http.favicon.hash_sha256:65576e8c7a144d8f4530ee1f87f6157d3fc680a029409d874f529d05e60b9fa1`
+- Gitter [[Search]](https://app.netlas.io/responses/?q=http.title%3A%22Gitter%22&page=1&indices=)   
+ `http.title:"Gitter"`
+- Mattermost [[Search]](https://app.netlas.io/responses/?q=http.title%3A%22mattermost%22&page=1&indices=)   
+ `http.title:"mattermost"`
+- Microsoft Exchange [[Search]](https://app.netlas.io/responses/?q=tag.name%3A%22microsoft_exchange%22&page=1&indices=)    
+ `tag.name:"microsoft_exchange"`
+- Microfost Teams [[Search]](https://app.netlas.io/responses/?q=http.favicon.hash_sha256%3A397eddf44e1bf7e557b0b4f5173da95d8fd832b6f2f10d6e41c17dc539d5a822&page=1&indices=)   
+ `http.favicon.hash_sha256:397eddf44e1bf7e557b0b4f5173da95d8fd832b6f2f10d6e41c17dc539d5a822`
+- RabbitMQ  [[Search]](https://app.netlas.io/responses/?q=tag.name%3A%22rabbitmq%22&page=1&indices=) [[Search]](https://app.netlas.io/responses/?indices=&page=1&q=http.favicon.hash_sha256%3A8c08be4e11537f793f06a9e6dd91aba52d43032b66d11f81fa5df7e452e52aa1)    
+ `tag.name:"rabbitmq"`    
+ `http.favicon.hash_sha256:8c08be4e11537f793f06a9e6dd91aba52d43032b66d11f81fa5df7e452e52aa1`
+- Rocket.Chat [[Search]](https://app.netlas.io/responses/?q=http.title%3A%22Rocket.Chat%22&page=1&indices=)    
+ `http.title:"Rocket.Chat"`
+- Roundcube [[Search]](https://app.netlas.io/responses/?q=tag.name%3A%22roundcube%22&page=1&indices=) [[Search]](https://app.netlas.io/responses/?indices=&page=1&q=http.favicon.hash_sha256%3A20c30fd4340308d6a4ab222acae353fc2460793ac76645bb1ef1d9d61f4f0a9e)  
+ `tag.name:"roundcube"`    
+ `http.favicon.hash_sha256:20c30fd4340308d6a4ab222acae353fc2460793ac76645bb1ef1d9d61f4f0a9e`
+- Skype for Business [[Search]](https://app.netlas.io/responses/?q=tag.name%3A%22skype%22%20AND%20http.title%3A%22Skype%20for%20Business%22&page=1&indices=) [[Search]]()    
+ `tag.name:"skype" AND http.title:"Skype for Business"`    
+ `http.favicon.hash_sha256:7d188ade5d6bc30a4d55e83a08f4e4bafe8f71ae5af2023fc87ed9767b7dda12 AND http.title:"Skype for Business"`
+- Zimbra [[Search]](https://app.netlas.io/responses/?q=tag.name%3A%22zimbra%22&page=1&indices=)   
+ `tag.name:"zimbra"`
+***
+### Remote Access
+- All remote access [[Search]](https://app.netlas.io/responses/?q=tag.category%3A%22Remote%20access%22&page=1&indices=)     
+ `tag.category:"Remote access"`
+- NoMachine [[Search]](https://app.netlas.io/responses/?q=(port%3A4000)%20OR%20(port%3A4010)%20OR%20(port%3A4011)%20OR%20(port%3A4022)&page=1&indices=)    
+ `(port:4000) OR (port:4010) OR (port:4011) OR (port:4022)`
+- SaltStack [[Search]](https://app.netlas.io/responses/?q=http.title%3A%22saltstack%22&page=1&indices=)    
+ `http.title:"saltstack"`
+- TeamViewer [[Search]](https://app.netlas.io/responses/?q=port%3A5938&page=1&indices=)    
+ `port:5938`
+- VNC [[Search]](https://app.netlas.io/responses/?q=prot7%3Avnc&page=1&indices=)    
+ `prot7:vnc`
+***
+### Storages and Databases
+- Apache Tomcat [[Search]](https://app.netlas.io/responses/?q=tag.name%3A%22apache_tomcat%22&page=1&indices=) [[Search]](https://app.netlas.io/responses/?indices=&page=1&q=http.favicon.hash_sha256%3A64a3170a912786e9eece7e347b58f36471cb9d0bc790697b216c61050e6b1f08)    
+ `tag.name:"apache_tomcat"`    
+ `http.favicon.hash_sha256:64a3170a912786e9eece7e347b58f36471cb9d0bc790697b216c61050e6b1f08`
+- Ceph [[Search]](https://app.netlas.io/responses/?q=http.favicon.hash_sha256%3A3db088b4089dee70dfd305a4e200dc72c9ad7d78ffd28ffe36608eaf46591bcd&page=1&indices=)    
+ `http.favicon.hash_sha256:3db088b4089dee70dfd305a4e200dc72c9ad7d78ffd28ffe36608eaf46591bcd`
+- CouchDB [[Search]](https://app.netlas.io/responses/?q=tag.name%3A%22couchdb%22&page=1&indices=) [[Search]](https://app.netlas.io/responses/?q=http.headers.server%3A%22CouchDB%22&page=1&indices=)    
+ `tag.name:"couchdb"`    
+ `http.headers.server:"CouchDB"`
+- InfluxDB [[Search]](https://app.netlas.io/responses/?q=http.title%3A%E2%80%9DInfluxDB%20Admin%E2%80%9D&page=1&indices=)    
+ `http.title:”InfluxDB Admin”`
+- Kubernetes [[Search]](https://app.netlas.io/responses/?indices=&page=1&q=http.favicon.hash_sha256%3Aa8576f89337c561e1128e490c6f9e074fc4069057acb8d164b62d4cb205248bc)    
+ `http.favicon.hash_sha256:a8576f89337c561e1128e490c6f9e074fc4069057acb8d164b62d4cb205248bc`
+- Memcached [[Search]](https://app.netlas.io/responses/?q=prot7%3Amemcached%20&page=1&indices=)    
+ `prot7:memcached`
+- MicrosoftSQL [[Search]](https://app.netlas.io/responses/?q=prot7%3Amssql&page=1&indices=)    
+ `prot7:mssql`
+- Minio [[Search]](https://app.netlas.io/responses/?q=http.title%3A%22Minio%22&page=1&indices=)    
+ `http.title:"Minio"`
+- Nextcloud [[Search]](https://app.netlas.io/responses/?q=http.favicon.hash_sha256%3Abea7d85401905c569359239339770d962854ccda24f134a76f492ab58ecde9f5&page=1&indices=)    
+ `http.favicon.hash_sha256:bea7d85401905c569359239339770d962854ccda24f134a76f492ab58ecde9f5`
+- OpenShift [[Search]](https://app.netlas.io/responses/?q=http.favicon.hash_sha256%3A28409a985f1f3322a58dc5d1af0e3f09efa5b7d193341b55b11a72711a55a3dc&page=1&indices=)    
+ `http.favicon.hash_sha256:28409a985f1f3322a58dc5d1af0e3f09efa5b7d193341b55b11a72711a55a3dc`
+- OpenStack [[Search]](https://app.netlas.io/responses/?q=http.favicon.hash_sha256%3A27b7287de853e2ea7d05cf5636d6b7c70b9fb65b2f4ce9e9fded1bb27921d839&page=1&indices=)    
+ `http.favicon.hash_sha256:27b7287de853e2ea7d05cf5636d6b7c70b9fb65b2f4ce9e9fded1bb27921d839`
+- phpmyadmin [[Search]](https://app.netlas.io/responses/?q=tag.name%3A%22phpmyadmin%22&page=1&indices=) [[Search]](https://app.netlas.io/responses/?indices=&page=1&q=http.favicon.hash_sha256%3Ae2905705920b2636309d785c2df3f155d6379b0aa9a44dc7831524505fa2defd)    
+ `tag.name:"phpmyadmin"`    
+ `http.favicon.hash_sha256:e2905705920b2636309d785c2df3f155d6379b0aa9a44dc7831524505fa2defd`
+- PostgreSQL [[Search]](https://app.netlas.io/responses/?q=prot7%3Apostgres&page=1&indices=)    
+ `prot7:postgres`
+- Vault [[Search]](https://app.netlas.io/responses/?q=http.title%3A%22Vault%22&page=1&indices=)    
+ `http.title:"Vault"`
+***
+### Web Services
+- Apache [[Search]](https://app.netlas.io/responses/?q=http.headers.server%3A%22apache%22&page=1&indices=)    
+ `http.headers.server:"apache"`
+- IIS [[Search]](https://app.netlas.io/responses/?q=tag.name%3A%22iis%22&page=1) [[Search]]()    
+ `tag.name:"iis"`    
+ `http.headers.server:"Microsoft-IIS"`
+- Nginx [[Search]](https://app.netlas.io/responses/?q=http.headers.server%3Anginx%20&page=1&indices=)    
+ `http.headers.server:"nginx"`
+- RDP [[Search]](https://app.netlas.io/responses/?q=port%3A3389&page=1&indices=)    
+ `port:3389`
+- SolarWinds [[Search]](https://app.netlas.io/responses/?q=tag.name%3A%22solarwinds_ftp%22&page=1&indices=) [[Search]](https://app.netlas.io/responses/?indices=&page=1&q=http.favicon.hash_sha256%3A2dbf88db1be0f1305a415b0455fe258627f56aa4b6b334130707a3b1adc6dba7)    
+ `tag.name:"solarwinds_ftp"`    
+ `http.favicon.hash_sha256:2dbf88db1be0f1305a415b0455fe258627f56aa4b6b334130707a3b1adc6dba7`
+- WordPress [[Search]](https://app.netlas.io/responses/?q=tag.name%3A%22wordpress%22&page=1&indices=) [[Search]](https://app.netlas.io/responses/?q=http.favicon.path%3A%22%2Fwp-content%2F%22&page=1&indices=)    
+ `tag.name:"wordpress"`    
+ `http.favicon.path:"/wp-content/"`
+***
+### Developing and Monitoring
+- Bamboo [[Search]](https://app.netlas.io/responses/?q=tag.name%3A%22atlassian_bamboo%22&page=1&indices=) [[Search]](https://app.netlas.io/responses/?indices=&page=1&q=http.favicon.hash_sha256%3A9fac9dadbd379126f3f81ba14e4e8d911362ec766e09226504121ee2758d0f64)    
+ `tag.name:"atlassian_bamboo"`    
+ `http.favicon.hash_sha256:9fac9dadbd379126f3f81ba14e4e8d911362ec766e09226504121ee2758d0f64`
+- Bugzilla [[Search]](https://app.netlas.io/responses/?q=tag.name%3A%22bugzilla%22&page=1&indices=) [[Search]](https://app.netlas.io/responses/?indices=&page=1&q=http.favicon.hash_sha256%3A92307d57240ad6473bf3aa757f185ee549469bb51363be2ea824fb03c7299bf2)    
+ `tag.name:"bugzilla"`    
+ `http.favicon.hash_sha256:92307d57240ad6473bf3aa757f185ee549469bb51363be2ea824fb03c7299bf2`
+- Drupal [[Search]](https://app.netlas.io/responses/?q=tag.name%3A%22drupal%22&page=1&indices=)    
+ `tag.name:"drupal"`
+- Grafana [[Search]](https://app.netlas.io/responses/?q=http.favicon.hash_sha256%3A80a7f87a79169cf0ac1ed3250d7c509368190a97bc7182cd4705deb8f8c70174%20AND%20http.title%3A%22Grafana%22&page=1&indices=)    
+ `http.favicon.hash_sha256:80a7f87a79169cf0ac1ed3250d7c509368190a97bc7182cd4705deb8f8c70174 AND http.title:"Grafana"`
+- Graylog [[Search]](https://app.netlas.io/responses/?q=http.favicon.hash_sha256%3A6d1c0130478d8645c82d039b270e7ca20e912b87489163bd5d9b1c1af95db7f8&page=1&indices=)    
+ `http.favicon.hash_sha256:6d1c0130478d8645c82d039b270e7ca20e912b87489163bd5d9b1c1af95db7f8`
+- Jenkins [[Search]](https://app.netlas.io/responses/?q=tag.name%3A%22jenkins%22&page=1&indices=) [[Search]](https://app.netlas.io/responses/?indices=&page=1&q=http.favicon.hash_sha256%3A4fec1ee82f0dc4a8e4e9bb26954cf54cf9bf1e6a009516cb6c49ff16924e8caa)    
+ `tag.name:"jenkins"`    
+ `http.favicon.hash_sha256:4fec1ee82f0dc4a8e4e9bb26954cf54cf9bf1e6a009516cb6c49ff16924e8caa`
+- Jira [[Search]](https://app.netlas.io/responses/?q=tag.name%3A%22atlassian_jira%22&page=1&indices=) [[Search]](https://app.netlas.io/responses/?q=http.favicon.hash_sha256%3A7bd6886a738297cd7bf2113d2cc3d898b9cad4079f336eb03fcd737549aea8a6%20OR%20http.favicon.hash_sha256%3A84f150bf0c8858f1eb6c1e7ccc86f3208cc5a59b496059892c3aff5e22992d27%20OR%20http.favicon.hash_sha256%3A181076e8983bc2c9fdff6d0548000cd78d1379e410f55648f2c40d6d893fa9fa&page=1&indices=)    
+ `tag.name:"atlassian_jira"`    
+ `http.favicon.hash_sha256:7bd6886a738297cd7bf2113d2cc3d898b9cad4079f336eb03fcd737549aea8a6 OR http.favicon.hash_sha256:84f150bf0c8858f1eb6c1e7ccc86f3208cc5a59b496059892c3aff5e22992d27 OR http.favicon.hash_sha256:181076e8983bc2c9fdff6d0548000cd78d1379e410f55648f2c40d6d893fa9fa`
+- Joomla [[Search]](https://app.netlas.io/responses/?q=tag.name%3A%22joomla%22&page=1&indices=)    
+ `tag.name:"joomla"`
+- Kafka [[Search]](https://app.netlas.io/responses/?q=http.title%3A%E2%80%9Dkafka%E2%80%9D%20OR%20http.title%3A%E2%80%9DApache%20Kafka%E2%80%9D%20OR%20http.body%3A%E2%80%9Dkafka%E2%80%9D%20OR%20http.body%3A%E2%80%9DApache%20Kafka%E2%80%9D&page=1&indices=)    
+ `http.title:”kafka” OR http.title:”Apache Kafka” OR http.body:”kafka” OR http.body:”Apache Kafka”`
+- Laravel [[Search]](https://app.netlas.io/responses/?q=tag.name%3A%22laravel%22&page=1&indices=)    
+ `tag.name:"laravel"`
+- ManageEngine ServiceDesk [[Search]](https://app.netlas.io/responses/?q=tag.name%3A%22manageengine_servicedesk%22&page=1&indices=)    
+ `tag.name:"manageengine_servicedesk"`
+- Nagios [[Search]](https://app.netlas.io/responses/?q=(http.favicon.hash_sha256%3A8b19d77c4a4ee2d846b1918a8c75c66fa1c3285a12b1d28950e1e6b817b237d4)%20OR%20(http.favicon.hash_sha256%3A57ff1068caf7d83d9c252ae26af5f833290b917945051a90cfc4b42e4e72ac13)&page=1&indices=)    
+ `(http.favicon.hash_sha256:8b19d77c4a4ee2d846b1918a8c75c66fa1c3285a12b1d28950e1e6b817b237d4) OR (http.favicon.hash_sha256:57ff1068caf7d83d9c252ae26af5f833290b917945051a90cfc4b42e4e72ac13)`
+- Node.js Express [[Search]](https://app.netlas.io/responses/?q=http.headers.x_powered_by%3A%22Express%22%20OR%20http.headres.set_cookie%3A%22connect.sid%22&page=1&indices=)    
+ `http.headers.x_powered_by:"Express" OR http.headres.set_cookie:"connect.sid"`
+- PandoraFMS [[Search]](https://app.netlas.io/responses/?q=http.favicon.hash_sha256%3A62d73ef206143e68ac686f08fc770db66aa84b21f320f4953af8bdbb6b9da50e&page=1&indices=)    
+ `http.favicon.hash_sha256:62d73ef206143e68ac686f08fc770db66aa84b21f320f4953af8bdbb6b9da50e`
+- Portainer [[Search]](https://app.netlas.io/responses/?indices=&page=1&q=http.favicon.hash_sha256%3A8170dab248310e6d887a088e75d72116e74ce99e91782e5dc0e3ff2cc4b63c3d)    
+ `http.favicon.hash_sha256:8170dab248310e6d887a088e75d72116e74ce99e91782e5dc0e3ff2cc4b63c3d`
+- Prometheus [[Search]](https://app.netlas.io/responses/?q=http.favicon.hash_sha256%3Ad72fc7b0bd1a4c1c4a016dfa4bfd594b2fb65a409575ec8f857864d4bdc658be&page=1&indices=)    
+ `http.favicon.hash_sha256:d72fc7b0bd1a4c1c4a016dfa4bfd594b2fb65a409575ec8f857864d4bdc658be`
+- Redmine [[Search]](https://app.netlas.io/responses/?q=tag.name%3A%22redmine%22&page=1&indices=) [[Search]](https://app.netlas.io/responses/?indices=&page=1&q=http.favicon.hash_sha256%3A5210ac65f141394a8540d408a9b56ed64c21c6b212cb28144c874f5715be9ed1)    
+ `tag.name:"redmine"`    
+ `http.favicon.hash_sha256:5210ac65f141394a8540d408a9b56ed64c21c6b212cb28144c874f5715be9ed1`
+- Sentry [[Search]](https://app.netlas.io/responses/?q=tag.name%3A%22sentry%22&page=1&indices=)    
+ `tag.name:"sentry"`
+- SonarQube [[Search]](https://app.netlas.io/responses/?q=tag.name%3A%22sonarqubes%22&page=1&indices=) [[Search]](https://app.netlas.io/responses/?indices=&page=1&q=http.favicon.hash_sha256%3Af04d7cdd55fe15c50e78457f366afa723587cf267c28b81cbcfe44248934a82b)    
+ `tag.name:"sonarqubes"`    
+ `http.favicon.hash_sha256:f04d7cdd55fe15c50e78457f366afa723587cf267c28b81cbcfe44248934a82b`
+- Swagger [[Search]](https://app.netlas.io/responses/?q=http.favicon.hash_sha256%3A3ed612f41e050ca5e7000cad6f1cbe7e7da39f65fca99c02e99e6591056e5837&page=1&indices=)    
+ `http.favicon.hash_sha256:3ed612f41e050ca5e7000cad6f1cbe7e7da39f65fca99c02e99e6591056e5837`
+- Symfony [[Search]](https://app.netlas.io/responses/?q=tag.name%3A%22symfony%22&page=1&indices=)    
+ `tag.name:"symfony"`
+- Terraform [[Search]](https://app.netlas.io/responses/?q=http.title%3A%22Terraform%20Enterprise%22&page=1&indices=)    
+ `http.title:"Terraform Enterprise"`
+- Zabbix [[Search]](https://app.netlas.io/responses/?q=tag.name%3A%22zabbix%22&page=1&indices=) [[Search]](https://app.netlas.io/responses/?indices=&page=1&q=http.favicon.hash_sha256%3A22b06a141c425c92951056805f46691c4cd8e7547ed90b8836a282950d4b4be2)
+ `tag.name:"zabbix"`    
+ `http.favicon.hash_sha256:22b06a141c425c92951056805f46691c4cd8e7547ed90b8836a282950d4b4be2`
+- Zend Framework [[Search]](https://app.netlas.io/responses/?q=http.headers.server%3A%22ZendServer%22%20OR%20http.headers.set_cookie%3A%22ZDEDebuggerPresent%22&page=1&indices=)    
+ `http.headers.server:"ZendServer" OR http.headers.set_cookie:"ZDEDebuggerPresent"`
+***
+### Other
+- Confluence [[Search]](https://app.netlas.io/responses/?q=tag.name%3A%22atlassian_confluence%22&page=1&indices=) [[Search]](https://app.netlas.io/responses/?indices=&page=1&q=http.favicon.hash_sha256%3A35998ea6b404f48cdaea65529793d93c19135974f6324bf1aabebce850e469bb)    
+ `tag.name:"atlassian_confluence"`    
+ `http.favicon.hash_sha256:35998ea6b404f48cdaea65529793d93c19135974f6324bf1aabebce850e469bb`
+- DokuWiki [[Search]](https://app.netlas.io/responses/?q=tag.name%3A%22dokuwiki%22&page=1&indices=) [[Search]](https://app.netlas.io/responses/?indices=&page=1&q=http.favicon.hash_sha256%3A3ca2c21f1821782f2b2a29b814b7aa240862014a35fdee54d23a72575fc16ec1)    
+ `tag.name:"dokuwiki"`    
+ `http.favicon.hash_sha256:3ca2c21f1821782f2b2a29b814b7aa240862014a35fdee54d23a72575fc16ec1`
+- Hadoop [[Search]](https://app.netlas.io/responses/?q=http.title%3A%22Hadoop%20Administration%22&page=1&indices=)    
+ `http.title:"Hadoop Administration"`
+- Splunkd [[Search]](https://app.netlas.io/responses/?q=tag.name%3A%22splunkd%22&page=1&indices=)    
+ `tag.name:"splunkd"`
+- VSphere [[Search]](https://app.netlas.io/responses/?indices=&page=1&q=http.favicon.hash_sha256%3A0e3b83492fe3d83d72a60b6fb194adb9afd04466268241f5ccf700278737f74d)    
+ `http.favicon.hash_sha256:0e3b83492fe3d83d72a60b6fb194adb9afd04466268241f5ccf700278737f74d`
+***
+
+## Follow us
+
+[Twitter](https://twitter.com/Netlas_io), [Telegram](https://t.me/netlas), [Medium](https://medium.com/@netlas), [Linkedin](https://www.linkedin.com/company/netlas-io/), [Facebook](https://www.facebook.com/Netlas.io)
