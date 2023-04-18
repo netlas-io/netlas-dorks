@@ -7,13 +7,13 @@ If you find any inaccuracies, please feel free to send pull requests or write Is
 ***
 ## Contents
 - [General Searches](#general-searches)
-- [Iot, Routers and Security](#iot-routers-and-security);
-- [Communication](#communication);
-- [Remote Access](#remote-access);
-- [Storages and Databases](#storages-and-databases);
-- [Web Services](#web-services);
-- [Developing and Monitoring](#developing-and-monitoring);
-- [Other](#other).
+- [Iot, Routers and Security](#iot-routers-and-security)
+- [Communication](#communication)
+- [Remote Access](#remote-access)
+- [Storages and Databases](#storages-and-databases)
+- [Web Services](#web-services)
+- [Developing and Monitoring](#developing-and-monitoring)
+- [Other](#other)
 ***
 ## Dorks
 ### General Searches
