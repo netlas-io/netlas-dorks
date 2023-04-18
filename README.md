@@ -261,6 +261,8 @@ If you find any inaccuracies, please feel free to send pull requests or write Is
 - DokuWiki [[Search]](https://app.netlas.io/responses/?q=tag.name%3A%22dokuwiki%22&page=1&indices=) [[Search]](https://app.netlas.io/responses/?indices=&page=1&q=http.favicon.hash_sha256%3A3ca2c21f1821782f2b2a29b814b7aa240862014a35fdee54d23a72575fc16ec1)    
  `tag.name:"dokuwiki"`    
  `http.favicon.hash_sha256:3ca2c21f1821782f2b2a29b814b7aa240862014a35fdee54d23a72575fc16ec1`
+ - GitLab [[Search]](https://app.netlas.io/responses/?q=http.favicon.hash_sha256%3A72a2cad5025aa931d6ea56c3201d1f18e68a8cd39788c7c80d5b2b82aa5143ef&page=1&indices=)    
+ `http.favicon.hash_sha256:72a2cad5025aa931d6ea56c3201d1f18e68a8cd39788c7c80d5b2b82aa5143ef`
 - Hadoop [[Search]](https://app.netlas.io/responses/?q=http.title%3A%22Hadoop%20Administration%22&page=1&indices=)    
  `http.title:"Hadoop Administration"`
 - Splunkd [[Search]](https://app.netlas.io/responses/?q=tag.name%3A%22splunkd%22&page=1&indices=)    
