@@ -119,7 +119,7 @@ If you find any inaccuracies, please feel free to send pull requests or write Is
  `http.title:"mattermost"`
 - Microsoft Exchange [[Search]](https://app.netlas.io/responses/?q=tag.name%3A%22microsoft_exchange%22&page=1&indices=)    
  `tag.name:"microsoft_exchange"`
-- Microfost Teams [[Search]](https://app.netlas.io/responses/?q=http.favicon.hash_sha256%3A397eddf44e1bf7e557b0b4f5173da95d8fd832b6f2f10d6e41c17dc539d5a822&page=1&indices=)   
+- Microsoft Teams [[Search]](https://app.netlas.io/responses/?q=http.favicon.hash_sha256%3A397eddf44e1bf7e557b0b4f5173da95d8fd832b6f2f10d6e41c17dc539d5a822&page=1&indices=)   
  `http.favicon.hash_sha256:397eddf44e1bf7e557b0b4f5173da95d8fd832b6f2f10d6e41c17dc539d5a822`
 - RabbitMQ  [[Search]](https://app.netlas.io/responses/?q=tag.name%3A%22rabbitmq%22&page=1&indices=) [[Search]](https://app.netlas.io/responses/?indices=&page=1&q=http.favicon.hash_sha256%3A8c08be4e11537f793f06a9e6dd91aba52d43032b66d11f81fa5df7e452e52aa1)    
  `tag.name:"rabbitmq"`    
