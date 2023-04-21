@@ -6,7 +6,7 @@ If you find any inaccuracies, please feel free to send pull requests or write Is
 *Note*: In some places, you will see two dorks. As a rule, this is done in order to duplicate the request made using the tag. In Netlas, the use of tags is possible starting with a Business subscription, so users of the Community, Community II, and Freelancer levels should take a closer look at the duplicate dorks.
 ***
 ## Contents
-- [2023 CVEs](#2023-cves)
+- [2023 CVEs](#2023-interesting-cves)
 - [General Searches](#general-searches)
 - [Iot, Routers and Security](#iot-routers-and-security)
 - [Communication](#communication)
@@ -17,7 +17,7 @@ If you find any inaccuracies, please feel free to send pull requests or write Is
 - [Other](#other)
 ***
 ## Dorks
-### 2023 CVEs
+### 2023 Interesting CVEs
 - CVE-2023-22620 (SecurePoiunt) [[Search]](https://app.netlas.io/responses/?indices=&page=1&q=http.favicon.hash_sha256%3Aebaaed8ab7c21856f888117edaf342f6bc10335106ed907f95787b69878d9d9e)    
 `http.favicon.hash_sha256:ebaaed8ab7c21856f888117edaf342f6bc10335106ed907f95787b69878d9d9e`    
 - CVE-2023-24411 (WordPress plugin) [[Search]](https://app.netlas.io/responses/?q=%28tag.name%3A%22wordpress%22%29%20AND%20%28prot7%3Ahttp%29%20AND%20%28http.body%3A%22wp-content%2Fplugins%2Fbne-testimonials%22%29&page=1&indices=)    
