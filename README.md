@@ -18,8 +18,18 @@ If you find any inaccuracies, please feel free to send pull requests or write Is
 ***
 ## Dorks
 ### 2023 CVEs
-- CVE-2023-27350 (PaperCut MF/NG, 9.8 rating) [[Search]](https://app.netlas.io/responses/?q=(http.title%3A%22PaperCut%20Login%22%20AND%20(http.description%3A%22PaperCut%20NG%22%20OR%20http.description%3A%22PaperCut%20MF%22))%20OR%20(http.favicon.perceptual_hash%3A3e7e66667e7c6000)&page=1&indices=)    
-`(http.title:"PaperCut Login" AND (http.description:"PaperCut NG" OR http.description:"PaperCut MF")) OR (http.favicon.perceptual_hash:3e7e66667e7c6000)`   
+- CVE-2023-24411 (WordPress plugin) [[Search]](https://app.netlas.io/responses/?q=%28tag.name%3A%22wordpress%22%29%20AND%20%28prot7%3Ahttp%29%20AND%20%28http.body%3A%22wp-content%2Fplugins%2Fbne-testimonials%22%29&page=1&indices=)    
+`(tag.name:"wordpress") AND (prot7:http) AND (http.body:"wp-content/plugins/bne-testimonials")`    
+- CVE-2023-22620 (SecurePoiunt) [[Search]](https://app.netlas.io/responses/?indices=&page=1&q=http.favicon.hash_sha256%3Aebaaed8ab7c21856f888117edaf342f6bc10335106ed907f95787b69878d9d9e)    
+`http.favicon.hash_sha256:ebaaed8ab7c21856f888117edaf342f6bc10335106ed907f95787b69878d9d9e`    
+- CVE-2023-25135 (vBulletin) [[Search]](https://app.netlas.io/responses/?q=tag.vbulletin.version%3A%3C%3D5.6.9&page=1&indices=)    
+`tag.vbulletin.version:<=5.6.9`    
+- CVE-2023-26359 (Adobe ColdFusion) [[Search]](https://app.netlas.io/responses/?q=tag.name%3A%22adobe_coldfusion%22&page=1)    
+`tag.name:"adobe_coldfusion"`
+- CVE-2023-27350 (PaperCut MF/NG) [[Search]](https://app.netlas.io/responses/?q=(http.title%3A%22PaperCut%20Login%22%20AND%20(http.description%3A%22PaperCut%20NG%22%20OR%20http.description%3A%22PaperCut%20MF%22))%20OR%20(http.favicon.perceptual_hash%3A3e7e66667e7c6000)&page=1&indices=)    
+`(http.title:"PaperCut Login" AND (http.description:"PaperCut NG" OR http.description:"PaperCut MF")) OR (http.favicon.perceptual_hash:3e7e66667e7c6000)` 
+- CVE-2023-28375 (Osprey Pumps) [[Search]](https://app.netlas.io/responses/?q=http.title%3A%28Osprey%20Controller%29&page=1&indices=)    
+`http.title:(Osprey Controller)`
 ***
 ### General Searches
 - AMQP [[Search]](https://app.netlas.io/responses/?q=amqp%3A*&page=1&indices=)     
