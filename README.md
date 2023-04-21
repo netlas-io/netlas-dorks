@@ -6,6 +6,7 @@ If you find any inaccuracies, please feel free to send pull requests or write Is
 *Note*: In some places, you will see two dorks. As a rule, this is done in order to duplicate the request made using the tag. In Netlas, the use of tags is possible starting with a Business subscription, so users of the Community, Community II, and Freelancer levels should take a closer look at the duplicate dorks.
 ***
 ## Contents
+- [2023 CVEs](#2023-cves)
 - [General Searches](#general-searches)
 - [Iot, Routers and Security](#iot-routers-and-security)
 - [Communication](#communication)
@@ -16,6 +17,10 @@ If you find any inaccuracies, please feel free to send pull requests or write Is
 - [Other](#other)
 ***
 ## Dorks
+### 2023 CVEs
+- CVE-2023-27350 (PaperCut MF/NG, 9.8 rating) [[Search]](https://app.netlas.io/responses/?q=(http.title%3A%22PaperCut%20Login%22%20AND%20(http.description%3A%22PaperCut%20NG%22%20OR%20http.description%3A%22PaperCut%20MF%22))%20OR%20(http.favicon.perceptual_hash%3A3e7e66667e7c6000)&page=1&indices=)    
+`(http.title:"PaperCut Login" AND (http.description:"PaperCut NG" OR http.description:"PaperCut MF")) OR (http.favicon.perceptual_hash:3e7e66667e7c6000)`   
+***
 ### General Searches
 - AMQP [[Search]](https://app.netlas.io/responses/?q=amqp%3A*&page=1&indices=)     
  `amqp:*`
@@ -86,7 +91,9 @@ If you find any inaccuracies, please feel free to send pull requests or write Is
 - Nexus [[Search]](https://app.netlas.io/responses/?q=http.favicon.hash_sha256%3A9337dace49934010c4fdbb5c2c778c16f9e42bdb3da2ac476744dcc8705025c2&page=1&indices=)   
  `http.favicon.hash_sha256:9337dace49934010c4fdbb5c2c778c16f9e42bdb3da2ac476744dcc8705025c2`
 - OpenCTI [[Search]](https://app.netlas.io/responses/?q=http.title%3A%22OpenCTI%22&page=1&indices=)    
- `http.title:"OpenCTI"`
+ `http.title:"OpenCTI"`    
+ - PaperCut MF/NG [[Search]](https://app.netlas.io/responses/?q=http.meta%3A%22PaperCut%20MF%22%20OR%20http.meta%3A%22PaperCut%20NG%22&page=1&indices=)    
+ `http.meta:"PaperCut MF" OR http.meta:"PaperCut NG"`    
 - PRTG [[Search]](https://app.netlas.io/responses/?q=(http.body%3A%22PRTG%20Network%20Monitor%22)%20AND%20(http.headers.server%3A%22prtg%22)&page=1&indices=)    
  `(http.body:"PRTG Network Monitor") AND (http.headers.server:"prtg")`
 - SecurePoint [[Search]](https://app.netlas.io/responses/?q=tag.name%3A%22securepoint%22&page=1) [[Search]](https://app.netlas.io/responses/?indices=&page=1&q=http.favicon.hash_sha256%3Aebaaed8ab7c21856f888117edaf342f6bc10335106ed907f95787b69878d9d9e)     
@@ -270,7 +277,6 @@ If you find any inaccuracies, please feel free to send pull requests or write Is
 - VSphere [[Search]](https://app.netlas.io/responses/?indices=&page=1&q=http.favicon.hash_sha256%3A0e3b83492fe3d83d72a60b6fb194adb9afd04466268241f5ccf700278737f74d)    
  `http.favicon.hash_sha256:0e3b83492fe3d83d72a60b6fb194adb9afd04466268241f5ccf700278737f74d`
 ***
-
 ## Follow us
 
 [Twitter](https://twitter.com/Netlas_io), [Telegram](https://t.me/netlas), [Medium](https://medium.com/@netlas), [Linkedin](https://www.linkedin.com/company/netlas-io/), [Facebook](https://www.facebook.com/Netlas.io)
