@@ -28,6 +28,8 @@ If you find any inaccuracies, please feel free to send pull requests or write Is
 `tag.name:"adobe_coldfusion"`
 - CVE-2023-27350 (PaperCut MF/NG) [[Search]](https://app.netlas.io/responses/?q=(http.title%3A%22PaperCut%20Login%22%20AND%20(http.description%3A%22PaperCut%20NG%22%20OR%20http.description%3A%22PaperCut%20MF%22))%20OR%20(http.favicon.perceptual_hash%3A3e7e66667e7c6000)&page=1&indices=)    
 `(http.title:"PaperCut Login" AND (http.description:"PaperCut NG" OR http.description:"PaperCut MF")) OR (http.favicon.perceptual_hash:3e7e66667e7c6000)` 
+- CVE-2023-27524 (Apache Superset) [[Search]](https://app.netlas.io/responses/?q=(http.title%3Asuperset%20http.body%3ASUPERSET_WEBSERVER*)%20OR%20http.favicon.hash_sha256%3Ae186603e51173d86bfc680eee24345d67c7a1d945a8e76dc4b218bbfabed666e&page=1&indices=)     
+`(http.title:superset http.body:SUPERSET_WEBSERVER*) OR http.favicon.hash_sha256:e186603e51173d86bfc680eee24345d67c7a1d945a8e76dc4b218bbfabed666e`
 - CVE-2023-28375 (Osprey Pumps) [[Search]](https://app.netlas.io/responses/?q=http.title%3A%28Osprey%20Controller%29&page=1&indices=)    
 `http.title:(Osprey Controller)`
 ***
@@ -215,6 +217,8 @@ If you find any inaccuracies, please feel free to send pull requests or write Is
  `http.favicon.path:"/wp-content/"`
 ***
 ### Developing and Monitoring
+- Apache Superset [[Search]](https://app.netlas.io/responses/?q=(http.title%3Asuperset%20http.body%3ASUPERSET_WEBSERVER*)%20OR%20http.favicon.hash_sha256%3Ae186603e51173d86bfc680eee24345d67c7a1d945a8e76dc4b218bbfabed666e&page=1&indices=)     
+`(http.title:superset http.body:SUPERSET_WEBSERVER*) OR http.favicon.hash_sha256:e186603e51173d86bfc680eee24345d67c7a1d945a8e76dc4b218bbfabed666e`    
 - Bamboo [[Search]](https://app.netlas.io/responses/?q=tag.name%3A%22atlassian_bamboo%22&page=1&indices=) [[Search]](https://app.netlas.io/responses/?indices=&page=1&q=http.favicon.hash_sha256%3A9fac9dadbd379126f3f81ba14e4e8d911362ec766e09226504121ee2758d0f64)    
  `tag.name:"atlassian_bamboo"`    
  `http.favicon.hash_sha256:9fac9dadbd379126f3f81ba14e4e8d911362ec766e09226504121ee2758d0f64`
