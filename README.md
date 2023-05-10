@@ -24,6 +24,8 @@ If you find any inaccuracies, please feel free to send pull requests or write Is
 `(tag.name:"wordpress") AND (prot7:http) AND (http.body:"wp-content/plugins/bne-testimonials")`    
 - CVE-2023-25135 (vBulletin) [[Search]](https://app.netlas.io/responses/?q=tag.vbulletin.version%3A%3C%3D5.6.9&page=1&indices=)    
 `tag.vbulletin.version:<=5.6.9`    
+- CVE-2023-25717 (Ruckus Wireless Admin) [[Search]](https://app.netlas.io/responses/?indices=&page=1&q=http.favicon.hash_sha256%3A44648ca99e1d18589d4b72b19156bf61117c09e311b9f26fa771d9acf5cf463f)     
+`http.favicon.hash_sha256:44648ca99e1d18589d4b72b19156bf61117c09e311b9f26fa771d9acf5cf463f`     
 - CVE-2023-26359 (Adobe ColdFusion) [[Search]](https://app.netlas.io/responses/?q=tag.name%3A%22adobe_coldfusion%22&page=1)    
 `tag.name:"adobe_coldfusion"`
 - CVE-2023-27350 (PaperCut MF/NG) [[Search]](https://app.netlas.io/responses/?q=(http.title%3A%22PaperCut%20Login%22%20AND%20(http.description%3A%22PaperCut%20NG%22%20OR%20http.description%3A%22PaperCut%20MF%22))%20OR%20(http.favicon.perceptual_hash%3A3e7e66667e7c6000)&page=1&indices=)    
