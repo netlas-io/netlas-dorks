@@ -109,7 +109,9 @@ If you find any inaccuracies, please feel free to send pull requests or write Is
  - PaperCut MF/NG [[Search]](https://app.netlas.io/responses/?q=http.meta%3A%22PaperCut%20MF%22%20OR%20http.meta%3A%22PaperCut%20NG%22&page=1&indices=)    
  `http.meta:"PaperCut MF" OR http.meta:"PaperCut NG"`    
 - PRTG [[Search]](https://app.netlas.io/responses/?q=(http.body%3A%22PRTG%20Network%20Monitor%22)%20AND%20(http.headers.server%3A%22prtg%22)&page=1&indices=)    
- `(http.body:"PRTG Network Monitor") AND (http.headers.server:"prtg")`
+ `(http.body:"PRTG Network Monitor") AND (http.headers.server:"prtg")`     
+ - Ruckus [[Search]](https://app.netlas.io/responses/?indices=&page=1&q=http.favicon.hash_sha256%3A44648ca99e1d18589d4b72b19156bf61117c09e311b9f26fa771d9acf5cf463f)     
+`http.favicon.hash_sha256:44648ca99e1d18589d4b72b19156bf61117c09e311b9f26fa771d9acf5cf463f`     
 - SecurePoint [[Search]](https://app.netlas.io/responses/?q=tag.name%3A%22securepoint%22&page=1) [[Search]](https://app.netlas.io/responses/?indices=&page=1&q=http.favicon.hash_sha256%3Aebaaed8ab7c21856f888117edaf342f6bc10335106ed907f95787b69878d9d9e)     
  `tag.name:"securepoint"`     
  `http.favicon.hash_sha256:ebaaed8ab7c21856f888117edaf342f6bc10335106ed907f95787b69878d9d9e`
