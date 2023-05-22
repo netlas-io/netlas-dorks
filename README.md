@@ -18,7 +18,7 @@ If you find any inaccuracies, please feel free to send pull requests or write Is
 ***
 ## Dorks
 ### 2023 Interesting CVEs
-- CVE-2023-20159,-20160,-20161,-20189 (Cisco Small Business Switches) [[Search]](https://app.netlas.io/responses/?q=http.favicon.perceptual_hash%3Affdb0113090009ff~1%20AND%20http.body%3A%22Small%20Business%22&page=1&indices=)    
+- CVE-2023-20159, -20160, -20161, -20189 (Cisco Small Business Switches) [[Search]](https://app.netlas.io/responses/?q=http.favicon.perceptual_hash%3Affdb0113090009ff~1%20AND%20http.body%3A%22Small%20Business%22&page=1&indices=)    
 `http.favicon.perceptual_hash:ffdb0113090009ff~1 AND http.body:"Small Business"`    
 - CVE-2023-22620 (SecurePoiunt) [[Search]](https://app.netlas.io/responses/?indices=&page=1&q=http.favicon.hash_sha256%3Aebaaed8ab7c21856f888117edaf342f6bc10335106ed907f95787b69878d9d9e)    
 `http.favicon.hash_sha256:ebaaed8ab7c21856f888117edaf342f6bc10335106ed907f95787b69878d9d9e`    
