@@ -80,6 +80,8 @@ If you find any inaccuracies, please feel free to send pull requests or write Is
 - Cisco [[Search]](https://app.netlas.io/responses/?q=tag.name:%22Cisco%22&indices=&page=1) [[Search]](https://app.netlas.io/responses/?q=tag.name:%22Cisco%22&indices=&page=1)    
  `tag.name:"Cisco"`    
  `http.favicon.hash_sha256:62a8461e328d5bace3780ff738d0b58f6502592c04afa564e0a8a792583a7bfb`    
+ - Cisco Small Business Switches [[Search]](https://app.netlas.io/responses/?q=http.favicon.perceptual_hash%3Affdb0113090009ff~1%20AND%20http.body%3A%22Small%20Business%22&page=1&indices=)    
+`http.favicon.perceptual_hash:ffdb0113090009ff~1 AND http.body:"Small Business"`    
 - DefectDojo [[Search]](https://app.netlas.io/responses/?q=http.title%3A%22DefectDojo%22&page=1&indices=)    
  `http.title:"DefectDojo"`
 - DLink [[Search]](https://app.netlas.io/responses/?q=tag.name%3A%22dlink%22&page=1&indices=) [[Search]](https://app.netlas.io/responses/?indices=&page=1&q=http.favicon.hash_sha256%3A81adccffbd70a76e9662977e7b55938e7eec597ac8b58e5a564959e6d465deec)    
