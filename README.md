@@ -137,7 +137,10 @@ If you find any inaccuracies, please feel free to send pull requests or write Is
 - XEROX WorkCentre [[Search]]()     
  `certificate.issuer.common_name:"Xerox Generic Root"`
 - XZERES Wind [[Search]](https://app.netlas.io/responses/?q=http.body%3A%22xzeres%20wind%22&page=1&indices=)     
- `http.body:"xzeres wind"`
+ `http.body:"xzeres wind"`    
+ - Zyxel ZyWALL [[Search]](https://app.netlas.io/responses/?page=1&q=tag.name%3A%22zyxel_zywall%22) [[Search]](https://app.netlas.io/responses/?indices=&page=1&q=http.favicon.hash_sha256%3A9a02f3cf948f9409c25070f2f057b69dda5d0aaf7fa8d056552e8bda8295ca1f)     
+ `tag.name:"zyxel_zywall"`    
+ `http.favicon.hash_sha256:9a02f3cf948f9409c25070f2f057b69dda5d0aaf7fa8d056552e8bda8295ca1f`    
 ***
 ### Communication
 - Adobe Connect [[Search]](https://app.netlas.io/responses/?q=http.favicon.hash_sha256%3A65576e8c7a144d8f4530ee1f87f6157d3fc680a029409d874f529d05e60b9fa1&page=1&indices=)   
