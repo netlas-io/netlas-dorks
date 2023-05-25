@@ -31,13 +31,17 @@ If you find any inaccuracies, please feel free to send pull requests or write Is
 - CVE-2023-25717 (Ruckus Wireless Admin) [[Search]](https://app.netlas.io/responses/?indices=&page=1&q=http.favicon.hash_sha256%3A44648ca99e1d18589d4b72b19156bf61117c09e311b9f26fa771d9acf5cf463f)     
 `http.favicon.hash_sha256:44648ca99e1d18589d4b72b19156bf61117c09e311b9f26fa771d9acf5cf463f`     
 - CVE-2023-26359 (Adobe ColdFusion) [[Search]](https://app.netlas.io/responses/?q=tag.name%3A%22adobe_coldfusion%22&page=1)    
-`tag.name:"adobe_coldfusion"`
+`tag.name:"adobe_coldfusion"`    
+- CVE-2023-2732 (Barracuda Email Security Gateway) [[Search]](https://app.netlas.io/responses/?q=http.headers.server%3A%22BarracudaHTTP%22&page=1&indices=)     
+`http.headers.server:"BarracudaHTTP"`     
 - CVE-2023-27350 (PaperCut MF/NG) [[Search]](https://app.netlas.io/responses/?q=(http.title%3A%22PaperCut%20Login%22%20AND%20(http.description%3A%22PaperCut%20NG%22%20OR%20http.description%3A%22PaperCut%20MF%22))%20OR%20(http.favicon.perceptual_hash%3A3e7e66667e7c6000)&page=1&indices=)    
 `(http.title:"PaperCut Login" AND (http.description:"PaperCut NG" OR http.description:"PaperCut MF")) OR (http.favicon.perceptual_hash:3e7e66667e7c6000)` 
 - CVE-2023-27524 (Apache Superset) [[Search]](https://app.netlas.io/responses/?q=(http.title%3Asuperset%20http.body%3ASUPERSET_WEBSERVER*)%20OR%20http.favicon.hash_sha256%3Ae186603e51173d86bfc680eee24345d67c7a1d945a8e76dc4b218bbfabed666e&page=1&indices=)     
 `(http.title:superset http.body:SUPERSET_WEBSERVER*) OR http.favicon.hash_sha256:e186603e51173d86bfc680eee24345d67c7a1d945a8e76dc4b218bbfabed666e`
 - CVE-2023-28375 (Osprey Pumps) [[Search]](https://app.netlas.io/responses/?q=http.title%3A%28Osprey%20Controller%29&page=1&indices=)    
-`http.title:(Osprey Controller)`
+`http.title:(Osprey Controller)`     
+- CVE-2023-2868 (Wordpress, MStore API) [[Search]](https://app.netlas.io/responses/?q=(tag.name%3A%22wordpress%22)%20AND%20(prot7%3Ahttp)%20AND%20(http.body%3A%22wp-content%2Fplugins%2Fmstore%22)&page=1&indices=)     
+`(tag.name:"wordpress") AND (prot7:http) AND (http.body:"wp-content/plugins/mstore")`
 ***
 ### General Searches
 - AMQP [[Search]](https://app.netlas.io/responses/?q=amqp%3A*&page=1&indices=)     
@@ -76,7 +80,9 @@ If you find any inaccuracies, please feel free to send pull requests or write Is
 ---
 ### IoT, Routers and Security
 - All IoT [[Search]](https://app.netlas.io/responses/?q=tag.category%3A%22IoT%22&page=1&indices=)     
- `tag.category:"IoT"`
+ `tag.category:"IoT"`     
+ - Barracuda [[Search]](https://app.netlas.io/responses/?q=http.headers.server%3A%22BarracudaHTTP%22&page=1&indices=)     
+ `http.headers.server:"BarracudaHTTP"`
 - Cisco [[Search]](https://app.netlas.io/responses/?q=tag.name:%22Cisco%22&indices=&page=1) [[Search]](https://app.netlas.io/responses/?q=tag.name:%22Cisco%22&indices=&page=1)    
  `tag.name:"Cisco"`    
  `http.favicon.hash_sha256:62a8461e328d5bace3780ff738d0b58f6502592c04afa564e0a8a792583a7bfb`    
