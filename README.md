@@ -100,7 +100,7 @@ If you find any inaccuracies, please feel free to send pull requests or write Is
  `http.favicon.hash_sha256:d18b3c9feb76c3c1cfdcc51c732f113327e3c33fb3f63b479951f7da6ed1216f`
 - Home Assistant [[Search]](https://app.netlas.io/responses/?q=http.favicon.hash_sha256%3A892d336ba0b3ce7f94ebbcbe2fa5c3fcfdc79f25efcdc7a7e17918e85daaf9f0&page=1&indices=)     
  `http.favicon.hash_sha256:892d336ba0b3ce7f94ebbcbe2fa5c3fcfdc79f25efcdc7a7e17918e85daaf9f0`
-- HP iLO [[Search]](https://app.netlas.io/responses/?q=tag.name%3A%22hp_ilo%22&page=1&indices=) [[Search](http.favicon.hash_sha256:0c16db2ccec266761010fa53ad69e2f6aafbf6b3134730e1fa72f19daf93ed04)    
+- HP iLO [[Search]](https://app.netlas.io/responses/?q=tag.name%3A%22hp_ilo%22&page=1&indices=) [[Search]](http.favicon.hash_sha256:0c16db2ccec266761010fa53ad69e2f6aafbf6b3134730e1fa72f19daf93ed04)    
  `tag.name:"hp_ilo"`    
  `http.favicon.hash_sha256:0c16db2ccec266761010fa53ad69e2f6aafbf6b3134730e1fa72f19daf93ed04`
 - HP Printers [[Search]](https://app.netlas.io/responses/?q=http.headers.server%3A(%22HP%20HTTP%22%20%22Serial%20Number%22%20%22Built%22)&page=1&indices=)     
