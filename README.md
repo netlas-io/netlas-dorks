@@ -28,6 +28,8 @@ If you find any inaccuracies, please feel free to send pull requests or write Is
 `(tag.name:"wordpress") AND (prot7:http) AND (http.body:"wp-content/plugins/bne-testimonials")`    
 - CVE-2023-25135 (vBulletin) [[Search]](https://app.netlas.io/responses/?q=tag.vbulletin.version%3A%3C%3D5.6.9&page=1&indices=)    
 `tag.vbulletin.version:<=5.6.9`    
+- CVE-2023-25157 (GeoServer) [[Search]](https://app.netlas.io/responses/?indices=&page=1&q=http.title%3A%22geoserver%22)      
+`http.title:"geoserver"`    
 - CVE-2023-25690 (Apache HTTP Server) [[Search]](https://app.netlas.io/responses/?q=tag.name%3A%22apache%22%20AND%20%28tag.apache.version%3A%3E%3D2.4.0%20AND%20tag.apache.version%3A%3C%3D2.4.55%29&page=1&indices=) [[Search]](https://app.netlas.io/responses/?q=http.headers.server%3A%22Apache%2F2.4.54%22%20OR%20http.headers.server%3A%22Apache%2F2.4.41%22%20OR%20http.headers.server%3A%22Apache%2F2.4.38%22%20OR%20http.headers.server%3A%22Apache%2F2.4.29%22%20OR%20http.headers.server%3A%22Apache%2F2.4.25%22%20OR%20http.headers.server%3A%22Apache%2F2.4.18%22%20OR%20http.headers.server%3A%22Apache%2F2.4.53%22%20OR%20http.headers.server%3A%22Apache%2F2.4.10%22%20OR%20http.headers.server%3A%22Apache%2F2.4.52%22%20OR%20http.headers.server%3A%22Apache%2F2.4.37%22%20OR%20http.headers.server%3A%22Apache%2F2.4.7%22%20OR%20http.headers.server%3A%22Apache%2F2.4.46%22&page=1&indices=)    
 `tag.name:"apache" AND (tag.apache.version:>=2.4.0 AND tag.apache.version:<=2.4.55)`    
 - CVE-2023-25717 (Ruckus Wireless Admin) [[Search]](https://app.netlas.io/responses/?indices=&page=1&q=http.favicon.hash_sha256%3A44648ca99e1d18589d4b72b19156bf61117c09e311b9f26fa771d9acf5cf463f)     
@@ -348,7 +350,9 @@ If you find any inaccuracies, please feel free to send pull requests or write Is
  `tag.name:"dokuwiki"`    
  `http.favicon.hash_sha256:3ca2c21f1821782f2b2a29b814b7aa240862014a35fdee54d23a72575fc16ec1`     
 - FTP without autorization [[Search]](https://app.netlas.io/responses/?q=port%3A21%20AND%20ftp.banner%3A%22230%22&page=1&indices=)     
- `port:21 AND ftp.banner:"230"`     
+`port:21 AND ftp.banner:"230"`     
+- GeoServer [[Search]](https://app.netlas.io/responses/?indices=&page=1&q=http.title%3A%22geoserver%22)     
+`http.title:"geoserver"`     
 - GitLab [[Search]](https://app.netlas.io/responses/?q=http.favicon.hash_sha256%3A72a2cad5025aa931d6ea56c3201d1f18e68a8cd39788c7c80d5b2b82aa5143ef&page=1&indices=)    
  `http.favicon.hash_sha256:72a2cad5025aa931d6ea56c3201d1f18e68a8cd39788c7c80d5b2b82aa5143ef`
 - Hadoop [[Search]](https://app.netlas.io/responses/?q=http.title%3A%22Hadoop%20Administration%22&page=1&indices=)    
