@@ -99,7 +99,7 @@ If you find any inaccuracies, please feel free to send pull requests or write Is
 - DLink [[Search]](https://app.netlas.io/responses/?q=tag.name%3A%22dlink%22&page=1&indices=) [[Search]](https://app.netlas.io/responses/?indices=&page=1&q=http.favicon.hash_sha256%3A81adccffbd70a76e9662977e7b55938e7eec597ac8b58e5a564959e6d465deec)    
  `tag.name:"dlink"`    
  `http.favicon.hash_sha256:81adccffbd70a76e9662977e7b55938e7eec597ac8b58e5a564959e6d465deec`    
-- Draytek Vigor Routers [[Search]](https://app.netlas.io/responses/?indices=&page=1&q=http.favicon.hash_sha256%3A0af4f089d58e919f4ee421727e9ac54d885d6b3b05ec16e4d94b703f45c7eef9)     
+- Draytek Routers [[Search]](https://app.netlas.io/responses/?indices=&page=1&q=http.favicon.hash_sha256%3A0af4f089d58e919f4ee421727e9ac54d885d6b3b05ec16e4d94b703f45c7eef9)     
 `http.favicon.hash_sha256:0af4f089d58e919f4ee421727e9ac54d885d6b3b05ec16e4d94b703f45c7eef9`     
 - Epson HTTP [[Search]](https://app.netlas.io/responses/?q=http.headers.server%3A%22EPSON-HTTP%22&page=1&indices=)     
 `http.headers.server:"EPSON-HTTP"`     
