@@ -134,7 +134,7 @@ If you find any inaccuracies, please feel free to send pull requests or write Is
  `(http.body:"PRTG Network Monitor") AND (http.headers.server:"prtg")`     
  - Ruckus [[Search]](https://app.netlas.io/responses/?indices=&page=1&q=http.favicon.hash_sha256%3A44648ca99e1d18589d4b72b19156bf61117c09e311b9f26fa771d9acf5cf463f)     
 `http.favicon.hash_sha256:44648ca99e1d18589d4b72b19156bf61117c09e311b9f26fa771d9acf5cf463f`
-- Ruijie [[Search]](https://app.netlas.io/responses/?indices=&page=1&q=http.favicon.hash_sha256%3A8be4899f8cbc8a9d6283d101ef5b9afa95f83bef8ba676b1e5b8cfb375d2391d)
+- Ruijie [[Search]](https://app.netlas.io/responses/?indices=&page=1&q=http.favicon.hash_sha256%3A8be4899f8cbc8a9d6283d101ef5b9afa95f83bef8ba676b1e5b8cfb375d2391d)     
 `http.favicon.hash_sha256:8be4899f8cbc8a9d6283d101ef5b9afa95f83bef8ba676b1e5b8cfb375d2391d`     
 - Samsung old printers [[Search]](https://app.netlas.io/responses/?q=http.title%3A%22syncthru%20web%20service%22&page=1&indices=)     
 `http.title:"syncthru web service"`     
