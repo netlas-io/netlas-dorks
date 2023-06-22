@@ -115,6 +115,9 @@ If you find any inaccuracies, please feel free to send pull requests or write Is
  `http.favicon.hash_sha256:0c16db2ccec266761010fa53ad69e2f6aafbf6b3134730e1fa72f19daf93ed04`
 - HP Printers [[Search]](https://app.netlas.io/responses/?q=http.headers.server%3A(%22HP%20HTTP%22%20%22Serial%20Number%22%20%22Built%22)&page=1&indices=)     
 - `http.headers.server:("HP HTTP" "Serial Number" "Built")`
+- Huawei Routers [[Search]](https://app.netlas.io/responses/?q=tag.name%3A%22huawei_router%22&page=1&indices=) [[Search]](https://app.netlas.io/responses/?indices=&page=1&q=http.favicon.hash_sha256%3Ae64086f94c7013d92ca6d7e05933f4fb90cf8966aeff1efc583a92d1827093db)     
+`tag.name:"huawei_router"`     
+`http.favicon.hash_sha256:e64086f94c7013d92ca6d7e05933f4fb90cf8966aeff1efc583a92d1827093db`     
 - IPSec [[Search]](https://app.netlas.io/responses/?q=(port%3A500%20OR%20port%3A4500%20OR%20port%3A1701)&page=1&indices=)    
  `port:500 OR port:4500 OR port:1701`
 - Lexmark printers - [[Search]](https://app.netlas.io/responses/?q=http.headers.server%3A%22Lexmark%22&page=1&indices=)  
