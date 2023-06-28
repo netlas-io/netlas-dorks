@@ -145,7 +145,9 @@ If you find any inaccuracies, please feel free to send pull requests or write Is
  `tag.name:"securepoint"`     
  `http.favicon.hash_sha256:ebaaed8ab7c21856f888117edaf342f6bc10335106ed907f95787b69878d9d9e`
 - Siemens [[Search]](https://app.netlas.io/responses/?q=http.favicon.hash_sha256%3A4f81d8e8df852d2ef27c4b1d9f211a505346ae12840a83db033db329750e7fdb&page=1&indices=)   
- `http.favicon.hash_sha256:4f81d8e8df852d2ef27c4b1d9f211a505346ae12840a83db033db329750e7fdb`     
+ `http.favicon.hash_sha256:4f81d8e8df852d2ef27c4b1d9f211a505346ae12840a83db033db329750e7fdb`
+- Tenda [[Search]](https://app.netlas.io/responses/?indices=&page=1&q=http.favicon.hash_sha256%3A9322e4def463fff36b0e180ddcf67a38853b7b729716aa5ab7a119e3a24841bc)
+`http.favicon.hash_sha256:9322e4def463fff36b0e180ddcf67a38853b7b729716aa5ab7a119e3a24841bc`     
 - TPLink [[Search]](https://app.netlas.io/responses/?q=tag.name%3A%22tplink%22&page=1&indices=) [[Search]](https://app.netlas.io/responses/?indices=&page=1&q=http.favicon.hash_sha256%3A9e803d05d8907cca1f7730f187707c25b0fb60f9e286e2957ab1e21cffdefde2)    
  `tag.name:"tplink"`    
  `http.favicon.hash_sha256:9e803d05d8907cca1f7730f187707c25b0fb60f9e286e2957ab1e21cffdefde2`   
