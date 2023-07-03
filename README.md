@@ -124,6 +124,8 @@ If you find any inaccuracies, please feel free to send pull requests or write Is
  `http.headers.server:"Lexmark"`
 - Media servers [[Search]](https://app.netlas.io/responses/?q=tag.category%3A%22Media%20servers%22&page=1&indices=)     
  `tag.category:"Media servers"`
+- Mitsubishi Air Conditioning Control System [[Search]](https://app.netlas.io/responses/?indices=&page=1&q=http.favicon.hash_sha256%3A055c1bfeac57280906a11333c72430893014329296751f398939987e11d7df5c)     
+`http.favicon.hash_sha256:055c1bfeac57280906a11333c72430893014329296751f398939987e11d7df5c`     
 - Netgear [[Search]](https://app.netlas.io/responses/?q=tag.name%3A%22netgear%22&page=1&indices=) [[Search]](https://app.netlas.io/responses/?indices=&page=1&q=http.favicon.hash_sha256%3A3bfc11a176b9c8a39870478951fc177a3bc53c9fb689cdf5f80bff6a0c4c3c6b)    
  `tag.name:"netgear"`     
   `http.favicon.hash_sha256:3bfc11a176b9c8a39870478951fc177a3bc53c9fb689cdf5f80bff6a0c4c3c6b`
