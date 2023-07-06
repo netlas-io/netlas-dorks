@@ -93,7 +93,9 @@ If you find any inaccuracies, please feel free to send pull requests or write Is
  `tag.name:"Cisco"`    
  `http.favicon.hash_sha256:62a8461e328d5bace3780ff738d0b58f6502592c04afa564e0a8a792583a7bfb`    
  - Cisco Small Business Switches [[Search]](https://app.netlas.io/responses/?q=http.favicon.perceptual_hash%3Affdb0113090009ff~1%20AND%20http.body%3A%22Small%20Business%22&page=1&indices=)    
-`http.favicon.perceptual_hash:ffdb0113090009ff~1 AND http.body:"Small Business"`    
+`http.favicon.perceptual_hash:ffdb0113090009ff~1 AND http.body:"Small Business"`
+- Controllers with Windows CE OS [[Search]](https://app.netlas.io/responses/?q=http.headers.server%3A%22Microsoft-WinCE%22&page=1&indices=)     
+`http.headers.server:"Microsoft-WinCE"`     
 - DefectDojo [[Search]](https://app.netlas.io/responses/?q=http.title%3A%22DefectDojo%22&page=1&indices=)    
  `http.title:"DefectDojo"`
 - DLink [[Search]](https://app.netlas.io/responses/?q=tag.name%3A%22dlink%22&page=1&indices=) [[Search]](https://app.netlas.io/responses/?indices=&page=1&q=http.favicon.hash_sha256%3A81adccffbd70a76e9662977e7b55938e7eec597ac8b58e5a564959e6d465deec)    
@@ -166,13 +168,17 @@ If you find any inaccuracies, please feel free to send pull requests or write Is
 ### Web cameras
 - All cameras [[Search]](https://app.netlas.io/responses/?q=tag.category%3A%22Web%20cameras%22&page=1&indices=) [[Search]](https://app.netlas.io/responses/?q=http.title%3A%22camera%22&page=1&indices=)     
 `tag.category:"Web cameras"`     
-`http.title:"camera"`     
+`http.title:"camera"`
+- Android IP Webcam Server [[Search]](https://app.netlas.io/responses/?q=http.headers.server%3A%22IP%20Webcam%20Server%22&page=1&indices=)     
+`http.headers.server:"IP Webcam Server"`       
 - Avigilion webcams [[Search]](https://app.netlas.io/responses/?q=http.title%3A%22Avigilon%22&page=1&indices=)     
 `http.title:"Avigilon"`    
 - Blue Iris [[Search]](https://app.netlas.io/responses/?q=http.favicon.hash_sha256%3A6e32c76e9c522baacd1362fdfacc8e47eda0f62937bb226ae38a5b8d2157f7cd&page=1&indices=)     
 `http.favicon.hash_sha256:6e32c76e9c522baacd1362fdfacc8e47eda0f62937bb226ae38a5b8d2157f7cd`     
 - GeoVision webcams [[Search]](https://app.netlas.io/responses/?q=http.headers.server%3A%22GeoHttpServer%22&page=1&indices=)     
-`http.headers.server:"GeoHttpServer"`    
+`http.headers.server:"GeoHttpServer"`
+- Hipcam [[Search]](https://app.netlas.io/responses/?q=http.headers.server%3A%22hipcam%22&page=1&indices=)     
+`http.headers.server:"Hipcam"`     
 - i-Catcher [[Search]](https://app.netlas.io/responses/?q=http.headers.server%3A%22i-Catcher%20Console%22&page=1&indices=)    
 `http.headers.server:"i-Catcher Console"`     
 - IPCam Client [[Search]](https://app.netlas.io/responses/?q=http.title%3A%E2%80%9Dipcam%E2%80%B3&page=1&indices=)     
@@ -303,6 +309,8 @@ If you find any inaccuracies, please feel free to send pull requests or write Is
 - Bugzilla [[Search]](https://app.netlas.io/responses/?q=tag.name%3A%22bugzilla%22&page=1&indices=) [[Search]](https://app.netlas.io/responses/?indices=&page=1&q=http.favicon.hash_sha256%3A92307d57240ad6473bf3aa757f185ee549469bb51363be2ea824fb03c7299bf2)    
  `tag.name:"bugzilla"`    
  `http.favicon.hash_sha256:92307d57240ad6473bf3aa757f185ee549469bb51363be2ea824fb03c7299bf2`
+- Citrix Gateway [[Search]](https://app.netlas.io/responses/?q=http.title%3A%22citrix%20gateway%22&page=1&indices=)     
+`http.title:"citrix gateway"`     
 - Drupal [[Search]](https://app.netlas.io/responses/?q=tag.name%3A%22drupal%22&page=1&indices=)    
  `tag.name:"drupal"`
 - Grafana [[Search]](https://app.netlas.io/responses/?q=http.favicon.hash_sha256%3A80a7f87a79169cf0ac1ed3250d7c509368190a97bc7182cd4705deb8f8c70174%20AND%20http.title%3A%22Grafana%22&page=1&indices=)    
