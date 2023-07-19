@@ -42,10 +42,23 @@ If you find any inaccuracies, please feel free to send pull requests or write Is
 `(http.title:"PaperCut Login" AND (http.description:"PaperCut NG" OR http.description:"PaperCut MF")) OR (http.favicon.perceptual_hash:3e7e66667e7c6000)` 
 - CVE-2023-27524 (Apache Superset) [[Search]](https://app.netlas.io/responses/?q=(http.title%3Asuperset%20http.body%3ASUPERSET_WEBSERVER*)%20OR%20http.favicon.hash_sha256%3Ae186603e51173d86bfc680eee24345d67c7a1d945a8e76dc4b218bbfabed666e&page=1&indices=)     
 `(http.title:superset http.body:SUPERSET_WEBSERVER*) OR http.favicon.hash_sha256:e186603e51173d86bfc680eee24345d67c7a1d945a8e76dc4b218bbfabed666e`
+- CVE-2023-27997 (Fortigate VPN) [[Search]](https://app.netlas.io/responses/?indices=&page=1&q=http.favicon.hash_sha256%3Ad18b3c9feb76c3c1cfdcc51c732f113327e3c33fb3f63b479951f7da6ed1216f) [[Search]](https://app.netlas.io/responses/?page=1&q=tag.name%3A%22fortigate_vpn%22)
+`http.favicon.hash_sha256:d18b3c9feb76c3c1cfdcc51c732f113327e3c33fb3f63b479951f7da6ed1216f`
+`tag.name:"fortigate_vpn"`     
 - CVE-2023-28375 (Osprey Pumps) [[Search]](https://app.netlas.io/responses/?q=http.title%3A%28Osprey%20Controller%29&page=1&indices=)    
 `http.title:(Osprey Controller)`     
 - CVE-2023-2868 (Wordpress, MStore API) [[Search]](https://app.netlas.io/responses/?q=(tag.name%3A%22wordpress%22)%20AND%20(prot7%3Ahttp)%20AND%20(http.body%3A%22wp-content%2Fplugins%2Fmstore%22)&page=1&indices=)     
 `(tag.name:"wordpress") AND (prot7:http) AND (http.body:"wp-content/plugins/mstore")`
+- CVE-2023-33778 (Vigor Routers) [[Search]](https://app.netlas.io/responses/?indices=&page=1&q=http.favicon.hash_sha256%3A0af4f089d58e919f4ee421727e9ac54d885d6b3b05ec16e4d94b703f45c7eef9)
+`http.favicon.hash_sha256:0af4f089d58e919f4ee421727e9ac54d885d6b3b05ec16e4d94b703f45c7eef9`     
+- CVE-2023-3128 (Grafana) [[Search]](https://app.netlas.io/responses/?q=http.favicon.hash_sha256%3A80a7f87a79169cf0ac1ed3250d7c509368190a97bc7182cd4705deb8f8c70174%20AND%20http.title%3A%22Grafana%22&page=1&indices=)
+`http.favicon.hash_sha256:80a7f87a79169cf0ac1ed3250d7c509368190a97bc7182cd4705deb8f8c70174 AND http.title:"Grafana"`     
+- CVE-2023-34192 (Zimbraq Collaboration Suite) [[Search]](https://app.netlas.io/responses/?indices=&page=1&q=http.favicon.hash_sha256%3A1afd891aacc433e75265e3ddc9cb4fc63b88259977811384426c535037711637)      
+`http.favicon.hash_sha256:1afd891aacc433e75265e3ddc9cb4fc63b88259977811384426c535037711637`
+- CVE-2023-3460 (WordPress plugin, UltimateMember) [[Search]](https://app.netlas.io/responses/?q=http.body%3A%22wp-content%2Fplugins%2Fultimate-member%22&page=1&indices=)     
+`http.body:"wp-content/plugins/ultimate-member"`
+- CVE-2023-36630 (CloudPanel) [[Search]](https://app.netlas.io/responses/?q=http.title%3A%22cloudpanel%22%20NOT%20http.body%3A%222.3.1%22&page=1&indices=)
+`http.title:"cloudpanel" NOT http.body:"2.3.1"`     
 ***
 ### General Searches
 - AMQP [[Search]](https://app.netlas.io/responses/?q=amqp%3A*&page=1&indices=)     
