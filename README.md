@@ -204,7 +204,7 @@ If you find any inaccuracies, please feel free to send pull requests or write Is
 `http.title:"ui3"`     
 - VB-M600 cameras [[Search]](https://app.netlas.io/responses/?q=http.title%3A%E2%80%9DVB-M600%E2%80%B3&page=1&indices=)     
 `http.title:”VB-M600″`     
-- Vivotec IP cameras [[Search]](https://app.netlas.io/responses/?q=http.headers.server%3A"VVTK-HTTP-Server"&page=1&indices=)     
+- Vivotek IP cameras [[Search]](https://app.netlas.io/responses/?q=http.headers.server%3A"VVTK-HTTP-Server"&page=1&indices=)     
 `http.headers.server:"VVTK-HTTP-Server"`     
 - Webcam 7 [[Search]](https://app.netlas.io/responses/?q=http.headers.server%3A%22webcam%207%22&page=1&indices=)     
 `http.headers.server:"webcam 7"`     
