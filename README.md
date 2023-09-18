@@ -53,12 +53,32 @@ If you find any inaccuracies, please feel free to send pull requests or write Is
 `http.favicon.hash_sha256:0af4f089d58e919f4ee421727e9ac54d885d6b3b05ec16e4d94b703f45c7eef9`     
 - CVE-2023-3128 (Grafana) [[Search]](https://app.netlas.io/responses/?q=http.favicon.hash_sha256%3A80a7f87a79169cf0ac1ed3250d7c509368190a97bc7182cd4705deb8f8c70174%20AND%20http.title%3A%22Grafana%22&page=1&indices=)
 `http.favicon.hash_sha256:80a7f87a79169cf0ac1ed3250d7c509368190a97bc7182cd4705deb8f8c70174 AND http.title:"Grafana"`     
-- CVE-2023-34192 (Zimbraq Collaboration Suite) [[Search]](https://app.netlas.io/responses/?indices=&page=1&q=http.favicon.hash_sha256%3A1afd891aacc433e75265e3ddc9cb4fc63b88259977811384426c535037711637)      
+- CVE-2023-34192 (Zimbra Collaboration Suite) [[Search]](https://app.netlas.io/responses/?indices=&page=1&q=http.favicon.hash_sha256%3A1afd891aacc433e75265e3ddc9cb4fc63b88259977811384426c535037711637)      
 `http.favicon.hash_sha256:1afd891aacc433e75265e3ddc9cb4fc63b88259977811384426c535037711637`
 - CVE-2023-3460 (WordPress plugin, UltimateMember) [[Search]](https://app.netlas.io/responses/?q=http.body%3A%22wp-content%2Fplugins%2Fultimate-member%22&page=1&indices=)     
 `http.body:"wp-content/plugins/ultimate-member"`
+- CVE-2023-35078 (Ivanti EPMM) [[Search]](https://nt.ls/QdWH7)     
+`http.headers.set_cookie:("JSESSIONID" "Path" "/mifs")`
+- CVE-2023-35082 (Ivanti EPMM) [[Search]](https://nt.ls/QdWH7)     
+`http.headers.set_cookie:("JSESSIONID" "Path" "/mifs")`     
+- CVE-2023-3519,-3466,-3467 (Citrix Gateway/ADC) [[Search]](https://nt.ls/HB0b1)      
+`http.title:"Citrix ADC" OR http.title:"Citrix Gateway"`    
 - CVE-2023-36630 (CloudPanel) [[Search]](https://app.netlas.io/responses/?q=http.title%3A%22cloudpanel%22%20NOT%20http.body%3A%222.3.1%22&page=1&indices=)      
-`http.title:"cloudpanel" NOT http.body:"2.3.1"`     
+`http.title:"cloudpanel" NOT http.body:"2.3.1"`
+- CVE-2023-36764 (Microsoft SharePoint) [[Search]](https://nt.ls/BBPrT)     
+`http.headers.microsoftsharepointteamservices:*`     
+- CVE-2023-38035 (Ivanti Sentry) [[Search]](https://nt.ls/CwTWz)     
+`http.body:"images/sentry-mi-logo" AND port:8443`
+- CVE-2023-38204 (Adobe ColdFusion) [[Search]](https://nt.ls/adbcf)     
+`tag.name:"adobe_coldfusion"`     
+- CVE-2023-39143 (PaperCut MF/NG) [[Search]](https://nt.ls/ZGjrR)     
+`(http.title:"PaperCut Login" AND (http.description:"PaperCut NG" OR http.description:"PaperCut MF")) OR (http.favicon.perceptual_hash:3e7e66667e7c6000)`
+- CVE-2023-39361,-31132,-39359 and other (Cacti) [[Search]](https://nt.ls/tTozX)     
+`http.title:"Login to Cacti"`      
+- CVE-2023-40176,-40177,-40572,-40573 (XWiki) [[Search]](https://nt.ls/SSzCU)     
+`http.title:"XWiki" OR http.favicon.hash_sha256:6f0fdef9a229150fbc7183a1bbb136d7b44b6df7c34369c14bebb6adae8aaf20`
+- CVE-2023-4596 (WordPress, Forminator Plugin) [[Search]](https://nt.ls/3Tgzc)     
+`http.body:"/wp-content/plugins/forminator"`     
 ***
 ### General Searches
 - AMQP [[Search]](https://app.netlas.io/responses/?q=amqp%3A*&page=1&indices=)     
