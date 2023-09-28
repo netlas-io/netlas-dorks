@@ -48,7 +48,9 @@ If you find any inaccuracies, please feel free to send pull requests or write Is
 - CVE-2023-28375 (Osprey Pumps) [[Search]](https://app.netlas.io/responses/?q=http.title%3A%28Osprey%20Controller%29&page=1&indices=)    
 `http.title:(Osprey Controller)`     
 - CVE-2023-2868 (Wordpress, MStore API) [[Search]](https://app.netlas.io/responses/?q=(tag.name%3A%22wordpress%22)%20AND%20(prot7%3Ahttp)%20AND%20(http.body%3A%22wp-content%2Fplugins%2Fmstore%22)&page=1&indices=)     
-`(tag.name:"wordpress") AND (prot7:http) AND (http.body:"wp-content/plugins/mstore")`
+`(tag.name:"wordpress") AND (prot7:http) AND (http.body:"wp-content/plugins/mstore")`      
+- CVE-2023-29183 (Fortinet/FortiProxy) [[Search]](https://nt.ls/he40Q)     
+ `http.favicon.hash_sha256:d18b3c9feb76c3c1cfdcc51c732f113327e3c33fb3f63b479951f7da6ed1216f`     
 - CVE-2023-33778 (Vigor Routers) [[Search]](https://app.netlas.io/responses/?indices=&page=1&q=http.favicon.hash_sha256%3A0af4f089d58e919f4ee421727e9ac54d885d6b3b05ec16e4d94b703f45c7eef9)
 `http.favicon.hash_sha256:0af4f089d58e919f4ee421727e9ac54d885d6b3b05ec16e4d94b703f45c7eef9`     
 - CVE-2023-3128 (Grafana) [[Search]](https://app.netlas.io/responses/?q=http.favicon.hash_sha256%3A80a7f87a79169cf0ac1ed3250d7c509368190a97bc7182cd4705deb8f8c70174%20AND%20http.title%3A%22Grafana%22&page=1&indices=)
@@ -77,6 +79,8 @@ If you find any inaccuracies, please feel free to send pull requests or write Is
 `http.title:"Login to Cacti"`      
 - CVE-2023-40176,-40177,-40572,-40573 (XWiki) [[Search]](https://nt.ls/SSzCU)     
 `http.title:"XWiki" OR http.favicon.hash_sha256:6f0fdef9a229150fbc7183a1bbb136d7b44b6df7c34369c14bebb6adae8aaf20`
+- CVE-2023-42793 (JetBrains TeamCity) [[Search]](https://nt.ls/UM6CB)      
+`http.headers.set_cookie:TCSESSIONID NOT http.body:"2023.05.4"`     
 - CVE-2023-4596 (WordPress, Forminator Plugin) [[Search]](https://nt.ls/3Tgzc)     
 `http.body:"/wp-content/plugins/forminator"`     
 ***
