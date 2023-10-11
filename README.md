@@ -254,7 +254,7 @@ If you find any inaccuracies, please feel free to send pull requests or write Is
 - Roundcube [[Search]](https://app.netlas.io/responses/?q=tag.name%3A%22roundcube%22&page=1&indices=) [[Search]](https://app.netlas.io/responses/?indices=&page=1&q=http.favicon.hash_sha256%3A20c30fd4340308d6a4ab222acae353fc2460793ac76645bb1ef1d9d61f4f0a9e)  
  `tag.name:"roundcube"`    
  `http.favicon.hash_sha256:20c30fd4340308d6a4ab222acae353fc2460793ac76645bb1ef1d9d61f4f0a9e`
-- Skype for Business [[Search]](https://app.netlas.io/responses/?q=tag.name%3A%22skype%22%20AND%20http.title%3A%22Skype%20for%20Business%22&page=1&indices=) [[Search]]()    
+- Skype for Business [[Search]](https://app.netlas.io/responses/?q=tag.name%3A%22skype%22%20AND%20http.title%3A%22Skype%20for%20Business%22&page=1&indices=) [[Search]](https://app.netlas.io/responses/?q=http.favicon.hash_sha256%3A7d188ade5d6bc30a4d55e83a08f4e4bafe8f71ae5af2023fc87ed9767b7dda12%20AND%20http.title%3A%22Skype%20for%20Business%22&page=1&indices=)    
  `tag.name:"skype" AND http.title:"Skype for Business"`    
  `http.favicon.hash_sha256:7d188ade5d6bc30a4d55e83a08f4e4bafe8f71ae5af2023fc87ed9767b7dda12 AND http.title:"Skype for Business"`
 - Zimbra [[Search]](https://app.netlas.io/responses/?q=tag.name%3A%22zimbra%22&page=1&indices=)   
