@@ -323,7 +323,7 @@ If you find any inaccuracies, please feel free to send pull requests or write Is
 ### Web Services
 - Apache [[Search]](https://app.netlas.io/responses/?q=http.headers.server%3A%22apache%22&page=1&indices=)    
  `http.headers.server:"apache"`
-- IIS [[Search]](https://app.netlas.io/responses/?q=tag.name%3A%22iis%22&page=1) [[Search]]()    
+- IIS [[Search]](https://app.netlas.io/responses/?q=tag.name%3A%22iis%22&page=1) [[Search]](https://app.netlas.io/responses/?q=%20http.headers.server%3A%22Microsoft-IIS%22&page=1&indices=)    
  `tag.name:"iis"`    
  `http.headers.server:"Microsoft-IIS"`
 - Nginx [[Search]](https://app.netlas.io/responses/?q=http.headers.server%3Anginx%20&page=1&indices=)    
