@@ -21,7 +21,12 @@ If you find any inaccuracies, please feel free to send pull requests or write Is
 ## Dorks
 ### 2023 Interesting CVEs
 - CVE-2023-20159, -20160, -20161, -20189 (Cisco Small Business Switches) [[Search]](https://app.netlas.io/responses/?q=http.favicon.perceptual_hash%3Affdb0113090009ff~1%20AND%20http.body%3A%22Small%20Business%22&page=1&indices=)    
-`http.favicon.perceptual_hash:ffdb0113090009ff~1 AND http.body:"Small Business"`    
+`http.favicon.perceptual_hash:ffdb0113090009ff~1 AND http.body:"Small Business"`
+- CVE-2023-20198 (Cisco XE WebUI) [[Search]](https://nt.ls/7dU0x)     
+`certificate.issuer_dn:"IOS-Self-Signed-Certificate" AND http.body:"webui"`     
+- CVE-2023-22515 (Attlassian Confluence Data and Server) [[Search]](https://nt.ls/MwYfk) [[Search]](https://nt.ls/nysj9)
+`tag.name:"atlassian_confluence"`        
+`http.meta:"confluence-base-url"`      
 - CVE-2023-22620 (SecurePoiunt) [[Search]](https://app.netlas.io/responses/?indices=&page=1&q=http.favicon.hash_sha256%3Aebaaed8ab7c21856f888117edaf342f6bc10335106ed907f95787b69878d9d9e)    
 `http.favicon.hash_sha256:ebaaed8ab7c21856f888117edaf342f6bc10335106ed907f95787b69878d9d9e`    
 - CVE-2023-24411 (WordPress plugin) [[Search]](https://app.netlas.io/responses/?q=%28tag.name%3A%22wordpress%22%29%20AND%20%28prot7%3Ahttp%29%20AND%20%28http.body%3A%22wp-content%2Fplugins%2Fbne-testimonials%22%29&page=1&indices=)    
@@ -51,7 +56,9 @@ If you find any inaccuracies, please feel free to send pull requests or write Is
 `(tag.name:"wordpress") AND (prot7:http) AND (http.body:"wp-content/plugins/mstore")`      
 - CVE-2023-29183 (Fortinet/FortiProxy) [[Search]](https://nt.ls/he40Q)     
  `http.favicon.hash_sha256:d18b3c9feb76c3c1cfdcc51c732f113327e3c33fb3f63b479951f7da6ed1216f`     
-- CVE-2023-33778 (Vigor Routers) [[Search]](https://app.netlas.io/responses/?indices=&page=1&q=http.favicon.hash_sha256%3A0af4f089d58e919f4ee421727e9ac54d885d6b3b05ec16e4d94b703f45c7eef9)
+- CVE-2023-29357 (Microsoft SharePoint Server) [[Search]](https://nt.ls/AAVOE)     
+`http.headers.microsoftsharepointteamservices:*`      
+- CVE-2023-33778 (Vigor Routers) [[Search]](https://app.netlas.io/responses/?indices=&page=1&q=http.favicon.hash_sha256%3A0af4f089d58e919f4ee421727e9ac54d885d6b3b05ec16e4d94b703f45c7eef9)       
 `http.favicon.hash_sha256:0af4f089d58e919f4ee421727e9ac54d885d6b3b05ec16e4d94b703f45c7eef9`     
 - CVE-2023-3128 (Grafana) [[Search]](https://app.netlas.io/responses/?q=http.favicon.hash_sha256%3A80a7f87a79169cf0ac1ed3250d7c509368190a97bc7182cd4705deb8f8c70174%20AND%20http.title%3A%22Grafana%22&page=1&indices=)
 `http.favicon.hash_sha256:80a7f87a79169cf0ac1ed3250d7c509368190a97bc7182cd4705deb8f8c70174 AND http.title:"Grafana"`     
@@ -64,7 +71,9 @@ If you find any inaccuracies, please feel free to send pull requests or write Is
 - CVE-2023-35082 (Ivanti EPMM) [[Search]](https://nt.ls/QdWH7)     
 `http.headers.set_cookie:("JSESSIONID" "Path" "/mifs")`     
 - CVE-2023-3519,-3466,-3467 (Citrix Gateway/ADC) [[Search]](https://nt.ls/HB0b1)      
-`http.title:"Citrix ADC" OR http.title:"Citrix Gateway"`    
+`http.title:"Citrix ADC" OR http.title:"Citrix Gateway"`
+- CVE-2023-36434 (Windows IIS Server) [[Search]](https://nt.ls/5rvmi)       
+`http.headers.server:"Microsoft-IIS"`       
 - CVE-2023-36630 (CloudPanel) [[Search]](https://app.netlas.io/responses/?q=http.title%3A%22cloudpanel%22%20NOT%20http.body%3A%222.3.1%22&page=1&indices=)      
 `http.title:"cloudpanel" NOT http.body:"2.3.1"`
 - CVE-2023-36764 (Microsoft SharePoint) [[Search]](https://nt.ls/BBPrT)     
@@ -79,6 +88,11 @@ If you find any inaccuracies, please feel free to send pull requests or write Is
 `http.title:"Login to Cacti"`      
 - CVE-2023-40176,-40177,-40572,-40573 (XWiki) [[Search]](https://nt.ls/SSzCU)     
 `http.title:"XWiki" OR http.favicon.hash_sha256:6f0fdef9a229150fbc7183a1bbb136d7b44b6df7c34369c14bebb6adae8aaf20`
+- CVE-2023-40289 and other (SuperMicro BMC) [[Search]](https://nt.ls/svQi3) [[Search]](https://nt.ls/JetkR)      
+`tag.name:"supermicro_ipmi"`       
+`certificate.subject.organization:"Super Micro Computer" AND certificate.subject.common_name:IPMI`        
+- CVE-2023-42115,-116,-117 (Exim) [[Search]](https://nt.ls/6KhLO)       
+`smtp.banner:"exim" AND port:25`       
 - CVE-2023-42793 (JetBrains TeamCity) [[Search]](https://nt.ls/UM6CB)      
 `http.headers.set_cookie:TCSESSIONID NOT http.body:"2023.05.4"`     
 - CVE-2023-4596 (WordPress, Forminator Plugin) [[Search]](https://nt.ls/3Tgzc)     
@@ -131,6 +145,8 @@ If you find any inaccuracies, please feel free to send pull requests or write Is
  `http.favicon.hash_sha256:62a8461e328d5bace3780ff738d0b58f6502592c04afa564e0a8a792583a7bfb`    
  - Cisco Small Business Switches [[Search]](https://app.netlas.io/responses/?q=http.favicon.perceptual_hash%3Affdb0113090009ff~1%20AND%20http.body%3A%22Small%20Business%22&page=1&indices=)    
 `http.favicon.perceptual_hash:ffdb0113090009ff~1 AND http.body:"Small Business"`
+- Cisco XE WebUI [[Search]](https://nt.ls/7dU0x)     
+`certificate.issuer_dn:"IOS-Self-Signed-Certificate" AND http.body:"webui"`     
 - Controllers with Windows CE OS [[Search]](https://app.netlas.io/responses/?q=http.headers.server%3A%22Microsoft-WinCE%22&page=1&indices=)     
 `http.headers.server:"Microsoft-WinCE"`     
 - DefectDojo [[Search]](https://app.netlas.io/responses/?q=http.title%3A%22DefectDojo%22&page=1&indices=)    
@@ -187,6 +203,9 @@ If you find any inaccuracies, please feel free to send pull requests or write Is
  `http.favicon.hash_sha256:ebaaed8ab7c21856f888117edaf342f6bc10335106ed907f95787b69878d9d9e`
 - Siemens [[Search]](https://app.netlas.io/responses/?q=http.favicon.hash_sha256%3A4f81d8e8df852d2ef27c4b1d9f211a505346ae12840a83db033db329750e7fdb&page=1&indices=)   
  `http.favicon.hash_sha256:4f81d8e8df852d2ef27c4b1d9f211a505346ae12840a83db033db329750e7fdb`
+- SuperMicro BMC [[Search]](https://nt.ls/svQi3) [[Search]](https://nt.ls/JetkR)       
+`tag.name:"supermicro_ipmi"`       
+`certificate.subject.organization:"Super Micro Computer" AND certificate.subject.common_name:IPMI`        
 - Tenda [[Search]](https://app.netlas.io/responses/?indices=&page=1&q=http.favicon.hash_sha256%3A9322e4def463fff36b0e180ddcf67a38853b7b729716aa5ab7a119e3a24841bc)     
 `http.favicon.hash_sha256:9322e4def463fff36b0e180ddcf67a38853b7b729716aa5ab7a119e3a24841bc`     
 - TPLink [[Search]](https://app.netlas.io/responses/?q=tag.name%3A%22tplink%22&page=1&indices=) [[Search]](https://app.netlas.io/responses/?indices=&page=1&q=http.favicon.hash_sha256%3A9e803d05d8907cca1f7730f187707c25b0fb60f9e286e2957ab1e21cffdefde2)    
