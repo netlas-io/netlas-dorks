@@ -96,7 +96,9 @@ If you find any inaccuracies, please feel free to send pull requests or write Is
 - CVE-2023-42793 (JetBrains TeamCity) [[Search]](https://nt.ls/UM6CB)      
 `http.headers.set_cookie:TCSESSIONID NOT http.body:"2023.05.4"`     
 - CVE-2023-4596 (WordPress, Forminator Plugin) [[Search]](https://nt.ls/3Tgzc)     
-`http.body:"/wp-content/plugins/forminator"`     
+`http.body:"/wp-content/plugins/forminator"`
+- CVE-2023-46849,-46850 (OpenVPN Access Server) [[Search]](https://app.netlas.io/responses/?q=http.headers.server%3A%22OpenVPN-AS%22&page=1&indices=)       
+`http.headers.server:"OpenVPN-AS"`     
 ***
 ### General Searches
 - AMQP [[Search]](https://app.netlas.io/responses/?q=amqp%3A*&page=1&indices=)     
@@ -347,6 +349,8 @@ If you find any inaccuracies, please feel free to send pull requests or write Is
  `http.headers.server:"Microsoft-IIS"`
 - Nginx [[Search]](https://app.netlas.io/responses/?q=http.headers.server%3Anginx%20&page=1&indices=)    
  `http.headers.server:"nginx"`
+- OpenVPN Access Server (and just an OpenVPN) [[Search]](https://app.netlas.io/responses/?q=http.headers.server%3A%22OpenVPN-AS%22&page=1&indices=)       
+`http.headers.server:"OpenVPN-AS"`     
 - RDP [[Search]](https://app.netlas.io/responses/?q=port%3A3389&page=1&indices=)    
  `port:3389`
 - SolarWinds [[Search]](https://app.netlas.io/responses/?q=tag.name%3A%22solarwinds_ftp%22&page=1&indices=) [[Search]](https://app.netlas.io/responses/?indices=&page=1&q=http.favicon.hash_sha256%3A2dbf88db1be0f1305a415b0455fe258627f56aa4b6b334130707a3b1adc6dba7)    
