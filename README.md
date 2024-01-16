@@ -177,6 +177,8 @@ If you find any inaccuracies, please feel free to send pull requests or write Is
 `http.favicon.hash_sha256:e64086f94c7013d92ca6d7e05933f4fb90cf8966aeff1efc583a92d1827093db`     
 - IPSec [[Search]](https://app.netlas.io/responses/?q=(port%3A500%20OR%20port%3A4500%20OR%20port%3A1701)&page=1&indices=)    
  `port:500 OR port:4500 OR port:1701`
+- Ivanti Connect Secure [[Search]](https://app.netlas.io/responses/?q=http.body%3A%22welcome.cgi%3Fp%3Dlogo%22&page=1&indices=)       
+`http.body:"welcome.cgi?p=logo"`        
 - Lexmark printers - [[Search]](https://app.netlas.io/responses/?q=http.headers.server%3A%22Lexmark%22&page=1&indices=)  
  `http.headers.server:"Lexmark"`
 - Media servers [[Search]](https://app.netlas.io/responses/?q=tag.category%3A%22Media%20servers%22&page=1&indices=)     
