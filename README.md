@@ -7,6 +7,7 @@ If you find any inaccuracies, please feel free to send pull requests or write Is
 ***
 ## Contents
 - [2023 CVEs](#2023-interesting-cves)
+- [2024 CVEs](#2024-interesting-cves)
 - [General Searches](#general-searches)
 - [Iot, Routers and Security](#iot-routers-and-security)
 - [Web cameras](#web-cameras)
@@ -20,13 +21,19 @@ If you find any inaccuracies, please feel free to send pull requests or write Is
 ***
 ## Dorks
 ### 2023 Interesting CVEs
-- CVE-2023-20159, -20160, -20161, -20189 (Cisco Small Business Switches) [[Search]](https://app.netlas.io/responses/?q=http.favicon.perceptual_hash%3Affdb0113090009ff~1%20AND%20http.body%3A%22Small%20Business%22&page=1&indices=)    
+- CVE-2023-2030, -5356, -7028 (GitLab Multiple vulnerability) [[Search]](https://nt.ls/IZZxE)       
+`http.meta:"Gitlab"`     
+- CVE-2023-20159, -20160, -20161, -20189 (Cisco Small Business Switches) [[Search]](https://app.netlas.io/responses/?q=http.favicon.perceptual_hash%3Affdb0113090009ff~1%20AND%20http.body%3A%22Small%20Business%22&page=1&indices=)     
 `http.favicon.perceptual_hash:ffdb0113090009ff~1 AND http.body:"Small Business"`
 - CVE-2023-20198 (Cisco XE WebUI) [[Search]](https://nt.ls/7dU0x)     
 `certificate.issuer_dn:"IOS-Self-Signed-Certificate" AND http.body:"webui"`     
-- CVE-2023-22515 (Attlassian Confluence Data and Server) [[Search]](https://nt.ls/MwYfk) [[Search]](https://nt.ls/nysj9)
+- CVE-2023-21887, -46805 (Ivanti Connect Secure) [[Search]](https://nt.ls/I0nJC)        
+`http.body:"welcome.cgi?p=logo"`      
+- CVE-2023-22515 (Attlassian Confluence Data and Server) [[Search]](https://nt.ls/MwYfk) [[Search]](https://nt.ls/nysj9)     
 `tag.name:"atlassian_confluence"`        
-`http.meta:"confluence-base-url"`      
+`http.meta:"confluence-base-url"`       
+- CVE-2023-22527 (Atlassian Confluence) [[Search]](https://nt.ls/e0S6w)       
+`http.meta:"confluence-base-url"`        
 - CVE-2023-22620 (SecurePoiunt) [[Search]](https://app.netlas.io/responses/?indices=&page=1&q=http.favicon.hash_sha256%3Aebaaed8ab7c21856f888117edaf342f6bc10335106ed907f95787b69878d9d9e)    
 `http.favicon.hash_sha256:ebaaed8ab7c21856f888117edaf342f6bc10335106ed907f95787b69878d9d9e`    
 - CVE-2023-24411 (WordPress plugin) [[Search]](https://app.netlas.io/responses/?q=%28tag.name%3A%22wordpress%22%29%20AND%20%28prot7%3Ahttp%29%20AND%20%28http.body%3A%22wp-content%2Fplugins%2Fbne-testimonials%22%29&page=1&indices=)    
@@ -84,7 +91,9 @@ If you find any inaccuracies, please feel free to send pull requests or write Is
 `tag.name:"adobe_coldfusion"`     
 - CVE-2023-39143 (PaperCut MF/NG) [[Search]](https://nt.ls/ZGjrR)     
 `(http.title:"PaperCut Login" AND (http.description:"PaperCut NG" OR http.description:"PaperCut MF")) OR (http.favicon.perceptual_hash:3e7e66667e7c6000)`
-- CVE-2023-39361,-31132,-39359 and other (Cacti) [[Search]](https://nt.ls/tTozX)     
+- CVE-2023-39336 (Ivanti EPM) [[Search]](https://nt.ls/fSOY9)       
+`http.headers.set_cookie:("JSESSIONID" "Path" "/mifs")`      
+- CVE-2023-39361,-31132,-39359 and other (Cacti) [[Search]](https://nt.ls/tTozX)         
 `http.title:"Login to Cacti"`      
 - CVE-2023-40176,-40177,-40572,-40573 (XWiki) [[Search]](https://nt.ls/SSzCU)     
 `http.title:"XWiki" OR http.favicon.hash_sha256:6f0fdef9a229150fbc7183a1bbb136d7b44b6df7c34369c14bebb6adae8aaf20`
@@ -94,11 +103,23 @@ If you find any inaccuracies, please feel free to send pull requests or write Is
 - CVE-2023-42115,-116,-117 (Exim) [[Search]](https://nt.ls/6KhLO)       
 `smtp.banner:"exim" AND port:25`       
 - CVE-2023-42793 (JetBrains TeamCity) [[Search]](https://nt.ls/UM6CB)      
-`http.headers.set_cookie:TCSESSIONID NOT http.body:"2023.05.4"`     
+`http.headers.set_cookie:TCSESSIONID NOT http.body:"2023.05.4"`
+- CVE-2023-43770 [[Search]](https://nt.ls/LAQwc)       
+`http.favicon.hash_sha256:20c30fd4340308d6a4ab222acae353fc2460793ac76645bb1ef1d9d61f4f0a9e`        
 - CVE-2023-4596 (WordPress, Forminator Plugin) [[Search]](https://nt.ls/3Tgzc)     
 `http.body:"/wp-content/plugins/forminator"`
 - CVE-2023-46849,-46850 (OpenVPN Access Server) [[Search]](https://app.netlas.io/responses/?q=http.headers.server%3A%22OpenVPN-AS%22&page=1&indices=)       
 `http.headers.server:"OpenVPN-AS"`     
+***
+### 2024 Interesting CVEs
+- CVE-2024-20931 (Oracle WebLogic) [[Search]](https://nt.ls/P0M38)      
+`protocol:t3 OR protocol:t3s`       
+- CVE-2024-21690 (Junos OS) [[Search]](https://nt.ls/CpoFo)      
+`http.title:"Juniper" `
+- CVE-2024-22024 (Ivanti Connect Secure) [[Search]](https://nt.ls/0AKq9)       
+`http.body:"welcome.cgi?p=logo"`       
+- CVE-2024-23897 (Jenkins) [[Search]](https://nt.ls/z5QU0)       
+`http.headers.x_jenkins:[0 TO 2.441]`       
 ***
 ### General Searches
 - AMQP [[Search]](https://app.netlas.io/responses/?q=amqp%3A*&page=1&indices=)     
