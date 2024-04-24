@@ -178,7 +178,9 @@ If you find any inaccuracies, please feel free to send pull requests or write Is
  `tag.name:"dlink"`    
  `http.favicon.hash_sha256:81adccffbd70a76e9662977e7b55938e7eec597ac8b58e5a564959e6d465deec`    
 - Draytek Routers [[Search]](https://app.netlas.io/responses/?indices=&page=1&q=http.favicon.hash_sha256%3A0af4f089d58e919f4ee421727e9ac54d885d6b3b05ec16e4d94b703f45c7eef9)     
-`http.favicon.hash_sha256:0af4f089d58e919f4ee421727e9ac54d885d6b3b05ec16e4d94b703f45c7eef9`     
+`http.favicon.hash_sha256:0af4f089d58e919f4ee421727e9ac54d885d6b3b05ec16e4d94b703f45c7eef9`
+- Electric vehicle charges [[Search]](https://app.netlas.io/responses/?q=http.headers.server%3A%22gSOAP%22%20AND%20http.content_length%3A583&page=1&indices=)       
+`http.headers.server:"gSOAP" AND http.content_length:583`         
 - Epson HTTP [[Search]](https://app.netlas.io/responses/?q=http.headers.server%3A%22EPSON-HTTP%22&page=1&indices=)     
 `http.headers.server:"EPSON-HTTP"`     
 - Epson Linux [[Search]](https://app.netlas.io/responses/?q=http.headers.server%3A%22EPSON_Linux%20UpnP%22%20http.status_code%3A200&page=1&indices=)       
@@ -222,7 +224,9 @@ If you find any inaccuracies, please feel free to send pull requests or write Is
 - Ruijie [[Search]](https://app.netlas.io/responses/?indices=&page=1&q=http.favicon.hash_sha256%3A8be4899f8cbc8a9d6283d101ef5b9afa95f83bef8ba676b1e5b8cfb375d2391d)     
 `http.favicon.hash_sha256:8be4899f8cbc8a9d6283d101ef5b9afa95f83bef8ba676b1e5b8cfb375d2391d`     
 - Samsung old printers [[Search]](https://app.netlas.io/responses/?q=http.title%3A%22syncthru%20web%20service%22&page=1&indices=)     
-`http.title:"syncthru web service"`     
+`http.title:"syncthru web service"`
+- Samsung Prismview [[Search]](https://app.netlas.io/responses/?q=http.headers.server%3A%22Prismview%22&page=1&indices=)     
+`http.headers.server:"Prismview"`       
 - SecurePoint [[Search]](https://app.netlas.io/responses/?q=tag.name%3A%22securepoint%22&page=1) [[Search]](https://app.netlas.io/responses/?indices=&page=1&q=http.favicon.hash_sha256%3Aebaaed8ab7c21856f888117edaf342f6bc10335106ed907f95787b69878d9d9e)     
  `tag.name:"securepoint"`     
  `http.favicon.hash_sha256:ebaaed8ab7c21856f888117edaf342f6bc10335106ed907f95787b69878d9d9e`
