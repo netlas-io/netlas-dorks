@@ -160,9 +160,13 @@ If you find any inaccuracies, please feel free to send pull requests or write Is
 - All IoT [[Search]](https://app.netlas.io/responses/?q=tag.category%3A%22IoT%22&page=1&indices=)     
  `tag.category:"IoT"`     
  - Barracuda [[Search]](https://app.netlas.io/responses/?q=http.headers.server%3A%22BarracudaHTTP%22&page=1&indices=)     
- `http.headers.server:"BarracudaHTTP"`     
+ `http.headers.server:"BarracudaHTTP"`
+- Brightsign Digital Sign [[Search]](https://app.netlas.io/responses/?q=http.title%3A%22BrightSign%26reg%3B%22&page=1&indices=)               
+`http.title:"BrightSign&reg;"`            
 - Canon [[Search]](https://app.netlas.io/responses/?q=http.headers.server%3A%22Canon%20HTTP%20Server%22&page=1&indices=)     
-`http.headers.server:"Canon HTTP Server"`     
+`http.headers.server:"Canon HTTP Server"`
+- Carel PlantVisor [[Search]](https://app.netlas.io/responses/?q=http.title%3A%22CAREL%20Pl%40ntVisor%22&page=1&indices=)              
+`http.title:"CAREL Pl@ntVisor"`         
 - Cisco [[Search]](https://app.netlas.io/responses/?q=tag.name:%22Cisco%22&indices=&page=1) [[Search]](https://app.netlas.io/responses/?q=tag.name:%22Cisco%22&indices=&page=1)    
  `tag.name:"Cisco"`    
  `http.favicon.hash_sha256:62a8461e328d5bace3780ff738d0b58f6502592c04afa564e0a8a792583a7bfb`    
@@ -180,14 +184,16 @@ If you find any inaccuracies, please feel free to send pull requests or write Is
 - Draytek Routers [[Search]](https://app.netlas.io/responses/?indices=&page=1&q=http.favicon.hash_sha256%3A0af4f089d58e919f4ee421727e9ac54d885d6b3b05ec16e4d94b703f45c7eef9)     
 `http.favicon.hash_sha256:0af4f089d58e919f4ee421727e9ac54d885d6b3b05ec16e4d94b703f45c7eef9`
 - Electric vehicle charges [[Search]](https://app.netlas.io/responses/?q=http.headers.server%3A%22gSOAP%22%20AND%20http.content_length%3A583&page=1&indices=)       
-`http.headers.server:"gSOAP" AND http.content_length:583`         
+`http.headers.server:"gSOAP" AND http.content_length:583`
+- Emerson Site Supervisor [[Search]](https://app.netlas.io/responses/?q=http.title%3A%22Emerson%20Site%20Supervisor%22&page=1&indices=)              
+`http.title:"Emerson Site Supervisor"`             
 - Epson HTTP [[Search]](https://app.netlas.io/responses/?q=http.headers.server%3A%22EPSON-HTTP%22&page=1&indices=)     
 `http.headers.server:"EPSON-HTTP"`     
 - Epson Linux [[Search]](https://app.netlas.io/responses/?q=http.headers.server%3A%22EPSON_Linux%20UpnP%22%20http.status_code%3A200&page=1&indices=)       
  `http.headers.server:"EPSON_Linux UpnP" http.status_code:200`
 - FortiNet [[Search]](https://app.netlas.io/responses/?q=tag.name%3A%22fortinet%22&page=1) [[Search]](https://app.netlas.io/responses/?indices=&page=1&q=http.favicon.hash_sha256%3Ad18b3c9feb76c3c1cfdcc51c732f113327e3c33fb3f63b479951f7da6ed1216f)    
  `tag.name:"fortinet"`    
- `http.favicon.hash_sha256:d18b3c9feb76c3c1cfdcc51c732f113327e3c33fb3f63b479951f7da6ed1216f`
+ `http.favicon.hash_sha256:d18b3c9feb76c3c1cfdcc51c732f113327e3c33fb3f63b479951f7da6ed1216f`                
 - Home Assistant [[Search]](https://app.netlas.io/responses/?q=http.favicon.hash_sha256%3A892d336ba0b3ce7f94ebbcbe2fa5c3fcfdc79f25efcdc7a7e17918e85daaf9f0&page=1&indices=)     
  `http.favicon.hash_sha256:892d336ba0b3ce7f94ebbcbe2fa5c3fcfdc79f25efcdc7a7e17918e85daaf9f0`
 - HP iLO [[Search]](https://app.netlas.io/responses/?q=tag.name%3A%22hp_ilo%22&page=1&indices=) [[Search]](https://app.netlas.io/responses/?q=http.favicon.hash_sha256%3A0c16db2ccec266761010fa53ad69e2f6aafbf6b3134730e1fa72f19daf93ed04&page=1&indices=)       
@@ -211,6 +217,8 @@ If you find any inaccuracies, please feel free to send pull requests or write Is
 - Netgear [[Search]](https://app.netlas.io/responses/?q=tag.name%3A%22netgear%22&page=1&indices=) [[Search]](https://app.netlas.io/responses/?indices=&page=1&q=http.favicon.hash_sha256%3A3bfc11a176b9c8a39870478951fc177a3bc53c9fb689cdf5f80bff6a0c4c3c6b)    
  `tag.name:"netgear"`     
   `http.favicon.hash_sha256:3bfc11a176b9c8a39870478951fc177a3bc53c9fb689cdf5f80bff6a0c4c3c6b`
+- Nethix Wireless Controller [[Search]](https://app.netlas.io/responses/?q=http.headers.set_cookie%3A%22NethixSession%22&page=1&indices=)                 
+`http.headers.set_cookie:"NethixSession"`                         
 - Nexus [[Search]](https://app.netlas.io/responses/?q=http.favicon.hash_sha256%3A9337dace49934010c4fdbb5c2c778c16f9e42bdb3da2ac476744dcc8705025c2&page=1&indices=)   
  `http.favicon.hash_sha256:9337dace49934010c4fdbb5c2c778c16f9e42bdb3da2ac476744dcc8705025c2`
 - OpenCTI [[Search]](https://app.netlas.io/responses/?q=http.title%3A%22OpenCTI%22&page=1&indices=)    
@@ -249,6 +257,23 @@ If you find any inaccuracies, please feel free to send pull requests or write Is
  - Zyxel ZyWALL [[Search]](https://app.netlas.io/responses/?page=1&q=tag.name%3A%22zyxel_zywall%22) [[Search]](https://app.netlas.io/responses/?indices=&page=1&q=http.favicon.hash_sha256%3A9a02f3cf948f9409c25070f2f057b69dda5d0aaf7fa8d056552e8bda8295ca1f)     
  `tag.name:"zyxel_zywall"`    
  `http.favicon.hash_sha256:9a02f3cf948f9409c25070f2f057b69dda5d0aaf7fa8d056552e8bda8295ca1f`    
+***
+### Security Applications
+- Deimos C2 [[Search]](https://app.netlas.io/responses/?q=http.title%3A%22Deimos%20C2%22%20OR%20certificate.subject.organization%3A%22Acme%20Co%22%20AND%20port%3A8443&page=1&indices=)                    
+`http.title:"Deimos C2" OR certificate.subject.organization:"Acme Co" AND port:8443`                   
+- EvilGinx2 [[Search]](https://app.netlas.io/responses/?q=jarm%3A%2220d14d20d21d20d20c20d14d20d20daddf8a68a1444c74b6dbe09910a511e6%22&page=1&indices=)             
+`jarm:"20d14d20d21d20d20c20d14d20d20daddf8a68a1444c74b6dbe09910a511e6"`
+- NanoCore [[Search]](https://app.netlas.io/responses/?q=certificate.subject.common_name%3A%22unk%22&page=1&indices=)            
+`certificate.subject.common_name:"unk"`            
+- Nessus Scanner Servers [[Search]](https://app.netlas.io/responses/?q=http.headers.server%3A%22NessusWWW%22&page=1&indices=)                  
+`http.headers.server:"NessusWWW"`
+- NimPlant C2 [[Search]](https://app.netlas.io/responses/?q=http.headers.server%3A%22NimPlant%20C2%20Server%22&page=1&indices=)             
+`http.headers.server:"NimPlant C2 Server"`              
+- NTOP Network Analyzers [[Search]](https://app.netlas.io/responses/?q=http.title%3A%22Welcome%20to%20ntopng%22%20OR%20(http.title%3A%22Global%20Traffic%20Statistics%22%20AND%20http.headers.server%3A%22ntop%2F*%22)&page=1&indices=)             
+`http.title:"Welcome to ntopng" OR (http.title:"Global Traffic Statistics" AND http.headers.server:"ntop/*")`              
+- Merlin C2 [[Search]](https://app.netlas.io/responses/?q=jarm%3A%2229d21b20d29d29d21c41d21b21b41d494e0df9532e75299f15ba73156cee38%22&page=1&indices=)               
+`jarm:"29d21b20d29d29d21c41d21b21b41d494e0df9532e75299f15ba73156cee38"`
+
 ***
 ### Web cameras
 - All cameras [[Search]](https://app.netlas.io/responses/?q=tag.category%3A%22Web%20cameras%22&page=1&indices=) [[Search]](https://app.netlas.io/responses/?q=http.title%3A%22camera%22&page=1&indices=)     
@@ -396,6 +421,8 @@ If you find any inaccuracies, please feel free to send pull requests or write Is
 - Bugzilla [[Search]](https://app.netlas.io/responses/?q=tag.name%3A%22bugzilla%22&page=1&indices=) [[Search]](https://app.netlas.io/responses/?indices=&page=1&q=http.favicon.hash_sha256%3A92307d57240ad6473bf3aa757f185ee549469bb51363be2ea824fb03c7299bf2)    
  `tag.name:"bugzilla"`    
  `http.favicon.hash_sha256:92307d57240ad6473bf3aa757f185ee549469bb51363be2ea824fb03c7299bf2`
+- cAdvisor [[Search]](https://app.netlas.io/responses/?q=http.title%3A%22cAdvisor%20-%20%2F%22&page=1&indices=)       
+`http.title:"cAdvisor - /"`           
 - Citrix Gateway [[Search]](https://app.netlas.io/responses/?q=http.title%3A%22citrix%20gateway%22&page=1&indices=)     
 `http.title:"citrix gateway"`     
 - Drupal [[Search]](https://app.netlas.io/responses/?q=tag.name%3A%22drupal%22&page=1&indices=)    
@@ -404,6 +431,8 @@ If you find any inaccuracies, please feel free to send pull requests or write Is
  `http.favicon.hash_sha256:80a7f87a79169cf0ac1ed3250d7c509368190a97bc7182cd4705deb8f8c70174 AND http.title:"Grafana"`
 - Graylog [[Search]](https://app.netlas.io/responses/?q=http.favicon.hash_sha256%3A6d1c0130478d8645c82d039b270e7ca20e912b87489163bd5d9b1c1af95db7f8&page=1&indices=)    
  `http.favicon.hash_sha256:6d1c0130478d8645c82d039b270e7ca20e912b87489163bd5d9b1c1af95db7f8`
+- HashiCorp Consul Dashboards [[Search]](https://app.netlas.io/responses/?q=http.title%3A%22Consul%20by%20HashiCorp%22&page=1&indices=)            
+`http.title:"Consul by HashiCorp"`                
 - Jenkins [[Search]](https://app.netlas.io/responses/?q=tag.name%3A%22jenkins%22&page=1&indices=) [[Search]](https://app.netlas.io/responses/?indices=&page=1&q=http.favicon.hash_sha256%3A4fec1ee82f0dc4a8e4e9bb26954cf54cf9bf1e6a009516cb6c49ff16924e8caa)    
  `tag.name:"jenkins"`    
  `http.favicon.hash_sha256:4fec1ee82f0dc4a8e4e9bb26954cf54cf9bf1e6a009516cb6c49ff16924e8caa`
@@ -420,6 +449,8 @@ If you find any inaccuracies, please feel free to send pull requests or write Is
  `tag.name:"manageengine_servicedesk"`
 - Nagios [[Search]](https://app.netlas.io/responses/?q=(http.favicon.hash_sha256%3A8b19d77c4a4ee2d846b1918a8c75c66fa1c3285a12b1d28950e1e6b817b237d4)%20OR%20(http.favicon.hash_sha256%3A57ff1068caf7d83d9c252ae26af5f833290b917945051a90cfc4b42e4e72ac13)&page=1&indices=)    
  `(http.favicon.hash_sha256:8b19d77c4a4ee2d846b1918a8c75c66fa1c3285a12b1d28950e1e6b817b237d4) OR (http.favicon.hash_sha256:57ff1068caf7d83d9c252ae26af5f833290b917945051a90cfc4b42e4e72ac13)`
+- NetData Dashboards [[Search]](https://app.netlas.io/responses/?q=http.headers.server%3A%22Netdata%20Embedded%20HTTP*%22&page=1&indices=)                    
+`http.headers.server:"Netdata Embedded HTTP*"`               
 - Node.js Express [[Search]](https://app.netlas.io/responses/?q=http.headers.x_powered_by%3A%22Express%22%20OR%20http.headres.set_cookie%3A%22connect.sid%22&page=1&indices=)    
  `http.headers.x_powered_by:"Express" OR http.headres.set_cookie:"connect.sid"`
 - PandoraFMS [[Search]](https://app.netlas.io/responses/?q=http.favicon.hash_sha256%3A62d73ef206143e68ac686f08fc770db66aa84b21f320f4953af8bdbb6b9da50e&page=1&indices=)    
@@ -428,6 +459,8 @@ If you find any inaccuracies, please feel free to send pull requests or write Is
  `http.favicon.hash_sha256:8170dab248310e6d887a088e75d72116e74ce99e91782e5dc0e3ff2cc4b63c3d`
 - Prometheus [[Search]](https://app.netlas.io/responses/?q=http.favicon.hash_sha256%3Ad72fc7b0bd1a4c1c4a016dfa4bfd594b2fb65a409575ec8f857864d4bdc658be&page=1&indices=)    
  `http.favicon.hash_sha256:d72fc7b0bd1a4c1c4a016dfa4bfd594b2fb65a409575ec8f857864d4bdc658be`
+- Rancher Dashboards [[Search]](https://app.netlas.io/responses/?q=http.title%3A%22Loading%26hellip%3B%22&page=1&indices=)                  
+`http.title:"Loading&hellip;"`            
 - Redmine [[Search]](https://app.netlas.io/responses/?q=tag.name%3A%22redmine%22&page=1&indices=) [[Search]](https://app.netlas.io/responses/?indices=&page=1&q=http.favicon.hash_sha256%3A5210ac65f141394a8540d408a9b56ed64c21c6b212cb28144c874f5715be9ed1)    
  `tag.name:"redmine"`    
  `http.favicon.hash_sha256:5210ac65f141394a8540d408a9b56ed64c21c6b212cb28144c874f5715be9ed1`
@@ -442,7 +475,11 @@ If you find any inaccuracies, please feel free to send pull requests or write Is
  `tag.name:"symfony"`
 - Terraform [[Search]](https://app.netlas.io/responses/?q=http.title%3A%22Terraform%20Enterprise%22&page=1&indices=)    
  `http.title:"Terraform Enterprise"`
-- Zabbix [[Search]](https://app.netlas.io/responses/?q=tag.name%3A%22zabbix%22&page=1&indices=) [[Search]](https://app.netlas.io/responses/?indices=&page=1&q=http.favicon.hash_sha256%3A22b06a141c425c92951056805f46691c4cd8e7547ed90b8836a282950d4b4be2)
+- Traefik Dashboards [[Search]](https://app.netlas.io/responses/?q=http.title%3A%22Traefik%22&page=1&indices=)             
+`http.title:"Traefik"`
+- Weave Scope [[Search]](https://app.netlas.io/responses/?q=http.title%3A%22Weave%20Scope%22&page=1&indices=)               
+`http.title:"Weave Scope"`             
+- Zabbix [[Search]](https://app.netlas.io/responses/?q=tag.name%3A%22zabbix%22&page=1&indices=) [[Search]](https://app.netlas.io/responses/?indices=&page=1&q=http.favicon.hash_sha256%3A22b06a141c425c92951056805f46691c4cd8e7547ed90b8836a282950d4b4be2)              
  `tag.name:"zabbix"`    
  `http.favicon.hash_sha256:22b06a141c425c92951056805f46691c4cd8e7547ed90b8836a282950d4b4be2`
 - Zend Framework [[Search]](https://app.netlas.io/responses/?q=http.headers.server%3A%22ZendServer%22%20OR%20http.headers.set_cookie%3A%22ZDEDebuggerPresent%22&page=1&indices=)    
@@ -456,17 +493,31 @@ If you find any inaccuracies, please feel free to send pull requests or write Is
  `tag.name:"dokuwiki"`    
  `http.favicon.hash_sha256:3ca2c21f1821782f2b2a29b814b7aa240862014a35fdee54d23a72575fc16ec1`     
 - FTP without autorization [[Search]](https://app.netlas.io/responses/?q=port%3A21%20AND%20ftp.banner%3A%22230%22&page=1&indices=)     
-`port:21 AND ftp.banner:"230"`     
+`port:21 AND ftp.banner:"230"`
+- GaugeTech Electricity Meters [[Search]](https://app.netlas.io/responses/?q=http.headers.server%3A%22EIG%20Embedded%20Web%20Server%22&page=1&indices=)             
+`http.headers.server:"EIG Embedded Web Server"`               
 - GeoServer [[Search]](https://app.netlas.io/responses/?indices=&page=1&q=http.title%3A%22geoserver%22)     
 `http.title:"geoserver"`     
 - GitLab [[Search]](https://app.netlas.io/responses/?q=http.favicon.hash_sha256%3A72a2cad5025aa931d6ea56c3201d1f18e68a8cd39788c7c80d5b2b82aa5143ef&page=1&indices=)    
  `http.favicon.hash_sha256:72a2cad5025aa931d6ea56c3201d1f18e68a8cd39788c7c80d5b2b82aa5143ef`
 - Hadoop [[Search]](https://app.netlas.io/responses/?q=http.title%3A%22Hadoop%20Administration%22&page=1&indices=)    
- `http.title:"Hadoop Administration"`     
-- Nordex Control [[Search]](https://app.netlas.io/responses/?indices=&page=1&q=http.favicon.hash_sha256%3A830a18175634c591efda599c39e280d0a1e98213ffe96e9d637ebff817cbc326)     
-`http.favicon.hash_sha256:830a18175634c591efda599c39e280d0a1e98213ffe96e9d637ebff817cbc326`     
+ `http.title:"Hadoop Administration"`
+- Mein Automowers [[Search]](https://app.netlas.io/responses/?indices=&page=1&q=http.favicon.hash_sha256%3A2a4b14d1620a2461ac510266249624df6152f266aea2946feb9b0ec8ac8a960d)        
+`http.favicon.hash_sha256:2a4b14d1620a2461ac510266249624df6152f266aea2946feb9b0ec8ac8a960d`
+- Misconfigured WordPress [[Search]](https://app.netlas.io/responses/?q=http.body%3A%22The%20wp-config.php%20creation%20script%20uses%20this%20file%22&page=1&indices=)              
+`http.body:"The wp-config.php creation script uses this file"`       
+- Nordex Control [[Search]](https://app.netlas.io/responses/?indices=&page=1&q=http.favicon.hash_sha256%3A830a18175634c591efda599c39e280d0a1e98213ffe96e9d637ebff817cbc326)    
+`http.favicon.hash_sha256:830a18175634c591efda599c39e280d0a1e98213ffe96e9d637ebff817cbc326`
+- Redis wihout authentication [[Search]](https://app.netlas.io/responses/?q=redis.ping_response%3A%22PONG%22&page=1&indices=)               
+`redis.ping_response:"PONG"`               
+- shell2http [[Search]](https://app.netlas.io/responses/?q=http.title%3A%22shell2http%22&page=1&indices=)             
+`http.title:"shell2http"`          
 - Splunkd [[Search]](https://app.netlas.io/responses/?q=tag.name%3A%22splunkd%22&page=1&indices=)    
  `tag.name:"splunkd"`
+- Unconfigured AdGuard [[Search]](https://app.netlas.io/responses/?q=http.title%3A%22Setup%20AdGuard%20Home%22&page=1&indices=)                 
+`http.title:"Setup AdGuard Home"`
+- VictoriaMetrics Agent [[Search]](https://app.netlas.io/responses/?q=http.body%3A%22%3Ch2%3Evmagent%3C%2Fh2%3E%22&page=1&indices=)          
+`http.body:"<h2>vmagent</h2>"`             
 - VSphere [[Search]](https://app.netlas.io/responses/?indices=&page=1&q=http.favicon.hash_sha256%3A0e3b83492fe3d83d72a60b6fb194adb9afd04466268241f5ccf700278737f74d)    
  `http.favicon.hash_sha256:0e3b83492fe3d83d72a60b6fb194adb9afd04466268241f5ccf700278737f74d`
 ***
