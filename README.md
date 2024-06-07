@@ -112,14 +112,55 @@ If you find any inaccuracies, please feel free to send pull requests or write Is
 `http.headers.server:"OpenVPN-AS"`     
 ***
 ### 2024 Interesting CVEs
+- CVE-2024-1708, -1709 (ConnectWise ScreenConnect) [[Search]](https://nt.ls/Vbu6L)             
+`http.headers.server:"ScreenConnect"`
+- CVE-2024-20356 (Costp IMC) [[Search]](https://nt.ls/WixwE)            
+`http.title:"Cisco Integrated Management Controller"`             
+- CVE-2024-20767 (Adobe ColdFusion) [[Search]](https://nt.ls/jl0cW)                   
+`tag.name:"adobe_coldfusion"`                
 - CVE-2024-20931 (Oracle WebLogic) [[Search]](https://nt.ls/P0M38)      
-`protocol:t3 OR protocol:t3s`       
+`protocol:t3 OR protocol:t3s`
+- CVE-2024-21006 (Oracle WebLogic) [[Search]](https://nt.ls/RrPD2)         
+`port:7001 AND protocol:t3`        
+- CVE-2024-21410 (MS Exchange) [[Search]](https://nt.ls/pR4S2)             
+`Dork: tag.name:"microsoft_exchange"`           
 - CVE-2024-21690 (Junos OS) [[Search]](https://nt.ls/CpoFo)      
-`http.title:"Juniper" `
+`http.title:"Juniper" `           
+- CVE-2024-27198, -27199 (JetBrains TeamCity) [[Search]](https://nt.ls/7DYva)               
+`http.headers.set_cookie:TCSESSIONID NOT http.body:"2023.11.3" NOT http.body:"2023.11.4"`
+- CVE-2024-21677 (Atlassian Confluence) [[Search]](https://nt.ls/mghaY)                      
+`http.meta:"confluence-base-url"`               
+- CVE-21722, -21723, -21724, -21725, -21726 (Joomla) [[Search]](https://nt.ls/dNRpZ)                   
+`tag.name:"joomla"`                 
 - CVE-2024-22024 (Ivanti Connect Secure) [[Search]](https://nt.ls/0AKq9)       
-`http.body:"welcome.cgi?p=logo"`       
+`http.body:"welcome.cgi?p=logo"`
+- CVE-2024-23334 (Python aiohttp) [[Search]](https://nt.ls/lrzzv)              
+`http.headers.server:"aiohttp"`                
 - CVE-2024-23897 (Jenkins) [[Search]](https://nt.ls/z5QU0)       
-`http.headers.x_jenkins:[0 TO 2.441]`       
+`http.headers.x_jenkins:[0 TO 2.441]`
+- CVE-2024-24919 (Check Point) [[Search]](https://nt.ls/tnMCW) [[Search]](https://nt.ls/z9fQV)        
+`http.favicon.hash_sha256:9a3a865d8911afcd95389ec701e5e8abcad69d928efd5b52b5d0bcc70a60d11a`             
+`tag.name:"checkpoint"`                  
+- CVE-2024-26026, -21793 (F5 BigIP) [[Search]](https://nt.ls/ptJHt)                
+`http.headers.server:"BigIP"`           
+- CVE-2024-26304, -26305, -33511, -33512 (ArubaOS) [[Search]](https://nt.ls/myG4Y)             
+`http.favicon.hash_sha256:dfa04944308ed6c96563ff88cdb767ed5177c76c8a386f7a5803b534e9bff753`         
+- CVE-2024-2879 (LayerSlider) [[Search]](https://nt.ls/8CmgD)                     
+`http.body:"plugins/layerslider"`
+- CVE-2024-29895, -25641, -31445, -31459 (Cacti) [[Search]](https://nt.ls/dxZnI)                    
+`http.title:"Login to Cacti" OR http.headers.set_cookie:"Cacti"`             
+- CVE-2024-31136 (JetBrains TeamCity) [[Search]](https://nt.ls/HmnT2)               
+`tag.name:"teamcity"`
+- CVE-2024-3273 (D-Link NAS) [[Search]](https://nt.ls/TyD6H)            
+`http.body:"Text:In order to access the ShareCenter"`
+- CVE-2024-3400 (Palo Alto Networks PAN-OS) [[Search]](https://nt.ls/eprag)                 
+`tag.name:"palo_alto"`               
+- CVE-2024-43770 (Roundcube) [[Search]](https://nt.ls/LAQwc)           
+`http.favicon.hash_sha256:20c30fd4340308d6a4ab222acae353fc2460793ac76645bb1ef1d9d61f4f0a9e`
+- CVE-2024-4835 (GitLab) [[Search]](https://nt.ls/xmir8)                
+`http.meta:"Gitlab"`          
+- CVE-2024-49606 (Tinyproxy) [[Search]](https://nt.ls/vWqHD)                     
+`http.headers.server:"tinyproxy/1.11.1" OR http.headers.server:"tinyproxy/1.10.0"`           
 ***
 ### General Searches
 - AMQP [[Search]](https://app.netlas.io/responses/?q=amqp%3A*&page=1&indices=)     
