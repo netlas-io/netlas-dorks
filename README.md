@@ -10,8 +10,6 @@ If you find any inaccuracies, please feel free to send pull requests or write Is
 
 ## Contents
 
-- [Netlas Featured Queries](#netlas-featured-queries)
-  - [Contents](#contents)
   - [General Searches](#general-searches)
   - [IoT, Routers and Security](#iot-routers-and-security)
   - [Security Applications](#security-applications)
