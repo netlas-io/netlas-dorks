@@ -10,6 +10,8 @@ If you find any inaccuracies, please feel free to send pull requests or write Is
 
 ## Contents
 
+- [Netlas Featured Queries](#netlas-featured-queries)
+  - [Contents](#contents)
   - [General Searches](#general-searches)
   - [IoT, Routers and Security](#iot-routers-and-security)
   - [Security Applications](#security-applications)
@@ -28,72 +30,72 @@ If you find any inaccuracies, please feel free to send pull requests or write Is
 
 ## General Searches
 
-- **AMQP** &emsp;[[Search &rarr;]](https://app.netlas.io/responses/?q=amqp%3A*&page=1&indices=) 
+- **AMQP** &emsp;[[Search&nbsp;&rarr;]](https://app.netlas.io/responses/?q=amqp%3A*&page=1&indices=) 
   ```text
   amqp:*
   ```
-- **ASN**, IP WHOIS search &emsp;[[Search &rarr;]](https://app.netlas.io/whois/ip/?q=asn.name%3ACERN&page=1) [[Alt &rarr;]](https://app.netlas.io/whois/ip/?q=asn.number%3A513&page=1&indices=)    
+- **ASN**, IP WHOIS search &emsp;[[Search&nbsp;&rarr;]](https://app.netlas.io/whois/ip/?q=asn.name%3ACERN&page=1) [[Alt&nbsp;&rarr;]](https://app.netlas.io/whois/ip/?q=asn.number%3A513&page=1&indices=)    
   ```text
   asn.name:"asnName"    
   asn.number:asnNumber
   ```
-- **City** &emsp;[[Search &rarr;]](https://app.netlas.io/responses/?q=geo.city%3ALondon&page=1&indices=)     
+- **City** &emsp;[[Search&nbsp;&rarr;]](https://app.netlas.io/responses/?q=geo.city%3ALondon&page=1&indices=)     
   ```text
   geo.city:cityName
   ```
-- **Country** &emsp;[[Search &rarr;]](https://app.netlas.io/responses/?q=geo.country%3AGB&page=1&indices=)     
+- **Country** &emsp;[[Search&nbsp;&rarr;]](https://app.netlas.io/responses/?q=geo.country%3AGB&page=1&indices=)     
   ```text
   geo.country:countryName
   ```
-- **Directory Listings** &emsp;[[Search &rarr;]](https://app.netlas.io/responses/?q=http.title%3A%22%2Findex%20of%2F%22&page=1&indices=)    
+- **Directory Listings** &emsp;[[Search&nbsp;&rarr;]](https://app.netlas.io/responses/?q=http.title%3A%22%2Findex%20of%2F%22&page=1&indices=)    
   ```text
   http.title:"/index of/"
   ```
-- **DNS**, DNS search &emsp;[[Search &rarr;]](https://app.netlas.io/domains/?q=domain%3A*.netlas.io&page=1)    
+- **DNS**, DNS search &emsp;[[Search&nbsp;&rarr;]](https://app.netlas.io/domains/?q=domain%3A*.netlas.io&page=1)    
   ```text
   domain:domainName
   ```
-- **FTP** &emsp;[[Search &rarr;]](https://app.netlas.io/responses/?q=prot7%3Aftp&page=1&indices=)    
+- **FTP** &emsp;[[Search&nbsp;&rarr;]](https://app.netlas.io/responses/?q=prot7%3Aftp&page=1&indices=)    
   ```text
   prot7:ftp
   ```
-- **FTP banner** &emsp;[[Search &rarr;]](https://app.netlas.io/responses/?q=ftp.banner%3A%22ProFTPD%22&page=1&indices=)     
+- **FTP banner** &emsp;[[Search&nbsp;&rarr;]](https://app.netlas.io/responses/?q=ftp.banner%3A%22ProFTPD%22&page=1&indices=)     
   ```text
   ftp.banner:"bannerText"
   ```
-- **FTP without autorization** &emsp;[[Search  &rarr;]](https://app.netlas.io/responses/?q=port%3A21%20AND%20ftp.banner%3A%22230%22&page=1&indices=)     
+- **FTP without autorization** &emsp;[[Search&nbsp;&rarr;]](https://app.netlas.io/responses/?q=port%3A21%20AND%20ftp.banner%3A%22230%22&page=1&indices=)     
   ```text
   port:21 AND ftp.banner:"230"
   ```
-- **IPSec** &emsp;[[Search &rarr;]](https://app.netlas.io/responses/?q=(port%3A500%20OR%20port%3A4500%20OR%20port%3A1701)&page=1&indices=)    
+- **IPSec** &emsp;[[Search&nbsp;&rarr;]](https://app.netlas.io/responses/?q=(port%3A500%20OR%20port%3A4500%20OR%20port%3A1701)&page=1&indices=)    
   ```text
   port:500 OR port:4500 OR port:1701
   ```
-- **Modbus** &emsp;[[Search &rarr;]](https://app.netlas.io/responses/?q=protocol%3Amodbus&page=1&indices=)    
+- **Modbus** &emsp;[[Search&nbsp;&rarr;]](https://app.netlas.io/responses/?q=protocol%3Amodbus&page=1&indices=)    
   ```text
   protocol:modbus
   ```
-- **Netbios** &emsp;[[Search &rarr;]](https://app.netlas.io/responses/?q=protocol%3Anetbios&page=1&indices=)    
+- **Netbios** &emsp;[[Search&nbsp;&rarr;]](https://app.netlas.io/responses/?q=protocol%3Anetbios&page=1&indices=)    
   ```text
   protocol:netbios
   ```
-- **Redis** &emsp;[[Search &rarr;]](https://app.netlas.io/responses/?q=protocol%3Aredis&page=1&indices=)    
+- **Redis** &emsp;[[Search&nbsp;&rarr;]](https://app.netlas.io/responses/?q=protocol%3Aredis&page=1&indices=)    
   ```text
   protocol:redis
   ```
-- **SMB** &emsp;[[Search &rarr;]](https://app.netlas.io/responses/?q=prot7%3Asmb&page=1&indices=)    
+- **SMB** &emsp;[[Search&nbsp;&rarr;]](https://app.netlas.io/responses/?q=prot7%3Asmb&page=1&indices=)    
   ```text
   prot7:smb
   ```
-- **SMTP** &emsp;[[Search &rarr;]](https://app.netlas.io/responses/?q=prot7%3Asmtp&page=1&indices=)    
+- **SMTP** &emsp;[[Search&nbsp;&rarr;]](https://app.netlas.io/responses/?q=prot7%3Asmtp&page=1&indices=)    
   ```text
   prot7:smtp
   ```
-- **SOCKS** &emsp;[[Search &rarr;]](https://app.netlas.io/responses/?q=prot7%3Asocks&page=1&indices=)    
+- **SOCKS** &emsp;[[Search&nbsp;&rarr;]](https://app.netlas.io/responses/?q=prot7%3Asocks&page=1&indices=)    
   ```text
   prot7:socks
   ```
-- **SSH** &emsp;[[Search &rarr;]](https://app.netlas.io/responses/?q=protocol%3Assh&page=1&indices=)    
+- **SSH** &emsp;[[Search&nbsp;&rarr;]](https://app.netlas.io/responses/?q=protocol%3Assh&page=1&indices=)    
   ```text
   protocol:ssh
   ```
