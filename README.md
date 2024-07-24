@@ -10,6 +10,8 @@ If you find any inaccuracies, please feel free to send pull requests or write Is
 
 ## Contents
 
+- [Netlas Featured Queries](#netlas-featured-queries)
+  - [Contents](#contents)
   - [General Searches](#general-searches)
   - [IoT, Routers and Security](#iot-routers-and-security)
   - [Security Applications](#security-applications)
@@ -34,7 +36,9 @@ If you find any inaccuracies, please feel free to send pull requests or write Is
   ```
 - **ASN**, IP WHOIS search &emsp;[[Search&nbsp;&rarr;]](https://app.netlas.io/whois/ip/?q=asn.name%3ACERN&page=1) [[Alt&nbsp;&rarr;]](https://app.netlas.io/whois/ip/?q=asn.number%3A513&page=1&indices=)    
   ```text
-  asn.name:"asnName"    
+  asn.name:"asnName"
+  ```
+  ```text
   asn.number:asnNumber
   ```
 - **City** &emsp;[[Search&nbsp;&rarr;]](https://app.netlas.io/responses/?q=geo.city%3ALondon&page=1&indices=)     
@@ -125,6 +129,8 @@ If you find any inaccuracies, please feel free to send pull requests or write Is
 - **Cisco** &emsp;[[Search&nbsp;&rarr;]](https://app.netlas.io/responses/?q=tag.name:%22Cisco%22&indices=&page=1) [[Alt&nbsp;&rarr;]](https://app.netlas.io/responses/?q=tag.name:%22Cisco%22&indices=&page=1)    
   ```text
   tag.name:"Cisco"
+  ```
+  ```text
   http.favicon.hash_sha256:62a8461e328d5bace3780ff738d0b58f6502592c04afa564e0a8a792583a7bfb
   ```
 - **Cisco Small Business Switches** &emsp;[[Search&nbsp;&rarr;]](https://app.netlas.io/responses/?q=http.favicon.perceptual_hash%3Affdb0113090009ff~1%20AND%20http.body%3A%22Small%20Business%22&page=1&indices=)
@@ -146,6 +152,8 @@ If you find any inaccuracies, please feel free to send pull requests or write Is
 - **DLink** &emsp;[[Search&nbsp;&rarr;]](https://app.netlas.io/responses/?q=tag.name%3A%22dlink%22&page=1&indices=) [[Alt&nbsp;&rarr;]](https://app.netlas.io/responses/?indices=&page=1&q=http.favicon.hash_sha256%3A81adccffbd70a76e9662977e7b55938e7eec597ac8b58e5a564959e6d465deec)    
   ```text
   tag.name:"dlink"
+  ```
+  ```text
   http.favicon.hash_sha256:81adccffbd70a76e9662977e7b55938e7eec597ac8b58e5a564959e6d465deec
   ```
 - **Draytek Routers** &emsp;[[Search&nbsp;&rarr;]](https://app.netlas.io/responses/?indices=&page=1&q=http.favicon.hash_sha256%3A0af4f089d58e919f4ee421727e9ac54d885d6b3b05ec16e4d94b703f45c7eef9)     
@@ -171,6 +179,8 @@ If you find any inaccuracies, please feel free to send pull requests or write Is
 - **Fortinet** &emsp;[[Search&nbsp;&rarr;]](https://app.netlas.io/responses/?q=tag.name%3A%22fortinet%22&page=1) [[Alt&nbsp;&rarr;]](https://app.netlas.io/responses/?indices=&page=1&q=http.favicon.hash_sha256%3Ad18b3c9feb76c3c1cfdcc51c732f113327e3c33fb3f63b479951f7da6ed1216f)    
   ```text
   tag.name:"fortinet"
+  ```
+  ```text
   http.favicon.hash_sha256:d18b3c9feb76c3c1cfdcc51c732f113327e3c33fb3f63b479951f7da6ed1216f
   ```
 - **Home Assistant** &emsp;[[Search&nbsp;&rarr;]](https://app.netlas.io/responses/?q=http.favicon.hash_sha256%3A892d336ba0b3ce7f94ebbcbe2fa5c3fcfdc79f25efcdc7a7e17918e85daaf9f0&page=1&indices=)     
@@ -180,6 +190,8 @@ If you find any inaccuracies, please feel free to send pull requests or write Is
 - **HP iLO** &emsp;[[Search&nbsp;&rarr;]](https://app.netlas.io/responses/?q=tag.name%3A%22hp_ilo%22&page=1&indices=) [[Alt&nbsp;&rarr;]](https://app.netlas.io/responses/?q=http.favicon.hash_sha256%3A0c16db2ccec266761010fa53ad69e2f6aafbf6b3134730e1fa72f19daf93ed04&page=1&indices=)       
   ```text
   tag.name:"hp_ilo"
+  ```
+  ```text
   http.favicon.hash_sha256:0c16db2ccec266761010fa53ad69e2f6aafbf6b3134730e1fa72f19daf93ed04
   ```
 - **HP Printers** &emsp;[[Search&nbsp;&rarr;]](https://app.netlas.io/responses/?q=http.headers.server%3A(%22HP%20HTTP%22%20%22Serial%20Number%22%20%22Built%22)&page=1&indices=)     
@@ -189,6 +201,8 @@ If you find any inaccuracies, please feel free to send pull requests or write Is
 - **Huawei Routers** &emsp;[[Search&nbsp;&rarr;]](https://app.netlas.io/responses/?q=tag.name%3A%22huawei_router%22&page=1&indices=) [[Alt&nbsp;&rarr;]](https://app.netlas.io/responses/?indices=&page=1&q=http.favicon.hash_sha256%3Ae64086f94c7013d92ca6d7e05933f4fb90cf8966aeff1efc583a92d1827093db)     
   ```text
   tag.name:"huawei_router"
+  ```
+  ```text
   http.favicon.hash_sha256:e64086f94c7013d92ca6d7e05933f4fb90cf8966aeff1efc583a92d1827093db
   ```
 - **Ivanti Connect Secure** &emsp;[[Search&nbsp;&rarr;]](https://app.netlas.io/responses/?q=http.body%3A%22welcome.cgi%3Fp%3Dlogo%22&page=1&indices=)       
@@ -210,6 +224,8 @@ If you find any inaccuracies, please feel free to send pull requests or write Is
 - **Netgear** &emsp;[[Search&nbsp;&rarr;]](https://app.netlas.io/responses/?q=tag.name%3A%22netgear%22&page=1&indices=) [[Alt&nbsp;&rarr;]](https://app.netlas.io/responses/?indices=&page=1&q=http.favicon.hash_sha256%3A3bfc11a176b9c8a39870478951fc177a3bc53c9fb689cdf5f80bff6a0c4c3c6b)    
   ```text
   tag.name:"netgear"
+  ```
+  ```text
   http.favicon.hash_sha256:3bfc11a176b9c8a39870478951fc177a3bc53c9fb689cdf5f80bff6a0c4c3c6b
   ```
 - **Nethix Wireless Controller** &emsp;[[Search&nbsp;&rarr;]](https://app.netlas.io/responses/?q=http.headers.set_cookie%3A%22NethixSession%22&page=1&indices=)                 
@@ -251,6 +267,8 @@ If you find any inaccuracies, please feel free to send pull requests or write Is
 - **SecurePoint** &emsp;[[Search&nbsp;&rarr;]](https://app.netlas.io/responses/?q=tag.name%3A%22securepoint%22&page=1) [[Alt&nbsp;&rarr;]](https://app.netlas.io/responses/?indices=&page=1&q=http.favicon.hash_sha256%3Aebaaed8ab7c21856f888117edaf342f6bc10335106ed907f95787b69878d9d9e)     
   ```text
   tag.name:"securepoint"
+  ```
+  ```text
   http.favicon.hash_sha256:ebaaed8ab7c21856f888117edaf342f6bc10335106ed907f95787b69878d9d9e
   ```
 - **Siemens** &emsp;[[Search&nbsp;&rarr;]](https://app.netlas.io/responses/?q=http.favicon.hash_sha256%3A4f81d8e8df852d2ef27c4b1d9f211a505346ae12840a83db033db329750e7fdb&page=1&indices=)   
@@ -260,6 +278,8 @@ If you find any inaccuracies, please feel free to send pull requests or write Is
 - **SuperMicro BMC** &emsp;[[Search&nbsp;&rarr;]](https://nt.ls/svQi3) [[Search&nbsp;&rarr;]](https://nt.ls/JetkR)       
   ```text
   tag.name:"supermicro_ipmi"
+  ```
+  ```text
   certificate.subject.organization:"Super Micro Computer" AND certificate.subject.common_name:IPMI
   ```
 - **Tenda** &emsp;[[Search&nbsp;&rarr;]](https://app.netlas.io/responses/?indices=&page=1&q=http.favicon.hash_sha256%3A9322e4def463fff36b0e180ddcf67a38853b7b729716aa5ab7a119e3a24841bc)     
@@ -269,6 +289,8 @@ If you find any inaccuracies, please feel free to send pull requests or write Is
 - **TPLink** &emsp;[[Search&nbsp;&rarr;]](https://app.netlas.io/responses/?q=tag.name%3A%22tplink%22&page=1&indices=) [[Alt&nbsp;&rarr;]](https://app.netlas.io/responses/?indices=&page=1&q=http.favicon.hash_sha256%3A9e803d05d8907cca1f7730f187707c25b0fb60f9e286e2957ab1e21cffdefde2)    
   ```text
   tag.name:"tplink"
+  ```
+  ```text
   http.favicon.hash_sha256:9e803d05d8907cca1f7730f187707c25b0fb60f9e286e2957ab1e21cffdefde2
   ```
 - **Wazuh** &emsp;[[Search&nbsp;&rarr;]](https://app.netlas.io/responses/?q=http.title%3A%22Wazuh%22&page=1&indices=)    
@@ -286,6 +308,8 @@ If you find any inaccuracies, please feel free to send pull requests or write Is
 - **Zyxel ZyWALL** &emsp;[[Search&nbsp;&rarr;]](https://app.netlas.io/responses/?page=1&q=tag.name%3A%22zyxel_zywall%22) [[Alt&nbsp;&rarr;]](https://app.netlas.io/responses/?indices=&page=1&q=http.favicon.hash_sha256%3A9a02f3cf948f9409c25070f2f057b69dda5d0aaf7fa8d056552e8bda8295ca1f)     
   ```text
   tag.name:"zyxel_zywall"
+  ```
+  ```text
   http.favicon.hash_sha256:9a02f3cf948f9409c25070f2f057b69dda5d0aaf7fa8d056552e8bda8295ca1f
   ```
 
@@ -329,6 +353,8 @@ If you find any inaccuracies, please feel free to send pull requests or write Is
 - **All Web cameras** &emsp;[[Search&nbsp;&rarr;]](https://app.netlas.io/responses/?q=tag.category%3A%22Web%20cameras%22&page=1&indices=) [[Alt&nbsp;&rarr;]](https://app.netlas.io/responses/?q=http.title%3A%22camera%22&page=1&indices=)     
   ```text
   tag.category:"Web cameras"
+  ```
+  ```text
   http.title:"camera"
   ```
 - **Android IP Webcam Server** &emsp;[[Search&nbsp;&rarr;]](https://app.netlas.io/responses/?q=http.headers.server%3A%22IP%20Webcam%20Server%22&page=1&indices=)     
@@ -415,6 +441,8 @@ If you find any inaccuracies, please feel free to send pull requests or write Is
 - **RabbitMQ**  &emsp;[[Search&nbsp;&rarr;]](https://app.netlas.io/responses/?q=tag.name%3A%22rabbitmq%22&page=1&indices=) [[Alt&nbsp;&rarr;]](https://app.netlas.io/responses/?indices=&page=1&q=http.favicon.hash_sha256%3A8c08be4e11537f793f06a9e6dd91aba52d43032b66d11f81fa5df7e452e52aa1)    
   ```text
   tag.name:"rabbitmq"
+  ```
+  ```text
   http.favicon.hash_sha256:8c08be4e11537f793f06a9e6dd91aba52d43032b66d11f81fa5df7e452e52aa1
   ```
 - **Rocket.Chat** &emsp;[[Search&nbsp;&rarr;]](https://app.netlas.io/responses/?q=http.title%3A%22Rocket.Chat%22&page=1&indices=)    
@@ -424,11 +452,15 @@ If you find any inaccuracies, please feel free to send pull requests or write Is
 - **Roundcube** &emsp;[[Search&nbsp;&rarr;]](https://app.netlas.io/responses/?q=tag.name%3A%22roundcube%22&page=1&indices=) [[Alt&nbsp;&rarr;]](https://app.netlas.io/responses/?indices=&page=1&q=http.favicon.hash_sha256%3A20c30fd4340308d6a4ab222acae353fc2460793ac76645bb1ef1d9d61f4f0a9e)  
   ```text
   tag.name:"roundcube"
+  ```
+  ```text
   http.favicon.hash_sha256:20c30fd4340308d6a4ab222acae353fc2460793ac76645bb1ef1d9d61f4f0a9e
   ```
 - **Skype for Business** &emsp;[[Search&nbsp;&rarr;]](https://app.netlas.io/responses/?q=tag.name%3A%22skype%22%20AND%20http.title%3A%22Skype%20for%20Business%22&page=1&indices=) [[Alt&nbsp;&rarr;]](https://app.netlas.io/responses/?q=http.favicon.hash_sha256%3A7d188ade5d6bc30a4d55e83a08f4e4bafe8f71ae5af2023fc87ed9767b7dda12%20AND%20http.title%3A%22Skype%20for%20Business%22&page=1&indices=)    
   ```text
   tag.name:"skype" AND http.title:"Skype for Business"
+  ```
+  ```text
   http.favicon.hash_sha256:7d188ade5d6bc30a4d55e83a08f4e4bafe8f71ae5af2023fc87ed9767b7dda12 AND http.title:"Skype for Business"
   ```
 - **Zimbra** &emsp;[[Search&nbsp;&rarr;]](https://app.netlas.io/responses/?q=tag.name%3A%22zimbra%22&page=1&indices=)   
@@ -496,6 +528,8 @@ If you find any inaccuracies, please feel free to send pull requests or write Is
 - **Tanderberg** &emsp;[[Search&nbsp;&rarr;]](https://app.netlas.io/responses/?q=tag.name%3A%22tandberg%22&page=1&indices=) [[Alt&nbsp;&rarr;]](https://app.netlas.io/responses/?q=http.favicon.hash_sha256%3A0ac9e427c00eea6f25562023c84ed961943d13b9d7c7665a747ab536fb9c2a73&page=1&indices=)     
   ```text
   tag.name:"tandberg"
+  ```
+  ```text
   http.favicon.hash_sha256:0ac9e427c00eea6f25562023c84ed961943d13b9d7c7665a747ab536fb9c2a73
   ```
 
@@ -506,6 +540,8 @@ If you find any inaccuracies, please feel free to send pull requests or write Is
 - **Apache Tomcat** &emsp;[[Search&nbsp;&rarr;]](https://app.netlas.io/responses/?q=tag.name%3A%22apache_tomcat%22&page=1&indices=) [[Alt&nbsp;&rarr;]](https://app.netlas.io/responses/?indices=&page=1&q=http.favicon.hash_sha256%3A64a3170a912786e9eece7e347b58f36471cb9d0bc790697b216c61050e6b1f08)    
   ```text
   tag.name:"apache_tomcat"
+  ```
+  ```text
   http.favicon.hash_sha256:64a3170a912786e9eece7e347b58f36471cb9d0bc790697b216c61050e6b1f08
   ```
 - **Ceph** &emsp;[[Search&nbsp;&rarr;]](https://app.netlas.io/responses/?q=http.favicon.hash_sha256%3A3db088b4089dee70dfd305a4e200dc72c9ad7d78ffd28ffe36608eaf46591bcd&page=1&indices=)    
@@ -515,6 +551,8 @@ If you find any inaccuracies, please feel free to send pull requests or write Is
 - **CouchDB** &emsp;[[Search&nbsp;&rarr;]](https://app.netlas.io/responses/?q=tag.name%3A%22couchdb%22&page=1&indices=) [[Search]](https://app.netlas.io/responses/?q=http.headers.server%3A%22CouchDB%22&page=1&indices=)    
   ```text
   tag.name:"couchdb"
+  ```
+  ```text
   http.headers.server:"CouchDB"
   ```
 - **InfluxDB** &emsp;[[Search&nbsp;&rarr;]](https://app.netlas.io/responses/?q=http.title%3A%E2%80%9DInfluxDB%20Admin%E2%80%9D&page=1&indices=)    
@@ -552,6 +590,8 @@ If you find any inaccuracies, please feel free to send pull requests or write Is
 - **phpmyadmin** &emsp;[[Search&nbsp;&rarr;]](https://app.netlas.io/responses/?q=tag.name%3A%22phpmyadmin%22&page=1&indices=) [[Alt&nbsp;&rarr;]](https://app.netlas.io/responses/?indices=&page=1&q=http.favicon.hash_sha256%3Ae2905705920b2636309d785c2df3f155d6379b0aa9a44dc7831524505fa2defd)    
   ```text
   tag.name:"phpmyadmin"
+  ```
+  ```text
   http.favicon.hash_sha256:e2905705920b2636309d785c2df3f155d6379b0aa9a44dc7831524505fa2defd
   ```
 - **PostgreSQL** &emsp;[[Search&nbsp;&rarr;]](https://app.netlas.io/responses/?q=prot7%3Apostgres&page=1&indices=)    
@@ -582,6 +622,8 @@ If you find any inaccuracies, please feel free to send pull requests or write Is
 - **IIS** &emsp;[[Search&nbsp;&rarr;]](https://app.netlas.io/responses/?q=tag.name%3A%22iis%22&page=1) [[Alt&nbsp;&rarr;]](https://app.netlas.io/responses/?q=%20http.headers.server%3A%22Microsoft-IIS%22&page=1&indices=)    
   ```text
   tag.name:"iis"
+  ```
+  ```text
   http.headers.server:"Microsoft-IIS"
   ```
 - **Nginx** &emsp;[[Search&nbsp;&rarr;]](https://app.netlas.io/responses/?q=http.headers.server%3Anginx%20&page=1&indices=)    
@@ -591,11 +633,15 @@ If you find any inaccuracies, please feel free to send pull requests or write Is
 - **SolarWinds** &emsp;[[Search&nbsp;&rarr;]](https://app.netlas.io/responses/?q=tag.name%3A%22solarwinds_ftp%22&page=1&indices=) [[Alt&nbsp;&rarr;]](https://app.netlas.io/responses/?indices=&page=1&q=http.favicon.hash_sha256%3A2dbf88db1be0f1305a415b0455fe258627f56aa4b6b334130707a3b1adc6dba7)    
   ```text
   tag.name:"solarwinds_ftp"
+  ```
+  ```text
   http.favicon.hash_sha256:2dbf88db1be0f1305a415b0455fe258627f56aa4b6b334130707a3b1adc6dba7
   ```
 - **WordPress** &emsp;[[Search&nbsp;&rarr;]](https://app.netlas.io/responses/?q=tag.name%3A%22wordpress%22&page=1&indices=) [[Alt&nbsp;&rarr;]](https://app.netlas.io/responses/?q=http.favicon.path%3A%22%2Fwp-content%2F%22&page=1&indices=)    
   ```text
   tag.name:"wordpress"
+  ```
+  ```text
   http.favicon.path:"/wp-content/"
   ```
 - **WordPress (misconfigured)** &emsp;[[Search&nbsp;&rarr;]](https://app.netlas.io/responses/?q=http.body%3A%22The%20wp-config.php%20creation%20script%20uses%20this%20file%22&page=1&indices=)              
@@ -613,11 +659,15 @@ If you find any inaccuracies, please feel free to send pull requests or write Is
 - **Confluence** &emsp;[[Search&nbsp;&rarr;]](https://app.netlas.io/responses/?q=tag.name%3A%22atlassian_confluence%22&page=1&indices=) [[Alt&nbsp;&rarr;]](https://app.netlas.io/responses/?indices=&page=1&q=http.favicon.hash_sha256%3A35998ea6b404f48cdaea65529793d93c19135974f6324bf1aabebce850e469bb)    
   ```text
   tag.name:"atlassian_confluence"
+  ```
+  ```text
   http.favicon.hash_sha256:35998ea6b404f48cdaea65529793d93c19135974f6324bf1aabebce850e469bb
   ```
 - **DokuWiki** &emsp;[[Search&nbsp;&rarr;]](https://app.netlas.io/responses/?q=tag.name%3A%22dokuwiki%22&page=1&indices=) [[Alt&nbsp;&rarr;]](https://app.netlas.io/responses/?indices=&page=1&q=http.favicon.hash_sha256%3A3ca2c21f1821782f2b2a29b814b7aa240862014a35fdee54d23a72575fc16ec1)    
   ```text
   tag.name:"dokuwiki"
+  ```
+  ```text
   http.favicon.hash_sha256:3ca2c21f1821782f2b2a29b814b7aa240862014a35fdee54d23a72575fc16ec1
   ```
 
@@ -632,11 +682,15 @@ If you find any inaccuracies, please feel free to send pull requests or write Is
 - **Bamboo** &emsp;[[Search&nbsp;&rarr;]](https://app.netlas.io/responses/?q=tag.name%3A%22atlassian_bamboo%22&page=1&indices=) [[Alt&nbsp;&rarr;]](https://app.netlas.io/responses/?indices=&page=1&q=http.favicon.hash_sha256%3A9fac9dadbd379126f3f81ba14e4e8d911362ec766e09226504121ee2758d0f64)    
   ```text
   tag.name:"atlassian_bamboo"
+  ```
+  ```text
   http.favicon.hash_sha256:9fac9dadbd379126f3f81ba14e4e8d911362ec766e09226504121ee2758d0f64
   ```
 - **Bugzilla** &emsp;[[Search&nbsp;&rarr;]](https://app.netlas.io/responses/?q=tag.name%3A%22bugzilla%22&page=1&indices=) [[Alt&nbsp;&rarr;]](https://app.netlas.io/responses/?indices=&page=1&q=http.favicon.hash_sha256%3A92307d57240ad6473bf3aa757f185ee549469bb51363be2ea824fb03c7299bf2)    
   ```text
   tag.name:"bugzilla"
+  ```
+  ```text
   http.favicon.hash_sha256:92307d57240ad6473bf3aa757f185ee549469bb51363be2ea824fb03c7299bf2
   ```
 - **cAdvisor** &emsp;[[Search&nbsp;&rarr;]](https://app.netlas.io/responses/?q=http.title%3A%22cAdvisor%20-%20%2F%22&page=1&indices=)       
@@ -666,11 +720,15 @@ If you find any inaccuracies, please feel free to send pull requests or write Is
 - **Jenkins** &emsp;[[Search&nbsp;&rarr;]](https://app.netlas.io/responses/?q=tag.name%3A%22jenkins%22&page=1&indices=) [[Alt&nbsp;&rarr;]](https://app.netlas.io/responses/?indices=&page=1&q=http.favicon.hash_sha256%3A4fec1ee82f0dc4a8e4e9bb26954cf54cf9bf1e6a009516cb6c49ff16924e8caa)    
   ```text
   tag.name:"jenkins"
+  ```
+  ```text
   http.favicon.hash_sha256:4fec1ee82f0dc4a8e4e9bb26954cf54cf9bf1e6a009516cb6c49ff16924e8caa
   ```
 - **Jira** &emsp;[[Search&nbsp;&rarr;]](https://app.netlas.io/responses/?q=tag.name%3A%22atlassian_jira%22&page=1&indices=) [[Alt&nbsp;&rarr;]](https://app.netlas.io/responses/?q=http.favicon.hash_sha256%3A7bd6886a738297cd7bf2113d2cc3d898b9cad4079f336eb03fcd737549aea8a6%20OR%20http.favicon.hash_sha256%3A84f150bf0c8858f1eb6c1e7ccc86f3208cc5a59b496059892c3aff5e22992d27%20OR%20http.favicon.hash_sha256%3A181076e8983bc2c9fdff6d0548000cd78d1379e410f55648f2c40d6d893fa9fa&page=1&indices=)    
   ```text
   tag.name:"atlassian_jira"
+  ```
+  ```text
   http.favicon.hash_sha256:7bd6886a738297cd7bf2113d2cc3d898b9cad4079f336eb03fcd737549aea8a6 OR http.favicon.hash_sha256:84f150bf0c8858f1eb6c1e7ccc86f3208cc5a59b496059892c3aff5e22992d27 OR http.favicon.hash_sha256:181076e8983bc2c9fdff6d0548000cd78d1379e410f55648f2c40d6d893fa9fa
   ```
 - **Kafka** &emsp;[[Search&nbsp;&rarr;]](https://app.netlas.io/responses/?q=http.title%3A%E2%80%9Dkafka%E2%80%9D%20OR%20http.title%3A%E2%80%9DApache%20Kafka%E2%80%9D%20OR%20http.body%3A%E2%80%9Dkafka%E2%80%9D%20OR%20http.body%3A%E2%80%9DApache%20Kafka%E2%80%9D&page=1&indices=)    
@@ -716,6 +774,8 @@ If you find any inaccuracies, please feel free to send pull requests or write Is
 - **Redmine** &emsp;[[Search&nbsp;&rarr;]](https://app.netlas.io/responses/?q=tag.name%3A%22redmine%22&page=1&indices=) [[Alt&nbsp;&rarr;]](https://app.netlas.io/responses/?indices=&page=1&q=http.favicon.hash_sha256%3A5210ac65f141394a8540d408a9b56ed64c21c6b212cb28144c874f5715be9ed1)    
   ```text
   tag.name:"redmine"
+  ```
+  ```text
   http.favicon.hash_sha256:5210ac65f141394a8540d408a9b56ed64c21c6b212cb28144c874f5715be9ed1
   ```
 - **Sentry** &emsp;[[Search&nbsp;&rarr;]](https://app.netlas.io/responses/?q=tag.name%3A%22sentry%22&page=1&indices=)    
@@ -725,6 +785,8 @@ If you find any inaccuracies, please feel free to send pull requests or write Is
 - **SonarQube** &emsp;[[Search&nbsp;&rarr;]](https://app.netlas.io/responses/?q=tag.name%3A%22sonarqubes%22&page=1&indices=) [[Alt&nbsp;&rarr;]](https://app.netlas.io/responses/?indices=&page=1&q=http.favicon.hash_sha256%3Af04d7cdd55fe15c50e78457f366afa723587cf267c28b81cbcfe44248934a82b)    
   ```text
   tag.name:"sonarqubes"
+  ```
+  ```text
   http.favicon.hash_sha256:f04d7cdd55fe15c50e78457f366afa723587cf267c28b81cbcfe44248934a82b
   ```
 - **Swagger** &emsp;[[Search&nbsp;&rarr;]](https://app.netlas.io/responses/?q=http.favicon.hash_sha256%3A3ed612f41e050ca5e7000cad6f1cbe7e7da39f65fca99c02e99e6591056e5837&page=1&indices=)    
@@ -750,6 +812,8 @@ If you find any inaccuracies, please feel free to send pull requests or write Is
 - **Zabbix** &emsp;[[Search&nbsp;&rarr;]](https://app.netlas.io/responses/?q=tag.name%3A%22zabbix%22&page=1&indices=) [[Alt&nbsp;&rarr;]](https://app.netlas.io/responses/?indices=&page=1&q=http.favicon.hash_sha256%3A22b06a141c425c92951056805f46691c4cd8e7547ed90b8836a282950d4b4be2)              
   ```text
   tag.name:"zabbix"
+  ```
+  ```text
   http.favicon.hash_sha256:22b06a141c425c92951056805f46691c4cd8e7547ed90b8836a282950d4b4be2
   ```
 - **Zend Framework** &emsp;[[Search&nbsp;&rarr;]](https://app.netlas.io/responses/?q=http.headers.server%3A%22ZendServer%22%20OR%20http.headers.set_cookie%3A%22ZDEDebuggerPresent%22&page=1&indices=)    
@@ -828,7 +892,7 @@ If you find any inaccuracies, please feel free to send pull requests or write Is
   ```
 - **CVE-2024-21410** (MS Exchange) &emsp;[[Search&nbsp;&rarr;]](https://nt.ls/pR4S2)             
   ```text
-  Dork: tag.name:"microsoft_exchange"
+  tag.name:"microsoft_exchange"
   ```
 - **CVE-2024-21690** (Junos OS) &emsp;[[Search&nbsp;&rarr;]](https://nt.ls/CpoFo)      
   ```text
@@ -861,6 +925,8 @@ If you find any inaccuracies, please feel free to send pull requests or write Is
 - **CVE-2024-24919** (Check Point) &emsp;[[Search&nbsp;&rarr;]](https://nt.ls/tnMCW) [[Search]](https://nt.ls/z9fQV)        
   ```text
   http.favicon.hash_sha256:9a3a865d8911afcd95389ec701e5e8abcad69d928efd5b52b5d0bcc70a60d11a
+  ```
+  ```text
   tag.name:"checkpoint"
   ```
 - **CVE-2024-26026, -21793** (F5 BigIP) &emsp;[[Search&nbsp;&rarr;]](https://nt.ls/ptJHt)                
@@ -927,6 +993,8 @@ If you find any inaccuracies, please feel free to send pull requests or write Is
 - **CVE-2023-22515** (Attlassian Confluence Data and Server) &emsp;[[Search&nbsp;&rarr;]](https://nt.ls/MwYfk) [[Alt&nbsp;&rarr;]](https://nt.ls/nysj9)     
   ```text
   tag.name:"atlassian_confluence"
+  ```
+  ```text
   http.meta:"confluence-base-url"
   ```
 - **CVE-2023-22527** (Atlassian Confluence) &emsp;[[Search&nbsp;&rarr;]](https://nt.ls/e0S6w)       
@@ -976,6 +1044,8 @@ If you find any inaccuracies, please feel free to send pull requests or write Is
 - **CVE-2023-27997** (Fortigate VPN) &emsp;[[Search&nbsp;&rarr;]](https://app.netlas.io/responses/?indices=&page=1&q=http.favicon.hash_sha256%3Ad18b3c9feb76c3c1cfdcc51c732f113327e3c33fb3f63b479951f7da6ed1216f) [[Alt&nbsp;&rarr;]](https://app.netlas.io/responses/?page=1&q=tag.name%3A%22fortigate_vpn%22)      
   ```text
   http.favicon.hash_sha256:d18b3c9feb76c3c1cfdcc51c732f113327e3c33fb3f63b479951f7da6ed1216f
+  ```
+  ```text
   tag.name:"fortigate_vpn"
   ```
 - **CVE-2023-28375** (Osprey Pumps) &emsp;[[Search&nbsp;&rarr;]](https://app.netlas.io/responses/?q=http.title%3A%28Osprey%20Controller%29&page=1&indices=)    
@@ -1057,6 +1127,8 @@ If you find any inaccuracies, please feel free to send pull requests or write Is
 - **CVE-2023-40289 and other** (SuperMicro BMC) &emsp;[[Search&nbsp;&rarr;]](https://nt.ls/svQi3) [[Alt&nbsp;&rarr;]](https://nt.ls/JetkR)      
   ```text
   tag.name:"supermicro_ipmi"
+  ```
+  ```text
   certificate.subject.organization:"Super Micro Computer" AND certificate.subject.common_name:IPMI
   ```
 - **CVE-2023-42115,-116,-117** (Exim) &emsp;[[Search&nbsp;&rarr;]](https://nt.ls/6KhLO)       
