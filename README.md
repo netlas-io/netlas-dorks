@@ -1,4 +1,4 @@
-# Netlas Featured Queries
+# Netlas Featured Queries <!-- omit in toc -->
 
 In this document, you will find dorks for the [Netlas.io](https://netlas.io/)  search engine. They are divided into several categories, and each dork includes a link to perform the search on Netlas. The [dork list](https://book.redteamguides.com/guides/tips-and-tricks) from RedTeamGuide was used as a basis and processed according to our syntax.
 
@@ -8,23 +8,21 @@ If you find any inaccuracies, please feel free to send pull requests or write Is
 
 ---
 
-## Contents
+## Contents <!-- omit in toc -->
 
-- [Netlas Featured Queries](#netlas-featured-queries)
-  - [Contents](#contents)
-  - [General Searches](#general-searches)
-  - [IoT, Routers and Security](#iot-routers-and-security)
-  - [Security Applications](#security-applications)
-  - [Web cameras](#web-cameras)
-  - [Communication](#communication)
-  - [Remote Access](#remote-access)
-  - [VoIP](#voip)
-  - [Storages and Databases](#storages-and-databases)
-  - [Web Services](#web-services)
-  - [Developing and Monitoring](#developing-and-monitoring)
-  - [Other](#other)
-  - [2024 Interesting CVEs](#2024-interesting-cves)
-  - [2023 Interesting CVEs](#2023-interesting-cves)
+- [General Searches](#general-searches)
+- [IoT, Routers and Security](#iot-routers-and-security)
+- [Security Applications](#security-applications)
+- [Web cameras](#web-cameras)
+- [Communication](#communication)
+- [Remote Access](#remote-access)
+- [VoIP](#voip)
+- [Storages and Databases](#storages-and-databases)
+- [Web Services](#web-services)
+- [Developing and Monitoring](#developing-and-monitoring)
+- [Other](#other)
+- [2024 Interesting CVEs](#2024-interesting-cves)
+- [2023 Interesting CVEs](#2023-interesting-cves)
 
 ---
 
