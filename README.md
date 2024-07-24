@@ -755,7 +755,7 @@ If you find any inaccuracies, please feel free to send pull requests or write Is
   ```text
   http.headers.x_powered_by:"Express" OR http.headres.set_cookie:"connect.sid"
   ```
-- P**andoraFMS** &emsp;[[Search&nbsp;&rarr;]](https://app.netlas.io/responses/?q=http.favicon.hash_sha256%3A62d73ef206143e68ac686f08fc770db66aa84b21f320f4953af8bdbb6b9da50e&page=1&indices=)    
+- **PandoraFMS** &emsp;[[Search&nbsp;&rarr;]](https://app.netlas.io/responses/?q=http.favicon.hash_sha256%3A62d73ef206143e68ac686f08fc770db66aa84b21f320f4953af8bdbb6b9da50e&page=1&indices=)    
   ```text
   http.favicon.hash_sha256:62d73ef206143e68ac686f08fc770db66aa84b21f320f4953af8bdbb6b9da50e
   ```
