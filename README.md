@@ -6,7 +6,7 @@ If you find any inaccuracies, please feel free to send pull requests or write Is
 
 *Note*: In some cases, you will see two dorks. This is typically done to duplicate the request made using a tag. In Netlas, the use of tags is available starting with a Business subscription, so users of the Community, Community II, and Freelancer levels should pay close attention to the duplicate dorks.
 
----
+
 
 ## Contents <!-- omit in toc -->
 
@@ -24,7 +24,7 @@ If you find any inaccuracies, please feel free to send pull requests or write Is
 - [2024 Interesting CVEs](#2024-interesting-cves)
 - [2023 Interesting CVEs](#2023-interesting-cves)
 
----
+
 
 ## General Searches
 
@@ -100,7 +100,7 @@ If you find any inaccuracies, please feel free to send pull requests or write Is
   protocol:ssh
   ```
 
----
+
 
 ## IoT, Routers and Security
 
@@ -311,7 +311,7 @@ If you find any inaccuracies, please feel free to send pull requests or write Is
   http.favicon.hash_sha256:9a02f3cf948f9409c25070f2f057b69dda5d0aaf7fa8d056552e8bda8295ca1f
   ```
 
----
+
 
 ## Security Applications
 
@@ -344,7 +344,7 @@ If you find any inaccuracies, please feel free to send pull requests or write Is
   jarm:"29d21b20d29d29d21c41d21b21b41d494e0df9532e75299f15ba73156cee38"
   ```
 
----
+
 
 ## Web cameras
 
@@ -412,7 +412,7 @@ If you find any inaccuracies, please feel free to send pull requests or write Is
   http.headers.server:"yawcam" http.unknown_headers.key:"mime_type" AND http.unknown_headers.value:"text/html"
   ```
 
----
+
 
 ## Communication
 
@@ -466,7 +466,7 @@ If you find any inaccuracies, please feel free to send pull requests or write Is
   tag.name:"zimbra"
   ```
 
----
+
 
 ## Remote Access
 
@@ -499,7 +499,7 @@ If you find any inaccuracies, please feel free to send pull requests or write Is
   prot7:vnc
   ```
 
----
+
 
 ## VoIP
 
@@ -531,7 +531,7 @@ If you find any inaccuracies, please feel free to send pull requests or write Is
   http.favicon.hash_sha256:0ac9e427c00eea6f25562023c84ed961943d13b9d7c7665a747ab536fb9c2a73
   ```
 
----
+
 
 ## Storages and Databases
 
@@ -609,7 +609,7 @@ If you find any inaccuracies, please feel free to send pull requests or write Is
   http.title:"Vault"
   ```
 
----
+
 
 ## Web Services
 
@@ -669,7 +669,7 @@ If you find any inaccuracies, please feel free to send pull requests or write Is
   http.favicon.hash_sha256:3ca2c21f1821782f2b2a29b814b7aa240862014a35fdee54d23a72575fc16ec1
   ```
 
----
+
 
 ## Developing and Monitoring
 
@@ -819,7 +819,7 @@ If you find any inaccuracies, please feel free to send pull requests or write Is
   http.headers.server:"ZendServer" OR http.headers.set_cookie:"ZDEDebuggerPresent"
   ```
 
----
+
 
 ## Other
 
@@ -864,7 +864,7 @@ If you find any inaccuracies, please feel free to send pull requests or write Is
   http.favicon.hash_sha256:0e3b83492fe3d83d72a60b6fb194adb9afd04466268241f5ccf700278737f74d
   ```
 
----
+
 
 ## 2024 Interesting CVEs
 
@@ -968,7 +968,7 @@ If you find any inaccuracies, please feel free to send pull requests or write Is
   http.headers.server:"tinyproxy/1.11.1" OR http.headers.server:"tinyproxy/1.10.0"
   ```
 
----
+
 
 ## 2023 Interesting CVEs
 
