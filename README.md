@@ -158,6 +158,12 @@ If you find any inaccuracies, please feel free to send pull requests or write Is
   ```text
   http.favicon.hash_sha256:0af4f089d58e919f4ee421727e9ac54d885d6b3b05ec16e4d94b703f45c7eef9
   ```
+
+- **EdgeRouter** &emsp;[[Search&nbsp;&rarr;]](https://app.netlas.io/responses/?indices=&page=1&q=http.favicon.hash_sha256%3A5aad1b2127b8c67d146f6bad69db98d7e3dc328da8940d49f8cdafa6699283ce)
+  ```text
+  http.favicon.hash_sha256:5aad1b2127b8c67d146f6bad69db98d7e3dc328da8940d49f8cdafa6699283ce
+  ```
+  
 - **Electric vehicle charges** &emsp;[[Search&nbsp;&rarr;]](https://app.netlas.io/responses/?q=http.headers.server%3A%22gSOAP%22%20AND%20http.content_length%3A583&page=1&indices=)       
   ```text
   http.headers.server:"gSOAP" AND http.content_length:583
