@@ -788,6 +788,13 @@ If you find any inaccuracies, please feel free to send pull requests or write Is
   ```text
   http.favicon.hash_sha256:2dbf88db1be0f1305a415b0455fe258627f56aa4b6b334130707a3b1adc6dba7
   ```
+
+- **VMware vCenter** &emsp;[[Search&nbsp;&rarr;]](https://app.netlas.io/responses/?q=http.title%3A%22ID_VC_Welcome%22%20OR%20certificate.issuer.domain_component%3A%22vsphere%22&page=1&indices=)
+  
+  ```text
+  http.title:"ID_VC_Welcome" OR certificate.issuer.domain_component:"vsphere"
+  ```
+
 - **WordPress** &emsp;[[Search&nbsp;&rarr;]](https://app.netlas.io/responses/?q=tag.name%3A%22wordpress%22&page=1&indices=) [[Alt&nbsp;&rarr;]](https://app.netlas.io/responses/?q=http.favicon.path%3A%22%2Fwp-content%2F%22&page=1&indices=)    
   ```text
   tag.name:"wordpress"
@@ -955,6 +962,13 @@ If you find any inaccuracies, please feel free to send pull requests or write Is
   ```text
   http.favicon.hash_sha256:f04d7cdd55fe15c50e78457f366afa723587cf267c28b81cbcfe44248934a82b
   ```
+  
+- **Spring Framework** &emsp;[[Search&nbsp;&rarr;]](https://app.netlas.io/responses/?page=2&q=tag.name%3A%22spring%22)
+
+  ```text
+  tag.name:"spring"
+  ```
+
 - **Swagger** &emsp;[[Search&nbsp;&rarr;]](https://app.netlas.io/responses/?q=http.favicon.hash_sha256%3A3ed612f41e050ca5e7000cad6f1cbe7e7da39f65fca99c02e99e6591056e5837&page=1&indices=)    
   ```text
   http.favicon.hash_sha256:3ed612f41e050ca5e7000cad6f1cbe7e7da39f65fca99c02e99e6591056e5837
