@@ -760,7 +760,7 @@ If you find any inaccuracies, please feel free to send pull requests or write Is
 
 ## Web Services
 
-- **Adobe Commerce (Magento) &emsp;[[Search&nbsp;&rarr;]](https://app.netlas.io/responses/?q=tag.name%3A%22magento%22%20AND%20http.headers.server%3A%22Apache%22&page=1&indices=)
+- **Adobe Commerce (Magento)** &emsp;[[Search&nbsp;&rarr;]](https://app.netlas.io/responses/?q=tag.name%3A%22magento%22%20AND%20http.headers.server%3A%22Apache%22&page=1&indices=)
 
   ```text
   tag.name:"magento" AND http.headers.server:"Apache"
@@ -826,10 +826,18 @@ If you find any inaccuracies, please feel free to send pull requests or write Is
 
 ## Developing and Monitoring
 
-- **Apache Superset** &emsp;[[Search&nbsp;&rarr;]](https://app.netlas.io/responses/?q=(http.title%3Asuperset%20http.body%3ASUPERSET_WEBSERVER*)%20OR%20http.favicon.hash_sha256%3Ae186603e51173d86bfc680eee24345d67c7a1d945a8e76dc4b218bbfabed666e&page=1&indices=)     
+- **Apache Solr** &emsp;[[Search&nbsp;&rarr;]](https://app.netlas.io/responses/?indices=&page=1&q=tag.name%3A%22apache_solr%22)
+
+  ```text
+  tag.name:"apache_solr"
+  ```
+
+- **Apache Superset** &emsp;[[Search&nbsp;&rarr;]](https://app.netlas.io/responses/?q=(http.title%3Asuperset%20http.body%3ASUPERSET_WEBSERVER*)%20OR%20http.favicon.hash_sha256%3Ae186603e51173d86bfc680eee24345d67c7a1d945a8e76dc4b218bbfabed666e&page=1&indices=)
+
   ```text
   (http.title:superset http.body:SUPERSET_WEBSERVER*) OR http.favicon.hash_sha256:e186603e51173d86bfc680eee24345d67c7a1d945a8e76dc4b218bbfabed666e
   ```
+  
 - **Bamboo** &emsp;[[Search&nbsp;&rarr;]](https://app.netlas.io/responses/?q=tag.name%3A%22atlassian_bamboo%22&page=1&indices=) [[Alt&nbsp;&rarr;]](https://app.netlas.io/responses/?indices=&page=1&q=http.favicon.hash_sha256%3A9fac9dadbd379126f3f81ba14e4e8d911362ec766e09226504121ee2758d0f64)    
   ```text
   tag.name:"atlassian_bamboo"
@@ -974,6 +982,12 @@ If you find any inaccuracies, please feel free to send pull requests or write Is
   ```text
   http.favicon.hash_sha256:22b06a141c425c92951056805f46691c4cd8e7547ed90b8836a282950d4b4be2
   ```
+
+- **Zendesk** &emsp;[[Search&nbsp;&rarr;]](https://app.netlas.io/responses/?q=http.unknown_headers.key%3A%22x_zendesk_processed_host_header%22%20OR%20http.unknown_headers.key%3A%22x_zendesk_origin_server%22&page=1&indices=)    
+  ```text
+  http.unknown_headers.key:"x_zendesk_processed_host_header" OR http.unknown_headers.key:"x_zendesk_origin_server"
+  ```
+  
 - **Zend Framework** &emsp;[[Search&nbsp;&rarr;]](https://app.netlas.io/responses/?q=http.headers.server%3A%22ZendServer%22%20OR%20http.headers.set_cookie%3A%22ZDEDebuggerPresent%22&page=1&indices=)    
   ```text
   http.headers.server:"ZendServer" OR http.headers.set_cookie:"ZDEDebuggerPresent"
