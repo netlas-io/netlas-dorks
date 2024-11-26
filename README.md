@@ -32,7 +32,7 @@ If you find any inaccuracies, please feel free to send pull requests or write Is
   ```text
   amqp:*
   ```
-- **ASN**, IP WHOIS search &emsp;[[Search&nbsp;&rarr;]](https://app.netlas.io/whois/ip/?q=asn.name%3ACERN&page=1) [[Alt&nbsp;&rarr;]](https://app.netlas.io/whois/ip/?q=asn.number%3A513&page=1&indices=)    
+- **ASN**, IP WHOIS search &emsp;[[Search&nbsp;&rarr;]](https://app.netlas.io/whois_ip/?q=asn.name%3ACERN&page=1) [[Alt&nbsp;&rarr;]](https://app.netlas.io/whois_ip/?q=asn.number%3A513&page=1&indices=)    
   ```text
   asn.name:"asnName"
   ```
