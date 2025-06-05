@@ -289,6 +289,16 @@ If you find any inaccuracies, please feel free to send pull requests or write Is
   ```text
   http.favicon.hash_sha256:4f81d8e8df852d2ef27c4b1d9f211a505346ae12840a83db033db329750e7fdb
   ```
+
+- **SonicWall** &emsp;[[Search&nbsp;&rarr;]](https://app.netlas.io/responses/?q=http.favicon.hash_sha256%3A6bb6f64adaa6a7ed4da10a2fe4edf4cb4d9914aa742c7ad607ca4ca678dcd3f1&page=1&indices=)
+
+  
+  ```text
+  http.favicon.hash_sha256:6bb6f64adaa6a7ed4da10a2fe4edf4cb4d9914aa742c7ad607ca4ca678dcd3f1
+  ```
+
+
+  
 - **SuperMicro BMC** &emsp;[[Search&nbsp;&rarr;]](https://nt.ls/svQi3) [[Search&nbsp;&rarr;]](https://nt.ls/JetkR)       
   ```text
   tag.name:"supermicro_ipmi"
@@ -361,6 +371,14 @@ If you find any inaccuracies, please feel free to send pull requests or write Is
   ```text
   http.favicon.hash_sha256:47dcf1f1a8f1afd68297a294a263849069a7a62b2e86550241416c2cc56c5676
   ```
+
+
+- **Merlin C2** &emsp;[[Search&nbsp;&rarr;]](https://app.netlas.io/responses/?q=jarm%3A%2229d21b20d29d29d21c41d21b21b41d494e0df9532e75299f15ba73156cee38%22&page=1&indices=)               
+
+  ```text
+  jarm:"29d21b20d29d29d21c41d21b21b41d494e0df9532e75299f15ba73156cee38"
+  ```
+
   
 - **NanoCore** &emsp;[[Search&nbsp;&rarr;]](https://app.netlas.io/responses/?q=certificate.subject.common_name%3A%22unk%22&page=1&indices=)            
 
@@ -386,11 +404,12 @@ If you find any inaccuracies, please feel free to send pull requests or write Is
   http.title:"Welcome to ntopng" OR (http.title:"Global Traffic Statistics" AND http.headers.server:"ntop/*")
   ```
   
-- **Merlin C2** &emsp;[[Search&nbsp;&rarr;]](https://app.netlas.io/responses/?q=jarm%3A%2229d21b20d29d29d21c41d21b21b41d494e0df9532e75299f15ba73156cee38%22&page=1&indices=)               
+- **pfSense** &emsp;[[Search&nbsp;&rarr;]](https://app.netlas.io/responses/?q=http.title%3A%22pfSense%20-%20Login%22&page=1&indices=)               
 
   ```text
-  jarm:"29d21b20d29d29d21c41d21b21b41d494e0df9532e75299f15ba73156cee38"
+  http.title:"pfSense - Login"
   ```
+
 
 
 
@@ -679,6 +698,12 @@ If you find any inaccuracies, please feel free to send pull requests or write Is
   ```text
   http.headers.server:"CouchDB"
   ```
+
+- **CrushFTP** &emsp;[[Search&nbsp;&rarr;]](https://app.netlas.io/responses/?q=http.headers.server%3A%22CrushFTP%22&page=1&indices=)    
+  ```text
+  http.headers.server:"CrushFTP"
+  ```
+
   
 - **InfluxDB** &emsp;[[Search&nbsp;&rarr;]](https://app.netlas.io/responses/?q=http.title%3A%E2%80%9DInfluxDB%20Admin%E2%80%9D&page=1&indices=)    
 
@@ -867,6 +892,14 @@ If you find any inaccuracies, please feel free to send pull requests or write Is
   ```text
   http.title:"citrix gateway"
   ```
+
+
+- **CraftCMS** &emsp;[[Search&nbsp;&rarr;]](https://app.netlas.io/responses/?q=http.headers.x_powered_by%3A%22Craft%20CMS%22&page=1&indices=)     
+  ```text
+  http.headers.x_powered_by:"Craft CMS"
+  ```
+
+  
 - **GitLab** &emsp;[[Search&nbsp;&rarr;]](https://app.netlas.io/responses/?q=http.favicon.hash_sha256%3A72a2cad5025aa931d6ea56c3201d1f18e68a8cd39788c7c80d5b2b82aa5143ef&page=1&indices=)    
   ```text
   http.favicon.hash_sha256:72a2cad5025aa931d6ea56c3201d1f18e68a8cd39788c7c80d5b2b82aa5143ef
@@ -924,6 +957,13 @@ If you find any inaccuracies, please feel free to send pull requests or write Is
   ```text
   http.headers.server:"Netdata Embedded HTTP*"
   ```
+
+
+- **Next.js** &emsp;[[Search&nbsp;&rarr;]](https://app.netlas.io/responses/?q=http.headers.x_powered_by%3A%22Next.js%22&page=1&indices=)                    
+  ```text
+  http.headers.x_powered_by:"Next.js"
+  ```
+  
 - **Node.js Express** &emsp;[[Search&nbsp;&rarr;]](https://app.netlas.io/responses/?q=http.headers.x_powered_by%3A%22Express%22%20OR%20http.headres.set_cookie%3A%22connect.sid%22&page=1&indices=)    
   ```text
   http.headers.x_powered_by:"Express" OR http.headres.set_cookie:"connect.sid"
@@ -985,6 +1025,13 @@ If you find any inaccuracies, please feel free to send pull requests or write Is
   ```text
   http.title:"Traefik"
   ```
+
+- **vBulletin** &emsp;[[Search&nbsp;&rarr;]](https://app.netlas.io/responses/?q=http.meta%3A%22vBulletin%22&page=1&indices=)             
+  ```text
+  http.meta:"vBulletin"
+  ```
+
+  
 - **Weave Scope** &emsp;[[Search&nbsp;&rarr;]](https://app.netlas.io/responses/?q=http.title%3A%22Weave%20Scope%22&page=1&indices=)               
   ```text
   http.title:"Weave Scope"
