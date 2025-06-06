@@ -365,6 +365,14 @@ If you find any inaccuracies, please feel free to send pull requests or write Is
   ```text
   jarm:"20d14d20d21d20d20c20d14d20d20daddf8a68a1444c74b6dbe09910a511e6"
   ```
+
+
+- **F5 BigIP** &emsp;[[Search&nbsp;&rarr;]](https://app.netlas.io/responses/?q=http.headers.server%3A%22BigIP%22&page=1&indices=)
+
+  ```text
+  http.headers.server:"BigIP"
+  ```
+
   
 - **Keycloak** &emsp;[[Search&nbsp;&rarr;]](https://app.netlas.io/responses/?q=http.favicon.hash_sha256%3A47dcf1f1a8f1afd68297a294a263849069a7a62b2e86550241416c2cc56c5676&page=1&indices=)
 
@@ -600,6 +608,15 @@ If you find any inaccuracies, please feel free to send pull requests or write Is
   ```text
   (port:4000) OR (port:4010) OR (port:4011) OR (port:4022)
   ```
+
+- **OpenSSH** &emsp;[[Search&nbsp;&rarr;]](https://app.netlas.io/responses/?q=tag.name%3A%22openssh%22&page=1&indices=)       
+
+  ```text
+  tag.name:"openssh"
+  ```
+
+
+
   
 - **OpenVPN Access Server** (and just an OpenVPN) &emsp;[[Search&nbsp;&rarr;]](https://app.netlas.io/responses/?q=http.headers.server%3A%22OpenVPN-AS%22&page=1&indices=)       
 
@@ -1121,6 +1138,12 @@ If you find any inaccuracies, please feel free to send pull requests or write Is
   ```text
   http.body:"<h2>vmagent</h2>"
   ```
+
+- **VMware ESXi** &emsp;[[Search&nbsp;&rarr;]](https://app.netlas.io/responses/?q=http.title%3A%22%2B%20ID_EESX_Welcome%20%2B%22&page=1&indices=)    
+  ```text
+  http.title:"+ ID_EESX_Welcome +"
+  ```
+
   
 - **VSphere** &emsp;[[Search&nbsp;&rarr;]](https://app.netlas.io/responses/?indices=&page=1&q=http.favicon.hash_sha256%3A0e3b83492fe3d83d72a60b6fb194adb9afd04466268241f5ccf700278737f74d)    
   ```text
