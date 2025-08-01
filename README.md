@@ -1086,6 +1086,13 @@ If you find any inaccuracies, please feel free to send pull requests or write Is
   ```text
   http.title:"geoserver"
   ```
+
+- **Güralp’s FMUS Series seismic monitoring devices** &emsp;[[Search&nbsp;&rarr;]](https://app.netlas.io/responses/?q=http.title%3A%22FMUS%22&page=1&indices=)     
+
+  ```text
+  http.title:"FMUS"
+  ```
+
   
 - **Hadoop** &emsp;[[Search&nbsp;&rarr;]](https://app.netlas.io/responses/?q=http.title%3A%22Hadoop%20Administration%22&page=1&indices=)    
 
