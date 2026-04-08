@@ -910,17 +910,16 @@ If you find any inaccuracies, please feel free to send pull requests or write Is
   http.title:"citrix gateway"
   ```
 
-
 - **CraftCMS** &emsp;[[Search&nbsp;&rarr;]](https://app.netlas.io/responses/?q=http.headers.x_powered_by%3A%22Craft%20CMS%22&page=1&indices=)     
   ```text
   http.headers.x_powered_by:"Craft CMS"
   ```
-
   
-- **GitLab** &emsp;[[Search&nbsp;&rarr;]](https://app.netlas.io/responses/?q=http.favicon.hash_sha256%3A72a2cad5025aa931d6ea56c3201d1f18e68a8cd39788c7c80d5b2b82aa5143ef&page=1&indices=)    
+- **GitLab** &emsp;[[Search&nbsp;&rarr;]](https://app.netlas.io/responses/?q=http.title%3A%22GitLab%22%20OR%20http.favicon.hash_sha256%3A72a2cad5025aa931d6ea56c3201d1f18e68a8cd39788c7c80d5b2b82aa5143ef&page=1&indices=)    
   ```text
-  http.favicon.hash_sha256:72a2cad5025aa931d6ea56c3201d1f18e68a8cd39788c7c80d5b2b82aa5143ef
+  http.title:"GitLab" OR http.favicon.hash_sha256:72a2cad5025aa931d6ea56c3201d1f18e68a8cd39788c7c80d5b2b82aa5143ef
   ```
+  
 - **Grafana** &emsp;[[Search&nbsp;&rarr;]](https://app.netlas.io/responses/?q=http.favicon.hash_sha256%3A80a7f87a79169cf0ac1ed3250d7c509368190a97bc7182cd4705deb8f8c70174%20AND%20http.title%3A%22Grafana%22&page=1&indices=)    
   ```text
   http.favicon.hash_sha256:80a7f87a79169cf0ac1ed3250d7c509368190a97bc7182cd4705deb8f8c70174 AND http.title:"Grafana"
