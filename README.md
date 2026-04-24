@@ -920,9 +920,9 @@ If you find any inaccuracies, please feel free to send pull requests or write Is
   http.title:"GitLab" OR http.favicon.hash_sha256:72a2cad5025aa931d6ea56c3201d1f18e68a8cd39788c7c80d5b2b82aa5143ef
   ```
   
-- **Grafana** &emsp;[[Search&nbsp;&rarr;]](https://app.netlas.io/responses/?q=http.favicon.hash_sha256%3A80a7f87a79169cf0ac1ed3250d7c509368190a97bc7182cd4705deb8f8c70174%20AND%20http.title%3A%22Grafana%22&page=1&indices=)    
+- **Grafana** &emsp;[[Search&nbsp;&rarr;]](https://app.netlas.io/responses/?q=http.favicon.hash_sha256%3A80a7f87a79169cf0ac1ed3250d7c509368190a97bc7182cd4705deb8f8c70174%20OR%20http.title%3A%22Grafana%22&page=1&indices=)    
   ```text
-  http.favicon.hash_sha256:80a7f87a79169cf0ac1ed3250d7c509368190a97bc7182cd4705deb8f8c70174 AND http.title:"Grafana"
+  http.favicon.hash_sha256:80a7f87a79169cf0ac1ed3250d7c509368190a97bc7182cd4705deb8f8c70174 OR http.title:"Grafana"
   ```
 - **Graylog** &emsp;[[Search&nbsp;&rarr;]](https://app.netlas.io/responses/?q=http.favicon.hash_sha256%3A6d1c0130478d8645c82d039b270e7ca20e912b87489163bd5d9b1c1af95db7f8&page=1&indices=)    
   ```text
